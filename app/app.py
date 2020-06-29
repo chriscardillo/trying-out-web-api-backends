@@ -3,6 +3,7 @@ import flask
 import flask_sqlalchemy
 import flask_restless
 from flask_migrate import Migrate
+from sqlalchemy.orm import validates
 
 # App
 app = flask.Flask(__name__)
@@ -20,6 +21,10 @@ class Users(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.Unicode, unique=True, nullable=False)
     email = db.Column(db.Unicode, unique=True, nullable=False)
+
+    @validates('username', 'email')
+    def convert_upper(self, key, value):
+        return value.lower()
 
 # Routes
 @app.route('/', methods=['GET'])
