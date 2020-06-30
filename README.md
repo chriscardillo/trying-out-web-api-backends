@@ -26,6 +26,6 @@ docker-compose up
 
 You'll see the `postgres` and `app` containers start up.
 
-Currently, you should be able to access the endpoint `dtc` at `http://localhost:5000/api/dtc`, which the ability to access individual records by id, e.g. `http://localhost:5000/api/dtc/1520`.
+Currently, you should be able to access the endpoint `dtc` at `http://localhost:5000/api/dtc`, with the ability to access individual records by id, e.g. `http://localhost:5000/api/dtc/1520`.
 
 Pagination is also available, with something like `http://localhost:5000/api/dtc?page=121`.
