@@ -20,6 +20,7 @@ services:
             /bin/bash -c "
                 sleep 5
                 python flask_migrations.py
+                python load_data.py
                 python app.py
                 sleep infinity
             "

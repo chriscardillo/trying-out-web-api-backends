@@ -48,6 +48,7 @@ def home():
 # API
 manager = flask_restless.APIManager(app, flask_sqlalchemy_db=db)
 manager.create_api(Users, methods=['POST', 'GET', 'PUT', 'DELETE'])
+manager.create_api(Dtc, methods=['POST', 'GET', 'PUT', 'DELETE'])
 
 # RUN
 if __name__ == '__main__':
