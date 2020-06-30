@@ -1,0 +1,3375 @@
+id,manufacturer,dtc,description
+1,buick,P1031,HO2S Heater Current Monitor Control Circuit Banks 1 and 2 Sensor 1
+2,buick,P1032,HO2S Heater Warm Up Control Circuit Banks 1 and 2 Sensor 1
+3,buick,P1105,Secondary Vacuum Sensor Circuit
+4,buick,P1106,Manifold Absolute Pressure (MAP) Sensor Circuit Intermittent High Voltage
+5,buick,P1107,Manifold Absolute Pressure (MAP) Sensor Circuit Intermittent Low Voltage
+6,buick,P1108,BARO to MAP Sensor Comparison Too High
+7,buick,P1109,Secondary Port Throttle System
+8,buick,P1111,Intake Air Temperature (IAT) Sensor Circuit Intermittent High Voltage
+9,buick,P1112,Intake Air Temperature (IAT) Sensor Circuit IntermittentLow Voltage
+10,buick,P1113,Intake Resonance Switchover Solenoid Control Circuit
+11,buick,P1114,Engine Coolant Temperature (ECT) Sensor CircuitIntermittent Low Voltage
+12,buick,P1115,Engine Coolant Temperature (ECT) Sensor CircuitIntermittent High Voltage
+13,buick,P1116,ECT Signal Unstable or Intermittent
+14,buick,P1117,Engine Coolant Temp. Signal Out-Of-Range Low
+15,buick,P1118,Engine Coolant Temp. Signal Out-Of-Range High
+16,buick,P1119,ECT Signal Out-Of-Range With TFT Sensor
+17,buick,P1120,Throttle Position (TP) Sensor 1 Circuit
+18,buick,P1121,Throttle Position (TP) Sensor Circuit Intermittent HighVoltage
+19,buick,P1122,Throttle Position (TP) Sensor Circuit Intermittent LowVoltage
+20,buick,P1125,APP System
+21,buick,P1130,HO2S Circuit Low Variance Bank 1 Sensor 1
+22,buick,P1131,HO2S Circuit Low Variance Bank 1 Sensor 2
+23,buick,P1132,HO2S Circuit Low Variance Bank 2 Sensor 1
+24,buick,P1133,HO2S Insufficient Switching Bank 1 Sensor 1
+25,buick,P1134,HO2S Transition Time Ratio Bank 1 Sensor 1
+26,buick,P1135,HO2S Lean Mean Bank 1 Sensor 1
+27,buick,P1136,HO2S Rich Mean Bank 1 Sensor 1
+28,buick,P1137,HO2S Bank 1 Sensor 2 Lean System or Low Voltage
+29,buick,P1138,HO2S Bank 1 Sensor 2 Rich or High Voltage
+30,buick,P1139,HO2S Insuff. Switching Bank 1 Sensor 2
+31,buick,P1140,HO2S Transition Time Ratio Bank 1 Sensor 2
+32,buick,P1141,HO2S Heater Control Circuit Bank 1 Sensor 2
+33,buick,P1143,HO2S Bank 1 Sensor 3 Lean System or Low Voltage
+34,buick,P1144,HO2S Bank 1 Sensor 3 Rich or High Voltage
+35,buick,P1145,HO2S Cross Counts Bank 1 Sensor 3
+36,buick,P1153,HO2S Insufficient Switching Bank 2 Sensor 1
+37,buick,P1154,HO2S Transition Time Ratio Bank 2 Sensor 1
+38,buick,P1155,HO2S Lean Mean Bank 2 Sensor 1
+39,buick,P1156,HO2S Rich Mean Bank 2 Sensor 1
+40,buick,P1157,HO2S Bank 2 Sensor 2 Lean System or Low Voltage
+41,buick,P1158,HO2S Bank 2 Sensor 2 Rich or High Voltage
+42,buick,P1159,HO2S Cross Counts Bank 2 Sensor 2
+43,buick,P1161,HO2S Heater Control Circuit Bank 2 Sensor 2
+44,buick,P1163,HO2S Bank 2 Sensor 3 Lean System or Low Voltage
+45,buick,P1164,HO2S Bank 2 Sensor 3 Rich or High Voltage
+46,buick,P1165,HO2S Cross Counts Bank 2 Sensor 3
+47,buick,P1170,Bank to Bank Fuel TrimOffset
+48,buick,P1171,Fuel System Lean During Acceleration
+49,buick,P1185,Engine Oil Temperature Circuit
+50,buick,P1186,EOT Circuit Performance
+51,buick,P1187,EOT Sensor Ckt. Low Voltage
+52,buick,P1188,EOT Sensor Ckt. High Voltage
+53,buick,P1189,Engine Oil Pressure (EOP) Switch Circuit
+54,buick,P1190,Engine Vacuum Leak
+55,buick,P1191,Intake Air Duct Air Leak
+56,buick,P1200,Injector Control Circuit
+57,buick,P1201,(Alt. Fuel) Gas Mass Sensor Circuit Range/Performance
+58,buick,P1202,(Alt. Fuel) Gas Mass Sensor Circuit Low Frequency
+59,buick,P1203,(Alt. Fuel) Gas Mass Sensor Circuit High Frequency
+60,buick,P1211,Mass Air Flow Circuit Intermittent High
+61,buick,P1212,Mass Air Flow Circuit Intermittent Low
+62,buick,P1214,Injection Pump Timing Offset
+63,buick,P1215,Ground Fault Detection Indicated
+64,buick,P1216,Fuel Solenoid Response Time Too Short
+65,buick,P1217,Fuel Solenoid Response Time Too Long
+66,buick,P1218,Injection Pump Calibration Circuit
+67,buick,P1219,Throttle Position Sensor Reference Voltage
+68,buick,P1220,Throttle Position (TP) Sensor 2 Circuit
+69,buick,P1221,Fuel Pump Secondary Circuit Low
+70,buick,P1222,Injector Control Circuit Intermittent
+71,buick,P1225,Injector Circuit Cylinder 2 Intermittent
+72,buick,P1228,Injector Circuit Cylinder 3 Intermittent
+73,buick,P1231,Injector Circuit Cylinder 4 Intermittent
+74,buick,P1234,Injector Circuit Cylinder 5 Intermittent
+75,buick,P1237,Injector Circuit Cylinder 6 Intermittent
+76,buick,P1240,Injector Circuit Cylinder 7 Intermittent
+77,buick,P1243,Injector Circuit Cylinder 8 Intermittent
+78,buick,P1245,Intake Plenum Switchover Valve
+79,buick,P1250,Early Fuel Evaporation Heater Circuit
+80,buick,P1257,Supercharger System Overboost
+81,buick,P1258,Engine Coolant Overtemperature - Protection Mode Active
+82,buick,P1260,Last Test Failed Failed SCC ENTER:More Info.
+83,buick,P1270,Accelerator Pedal Position Sensor A/D Converter Error
+84,buick,P1271,Accelerator Pedal Position (APP) Sensor 1-2 Correlation
+85,buick,P1272,Accelerator Pedal Position Sensor 2
+86,buick,P1273,Accelerator Pedal Position Sensor 1
+87,buick,P1274,Injectors Wired Incorrectly
+88,buick,P1275,Accelerator Pedal Position (APP) Sensor 1 Circuit
+89,buick,P1276,Accelerator Pedal Position Sensor 1 Circuit Performance
+90,buick,P1277,Accelerator Pedal Position Sensor 1 Circuit Low Voltage
+91,buick,P1278,Accelerator Pedal Position Sensor 1 Circuit High Voltage
+92,buick,P1280,Accelerator Pedal Position (APP) Sensor 2 Circuit
+93,buick,P1281,Accelerator Pedal Position Sensor 2 Circuit Performance
+94,buick,P1282,Accelerator Pedal Position Sensor 2 Circuit Low Voltage
+95,buick,P1283,Accelerator Pedal Position Sensor 2 Circuit High Voltage
+96,buick,P1285,Accelerator Pedal Position Sensor 3 Circuit
+97,buick,P1286,Accelerator Pedal Position Sensor 3 Circuit Performance
+98,buick,P1287,Accelerator Pedal Position Sensor 3 Circuit Low Voltage
+99,buick,P1288,Accelerator Pedal Position Sensor 3 Circuit High Voltage
+100,buick,P1300,Ignitor Circuit
+101,buick,P1305,Ignition Coil 2 Primary Feedback Circuit
+102,buick,P1310,Ignition Coil 3 Primary Feedback Circuit
+103,buick,P1315,Ignition Coil 4 Primary Feedback Circuit
+104,buick,P1320,IC 4X Reference Circuit Intermittent
+105,buick,P1321,Electronic Ignition System Fault Line
+106,buick,P1322,EI System or Ignition Control Extra or Missing
+107,buick,P1323,IC 24X Reference Circuit Low Frequency
+108,buick,P1324,Crank RPM Too Low
+109,buick,P1335,CKP Circuit
+110,buick,P1336,Crankshaft Position (CKP) System Variation Not Learned
+111,buick,P1345,Crankshaft Position (CKP)-Camshaft Position (CMP) Correlation
+112,buick,P1346,Intake Camshaft Position [CMP] Sensor System Performance
+113,buick,P1350,Ignition Control System
+114,buick,P1351,Ignition Coil Control Circuit High Voltage
+115,buick,P1352,IC Output High/Pulse Detected when GND_Cyl. 2
+116,buick,P1353,IC Output High/Pulse Detected when GND_Cyl. 3
+117,buick,P1354,IC Output High/Pulse Detected when GND_Cyl. 4
+118,buick,P1355,IC Output High/Pulse Detected when GND_Cyl. 5
+119,buick,P1356,IC Output High/Pulse Detected when GND_Cyl. 6
+120,buick,P1357,IC Output High/Pulse Detected when GND_Cyl. 7
+121,buick,P1358,IC Output High/Pulse Detected when GND_Cyl. 8
+122,buick,P1359,Ignition Coil Group 1 Control Circuit
+123,buick,P1360,Ignition Coil Group 2 Control Circuit
+124,buick,P1361,Ignition Coil Control Circuit Low Voltage
+125,buick,P1362,IC Cylinder 2 Not Toggling After Enable
+126,buick,P1363,IC Cylinder 3 Not Toggling After Enable
+127,buick,P1364,IC Cylinder 4 Not Toggling After Enable
+128,buick,P1365,IC Cylinder 5 Not Toggling After Enable
+129,buick,P1366,IC Cylinder 6 Not Toggling After Enable
+130,buick,P1367,IC Cylinder 7 Not Toggling After Enable
+131,buick,P1368,IC Cylinder 8 Not Toggling After Enable
+132,buick,P1370,IC 4X Reference Circuit Too Many Pulses
+133,buick,P1371,IC 4X Reference Circuit Too Few Pulses
+134,buick,P1372,Crankshaft Position (CKP) Sensor A-B Correlation
+135,buick,P1374,3X Reference Circuit
+136,buick,P1375,IC 24X Reference Circuit High Voltage
+137,buick,P1376,Ignition Ground Circuit
+138,buick,P1377,IC Cam Pulse To 4X Reference Pulse
+139,buick,P1380,Misfire Detected - Rough Road Data Not Available
+140,buick,P1381,Misfire Detected - No Communication with Brake ControlModule
+141,buick,P1390,Wheel Speed Sensor 1 - G - Sensor Circuit
+142,buick,P1391,Wheel Speed Sensor 1 - G - Sensor Circuit Performance
+143,buick,P1392,Wheel Speed Sensor 1 - G - Sensor Circuit Low Voltage
+144,buick,P1393,Wheel Speed Sensor 1 - G - Sensor Circuit High Voltage
+145,buick,P1394,Wheel Speed Sensor 1 - G - Sensor Circuit Intermittent
+146,buick,P1395,Wheel Speed Sensor 2 - G - Sensor Circuit
+147,buick,P1396,Wheel Speed Sensor 2 - G - Sensor Circuit Performance
+148,buick,P1397,Wheel Speed Sensor 2 - G - Sensor Circuit Low Voltage
+149,buick,P1398,Wheel Speed Sensor 2 - G - Sensor Circuit High Voltage
+150,buick,P1399,Wheel Speed Sensor 2 - G - Sensor Circuit Intermittent
+151,buick,P1403,Exhaust Gas Recirculation System Valve 1
+152,buick,P1404,Exhaust Gas Recirculation (EGR) Closed PositionPerformance
+153,buick,P1405,Exhaust Gas Recirculation System Valve 3
+154,buick,P1406,EGR Valve Pintle Position Circuit
+155,buick,P1407,EGR Air Intrusion in Exhaust Supply to EGR Valve
+156,buick,P1408,Intake Manifold Pressure Sensor Circuit
+157,buick,P1409,EGR Vacuum System Leak
+158,buick,P1410,Fuel Tank Pressure System
+159,buick,P1415,Secondary Air Injection (AIR) System Bank 1
+160,buick,P1416,Secondary Air Injection (AIR) System Bank 2
+161,buick,P1418,Secondary Air Injection System Relay A Control CircuitHigh
+162,buick,P1420,Intake Air Low Pressure Switch Circuit Low Voltage
+163,buick,P1421,Intake Air Low Pressure Switch Circuit High Voltage
+164,buick,P1423,Intake Air High Pressure Switch Circuit High Voltage
+165,buick,P1431,Fuel Level Sensor 2 Circuit Performance
+166,buick,P1432,Fuel Level Sensor 2 Circuit Low Voltage
+167,buick,P1433,Fuel Level Sensor 2 Circuit High Voltage
+168,buick,P1441,Evaporative Emission (EVAP) System Flow During Non-Purge
+169,buick,P1442,EVAP Vacuum Sw. High Voltage During Ign. On
+170,buick,P1450,Barometric Pressure Sensor Circuit
+171,buick,P1451,Barometric Press. Sensor Performance
+172,buick,P1480,Cooling Fan 1 Control Circuit High
+173,buick,P1483,Engine Cooling System Performance
+174,buick,P1500,Starter Signal Circuit
+175,buick,P1502,Theft Deterrent Fuel Enable Signal Not Received
+176,buick,P1503,Theft Deterrent Fuel Enable Signal Not Correct
+177,buick,P1504,Vehicle Speed Output Circuit
+178,buick,P1508,Idle Speed Low - Idle Air Control (IAC) System NotResponding
+179,buick,P1509,Idle Speed High - Idle Air Control (IAC) System NotResponding
+180,buick,P1510,Throttle Control System Performance - Throttle LimitationActive
+181,buick,P1511,Throttle Control System - Backup System Performance
+182,buick,P1514,Airflow to TP Sensor Correlation High
+183,buick,P1515,Electronic Throttle System Throttle Position
+184,buick,P1516,Throttle Actuator Control (TAC) Module Throttle ActuatorPosition Performance
+185,buick,P1517,Electronic Throttle Module
+186,buick,P1518,Electronic Throttle Module to PCM Communication
+187,buick,P1519,Throttle Actuator Control (TAC) Module Internal Circuit
+188,buick,P1520,Transmission Range Switch Circuit
+189,buick,P1521,Transmission Engaged at High Throttle Angle
+190,buick,P1522,Park/Neutral to Drive/Reverse at High RPM
+191,buick,P1523,Throttle Closed Position Performance
+192,buick,P1524,Throttle Closed Position Performance
+193,buick,P1525,Throttle Body ServiceRequired
+194,buick,P1526,Minimum Throttle Position Not Learned
+195,buick,P1527,Transmission Range to Pressure Switch Correlation
+196,buick,P1528,Governor
+197,buick,P1529,Heated Windshield Request Problem
+198,buick,P1530,Throttle Actuator Control (TAC) Module Internal Circuit
+199,buick,P1531,A/C Low Side Temperature Sensor Fault
+200,buick,P1532,A/C Evaporator Temp. Sens. Ckt. Low Voltage
+201,buick,P1533,A/C Evaporator Temp. Sens. Ckt. High Voltage
+202,buick,P1534,A/C High Side Temp. Sensor Low Voltage
+203,buick,P1535,A/C High Side Temperature Sensor Circuit
+204,buick,P1536,Engine Coolant Overtemperature - Air Conditioning (A/C)Disabled
+205,buick,P1537,A/C Request Circuit Low Voltage
+206,buick,P1538,A/C Request Circuit High Voltage
+207,buick,P1539,A/C Clutch Status Circuit High Voltage
+208,buick,P1540,Air Conditioning (A/C) Refrigerant Overpressure - AirConditioning (A/C) Disabled
+209,buick,P1541,A/C High Side Over Temperature
+210,buick,P1542,A/C System High Pressure High Temperature
+211,buick,P1543,A/C System Performance
+212,buick,P1544,A/C Refrigerant Condition Very Low
+213,buick,P1545,Air Conditioning (A/C) Clutch Relay Control Circuit
+214,buick,P1546,A/C Clutch Status Circuit Low Voltage
+215,buick,P1547,A/C System Performance Degraded
+216,buick,P1548,A/C Recirculation Circuit
+217,buick,P1554,Cruise Control Feedback Circuit
+218,buick,P1555,Electronic Variable Orifice Output
+219,buick,P1558,Cruise Control Servo Indicates Low
+220,buick,P1559,Cruise Control Power Management Mode
+221,buick,P1560,Transaxle Not in Drive - Cruise Control Disabled
+222,buick,P1561,Cruise Vent Solenoid
+223,buick,P1562,Cruise Vacuum Solenoid
+224,buick,P1563,Cruise Vehicle Speed/Set Speed Difference Too High
+225,buick,P1564,Vehicle Acceleration Too High - Cruise Control Disabled
+226,buick,P1565,Cruise Servo Position Sensor
+227,buick,P1566,Engine RPM Too High - Cruise Control Disabled
+228,buick,P1567,Active Banking Control Active - Cruise Control Disabled
+229,buick,P1568,Cruise Servo Stroke Greater than Commanded in Cruise
+230,buick,P1569,Cruise Servo Stroke High While not in Cruise
+231,buick,P1570,Traction Control Active - Cruise Control Disabled
+232,buick,P1571,Traction Control Torque Request Circuit
+233,buick,P1572,ASR Active Circuit Low Too Long
+234,buick,P1573,PCM/EBTCM Serial Data Circuit
+235,buick,P1574,Stoplamp Switch Circuit
+236,buick,P1575,Extended Travel Brake Switch Circuit
+237,buick,P1576,BBV Sensor Ckt. High Voltage
+238,buick,P1577,BBV Sensor Ckt. Low Voltage
+239,buick,P1578,BBV Sensor Ckt. Low Vacuum
+240,buick,P1579,P/N to D/R at High Throttle Angle - Power Reduction ModeActive
+241,buick,P1580,Cruise Move Circuit Low Voltage
+242,buick,P1581,Cruise Move Circuit High Voltage
+243,buick,P1582,Cruise Direction Circuit Low Voltage
+244,buick,P1583,Cruise Direction CircuitHigh Voltage
+245,buick,P1584,Cruise Control Disabled
+246,buick,P1585,Cruise Control Inhibit Output Circuit
+247,buick,P1586,Cruise Control Brake Switch 2 Circuit
+248,buick,P1587,Cruise Control Clutch Control Circuit Low
+249,buick,P1588,Cruise Control Clutch Control Circuit High
+250,buick,P1599,Engine Stall or Near Stall Detected
+251,buick,P1600,TCM Internal Watchdog Operation
+252,buick,P1601,Serial Comm. Problem With Device 1
+253,buick,P1602,Knock Sensor (KS) Module Performance
+254,buick,P1603,Loss of SDM Serial Data
+255,buick,P1604,Loss of IPC Serial Data
+256,buick,P1605,Loss of HVAC Serial Data
+257,buick,P1606,Serial Communication Problem With Device 6
+258,buick,P1607,Serial Communication Problem With Device 7
+259,buick,P1608,Serial Communication Problem With Device 8
+260,buick,P1609,Loss Of TCS Serial Data
+261,buick,P1610,Loss of PZM Serial Data
+262,buick,P1611,Loss of CVRTD Serial Data
+263,buick,P1612,Loss of IPM Serial Data
+264,buick,P1613,Loss of DIM Serial Data
+265,buick,P1614,Loss of RIM Serial Data
+266,buick,P1615,Loss of VTD Serial Data
+267,buick,P1617,Engine Oil Level Switch Circuit
+268,buick,P1619,Engine Oil Life Monitor Reset Circuit
+269,buick,P1620,Low Coolant Circuit
+270,buick,P1621,Control Module Long Term Memory Performance
+271,buick,P1622,Cylinder Select
+272,buick,P1623,Transmission Temp Pull-Up Resistor
+273,buick,P1624,Customer Snapshot Requested - Data Available
+274,buick,P1625,TCM System Reset
+275,buick,P1626,Theft Deterrent Fuel Enable Signal Not Received
+276,buick,P1627,A/D Performance
+277,buick,P1628,ECT Pull-Up Resistor
+278,buick,P1629,Theft Deterrent System - Cranking Signal
+279,buick,P1630,Theft Deterrent Learn Mode Active
+280,buick,P1631,Theft Deterrent Start Enable Signal Not Correct
+281,buick,P1632,Theft Deterrent Fuel Disable Signal Received
+282,buick,P1633,Ignition 0 Switch Circuit
+283,buick,P1634,Ignition 1 Switch Circuit
+284,buick,P1635,5 Volt Reference Circuit
+285,buick,P1636,PCM Stack Overrun
+286,buick,P1637,Generator L-Terminal Circuit
+287,buick,P1638,Generator F-Terminal Circuit
+288,buick,P1639,5 Volt Reference 2 Circuit
+289,buick,P1640,Driver-1-Input High Voltage
+290,buick,P1641,Malfunction Indicator Lamp (MIL) Control Circuit
+291,buick,P1642,Vehicle Speed Output Circuit
+292,buick,P1643,Engine Speed Output Circuit
+293,buick,P1644,Traction Control Delivered Torque Output Circuit
+294,buick,P1645,Evaporative Emission (EVAP) Vent Solenoid Contorl Circuit
+295,buick,P1646,Evaporative Emission (EVAP) Vent Solenoid Control Circuit
+296,buick,P1647,Driver 1 Line 7
+297,buick,P1650,Control Module Output B Circuit
+298,buick,P1651,Fan 1 Relay Control Circuit
+299,buick,P1652,Powertrain Induced Chassis Pitch Output Circuit
+300,buick,P1653,Oil Level Lamp Control Circuit
+301,buick,P1654,Cruise Control Inhibit Output Circuit
+302,buick,P1655,EVAP Purge Solenoid Control Circuit
+303,buick,P1656,Driver 2 Line 6
+304,buick,P1657,1-4 Upshift Solenoid Control Circuit
+305,buick,P1658,Starter Enable Relay Control Circuit
+306,buick,P1660,Cooling Fan Control Circuits
+307,buick,P1661,MIL Control Circuit
+308,buick,P1662,Cruise Lamp Control Circuit
+309,buick,P1663,Oil Life Lamp Control Circuit
+310,buick,P1664,1-4 Upshift Lamp Control Circuit
+311,buick,P1665,Driver 3 Line 5
+312,buick,P1666,Driver 3 Line 6
+313,buick,P1667,Reverse Inhibit Solenoid Control Circuit
+314,buick,P1669,ABS Unit Expected
+315,buick,P1670,Driver 4
+316,buick,P1671,Driver 4 Line 1
+317,buick,P1672,Low Engine Oil Level Lamp Control Circuit
+318,buick,P1673,Engine Hot Lamp Control Circuit
+319,buick,P1674,Tachometer Control Circuit
+320,buick,P1675,EVAP Vent Solenoid Control Circuit
+321,buick,P1676,Driver 4 Line 6
+322,buick,P1677,Driver 4 Line 7
+323,buick,P1680,Driver 5
+324,buick,P1681,Driver 5 Line 1
+325,buick,P1682,Driver 5 Line 2
+326,buick,P1683,Driver 5 Line 3
+327,buick,P1684,Driver 5 Line 4
+328,buick,P1685,Driver 5 Line 5
+329,buick,P1686,Driver 5 Line 6
+330,buick,P1687,Driver 5 Line 7
+331,buick,P1689,Delivered Torque Circuit Fault
+332,buick,P1690,ECM Loop Overrun
+333,buick,P1691,Coolant Gage Circuit Low Voltage
+334,buick,P1692,Coolant Gage Circuit High Voltage
+335,buick,P1693,Tachometer Circuit Low Voltage
+336,buick,P1694,Tachometer Circuit High Voltage
+337,buick,P1695,Remote Keyless Entry Circuit Low
+338,buick,P1696,Remote Keyless Entry Voltage High
+339,buick,P1700,Transmission Control Module (TCM) Requested MILIllumination
+340,buick,P1701,Trans. MIL Request Circuit
+341,buick,P1705,P/N Signal Output Circuit
+342,buick,P1740,Torque Reduction Signal Circuit
+343,buick,P1743,TP Signal from ECM
+344,buick,P1760,TCM Supply Voltage Interrupted
+345,buick,P1779,Engine Torque Delivered to TCM Signal
+346,buick,P1780,Park/Neutral Position [PNP] Switch Circuit
+347,buick,P1781,Engine Torque Signal Circuit
+348,buick,P1790,Transmission Control Module Checksum
+349,buick,P1791,Transmission Control Module Loop
+350,buick,P1793,Transmission Control Module Stack Overrun
+351,buick,P1795,CAN Bus - Throttle Body Position
+352,buick,P1800,TCM Power Relay Control Circuit
+353,buick,P1801,Performance Selector Switch Failure
+354,buick,P1804,Ground Control Relay
+355,buick,P1810,TFP Valve Position Switch Circuit
+356,buick,P1811,Maximum Adapt and Long Shift
+357,buick,P1812,Transmission Over Temperature Condition
+358,buick,P1813,Torque Control
+359,buick,P1814,Torque Converter Overstressed
+360,buick,P1815,Transmission Range Switch - Start In Wrong Range
+361,buick,P1816,TFP Valve Position Sw. - Park/Neu. With Drive Ratio
+362,buick,P1817,TFP Valve Position Sw. - Reverse With Drive Ratio
+363,buick,P1818,TFP Valve Position Sw. - Drive Without Drive Ratio
+364,buick,P1819,Internal Mode Switch - No Start/Wrong Range
+365,buick,P1820,Internal Mode Switch Circuit A Low
+366,buick,P1822,Internal Mode Switch Circuit B High
+367,buick,P1823,Internal Mode Switch Circuit P Low
+368,buick,P1825,Internal Mode Switch - Invalid Range
+369,buick,P1826,Internal Mode Switch Circuit C - High
+370,buick,P1831,PC Solenoid Power Circuit - Low Voltage
+371,buick,P1833,A/T Solenoids Power Circuit - Low Voltage
+372,buick,P1835,Kick-Down Switch Circuit
+373,buick,P1836,Kick-Down Switch Failed Open
+374,buick,P1837,Kick-Down Switch Failed Short
+375,buick,P1842,1-2 Shift Solenoid Circuit Low Voltage
+376,buick,P1843,1-2 Shift Solenoid Circuit High Voltage
+377,buick,P1844,Torque Reduction Signal Circuit Desired By TCM
+378,buick,P1845,2-3 Shift Solenoid Circuit Low Voltage
+379,buick,P1847,2-3 Shift Solenoid Circuit High Voltage
+380,buick,P1850,Brake Band Apply Solenoid Circuit
+381,buick,P1851,Brake Band Apply Solenoid Performance
+382,buick,P1852,Brake Band Apply SolenoidLow Voltage
+383,buick,P1853,Brake Band Apply Solenoid High Voltage
+384,buick,P1860,TCC PWM Solenoid Circuit Electrical
+385,buick,P1864,Torque Converter Clutch Circuit
+386,buick,P1868,Transmission Fluid Life
+387,buick,P1870,Transmission Component Slipping
+388,buick,P1871,Undefined Gear Ratio
+389,buick,P1873,TCC Stator Temp. Switch Circuit Low
+390,buick,P1874,TCC Stator Temp. Switch Circuit High
+391,buick,P1875,4WD Low Switch Circuit Electrical
+392,buick,P1884,TCC Enable/Shift Light Circuit
+393,buick,P1886,Shift Timing Solenoid
+394,buick,P1887,TCC Release Switch Circuit
+395,buick,P1891,Throttle Position Sensor PWM Signal Low
+396,buick,P1892,Throttle Position Sensor PWM Signal High
+397,buick,P1893,Engine Torque Signal Low Voltage
+398,buick,P1894,Engine Torque Signal High Voltage
+399,buick,P1895,TCM to ECM Torque Reduction Circuit
+400,cadillac,P1031,HO2S Heater Current Monitor Control Circuit Banks 1 and 2 Sensor 1
+401,cadillac,P1032,HO2S Heater Warm Up Control Circuit Banks 1 and 2 Sensor 1
+402,cadillac,P1105,Secondary Vacuum Sensor Circuit
+403,cadillac,P1106,Manifold Absolute Pressure (MAP) Sensor Circuit Intermittent High Voltage
+404,cadillac,P1107,Manifold Absolute Pressure (MAP) Sensor Circuit Intermittent Low Voltage
+405,cadillac,P1108,BARO to MAP Sensor Comparison Too High
+406,cadillac,P1109,Secondary Port Throttle System
+407,cadillac,P1111,Intake Air Temperature (IAT) Sensor Circuit Intermittent High Voltage
+408,cadillac,P1112,Intake Air Temperature (IAT) Sensor Circuit IntermittentLow Voltage
+409,cadillac,P1113,Intake Resonance Switchover Solenoid Control Circuit
+410,cadillac,P1114,Engine Coolant Temperature (ECT) Sensor CircuitIntermittent Low Voltage
+411,cadillac,P1115,Engine Coolant Temperature (ECT) Sensor CircuitIntermittent High Voltage
+412,cadillac,P1116,ECT Signal Unstable or Intermittent
+413,cadillac,P1117,Engine Coolant Temp. Signal Out-Of-Range Low
+414,cadillac,P1118,Engine Coolant Temp. Signal Out-Of-Range High
+415,cadillac,P1119,ECT Signal Out-Of-Range With TFT Sensor
+416,cadillac,P1120,Throttle Position (TP) Sensor 1 Circuit
+417,cadillac,P1121,Throttle Position (TP) Sensor Circuit Intermittent HighVoltage
+418,cadillac,P1122,Throttle Position (TP) Sensor Circuit Intermittent LowVoltage
+419,cadillac,P1125,APP System
+420,cadillac,P1130,HO2S Circuit Low Variance Bank 1 Sensor 1
+421,cadillac,P1131,HO2S Circuit Low Variance Bank 1 Sensor 2
+422,cadillac,P1132,HO2S Circuit Low Variance Bank 2 Sensor 1
+423,cadillac,P1133,HO2S Insufficient Switching Bank 1 Sensor 1
+424,cadillac,P1134,HO2S Transition Time Ratio Bank 1 Sensor 1
+425,cadillac,P1135,HO2S Lean Mean Bank 1 Sensor 1
+426,cadillac,P1136,HO2S Rich Mean Bank 1 Sensor 1
+427,cadillac,P1137,HO2S Bank 1 Sensor 2 Lean System or Low Voltage
+428,cadillac,P1138,HO2S Bank 1 Sensor 2 Rich or High Voltage
+429,cadillac,P1139,HO2S Insuff. Switching Bank 1 Sensor 2
+430,cadillac,P1140,HO2S Transition Time Ratio Bank 1 Sensor 2
+431,cadillac,P1141,HO2S Heater Control Circuit Bank 1 Sensor 2
+432,cadillac,P1143,HO2S Bank 1 Sensor 3 Lean System or Low Voltage
+433,cadillac,P1144,HO2S Bank 1 Sensor 3 Rich or High Voltage
+434,cadillac,P1145,HO2S Cross Counts Bank 1 Sensor 3
+435,cadillac,P1153,HO2S Insufficient Switching Bank 2 Sensor 1
+436,cadillac,P1154,HO2S Transition Time Ratio Bank 2 Sensor 1
+437,cadillac,P1155,HO2S Lean Mean Bank 2 Sensor 1
+438,cadillac,P1156,HO2S Rich Mean Bank 2 Sensor 1
+439,cadillac,P1157,HO2S Bank 2 Sensor 2 Lean System or Low Voltage
+440,cadillac,P1158,HO2S Bank 2 Sensor 2 Rich or High Voltage
+441,cadillac,P1159,HO2S Cross Counts Bank 2 Sensor 2
+442,cadillac,P1161,HO2S Heater Control Circuit Bank 2 Sensor 2
+443,cadillac,P1163,HO2S Bank 2 Sensor 3 Lean System or Low Voltage
+444,cadillac,P1164,HO2S Bank 2 Sensor 3 Rich or High Voltage
+445,cadillac,P1165,HO2S Cross Counts Bank 2 Sensor 3
+446,cadillac,P1170,Bank to Bank Fuel TrimOffset
+447,cadillac,P1171,Fuel System Lean During Acceleration
+448,cadillac,P1185,Engine Oil Temperature Circuit
+449,cadillac,P1186,EOT Circuit Performance
+450,cadillac,P1187,EOT Sensor Ckt. Low Voltage
+451,cadillac,P1188,EOT Sensor Ckt. High Voltage
+452,cadillac,P1189,Engine Oil Pressure (EOP) Switch Circuit
+453,cadillac,P1190,Engine Vacuum Leak
+454,cadillac,P1191,Intake Air Duct Air Leak
+455,cadillac,P1200,Injector Control Circuit
+456,cadillac,P1201,(Alt. Fuel) Gas Mass Sensor Circuit Range/Performance
+457,cadillac,P1202,(Alt. Fuel) Gas Mass Sensor Circuit Low Frequency
+458,cadillac,P1203,(Alt. Fuel) Gas Mass Sensor Circuit High Frequency
+459,cadillac,P1211,Mass Air Flow Circuit Intermittent High
+460,cadillac,P1212,Mass Air Flow Circuit Intermittent Low
+461,cadillac,P1214,Injection Pump Timing Offset
+462,cadillac,P1215,Ground Fault Detection Indicated
+463,cadillac,P1216,Fuel Solenoid Response Time Too Short
+464,cadillac,P1217,Fuel Solenoid Response Time Too Long
+465,cadillac,P1218,Injection Pump Calibration Circuit
+466,cadillac,P1219,Throttle Position Sensor Reference Voltage
+467,cadillac,P1220,Throttle Position (TP) Sensor 2 Circuit
+468,cadillac,P1221,Fuel Pump Secondary Circuit Low
+469,cadillac,P1222,Injector Control Circuit Intermittent
+470,cadillac,P1225,Injector Circuit Cylinder 2 Intermittent
+471,cadillac,P1228,Injector Circuit Cylinder 3 Intermittent
+472,cadillac,P1231,Injector Circuit Cylinder 4 Intermittent
+473,cadillac,P1234,Injector Circuit Cylinder 5 Intermittent
+474,cadillac,P1237,Injector Circuit Cylinder 6 Intermittent
+475,cadillac,P1240,Injector Circuit Cylinder 7 Intermittent
+476,cadillac,P1243,Injector Circuit Cylinder 8 Intermittent
+477,cadillac,P1245,Intake Plenum Switchover Valve
+478,cadillac,P1250,Early Fuel Evaporation Heater Circuit
+479,cadillac,P1257,Supercharger System Overboost
+480,cadillac,P1258,Engine Coolant Overtemperature - Protection Mode Active
+481,cadillac,P1260,Last Test Failed Failed SCC ENTER:More Info.
+482,cadillac,P1270,Accelerator Pedal Position Sensor A/D Converter Error
+483,cadillac,P1271,Accelerator Pedal Position (APP) Sensor 1-2 Correlation
+484,cadillac,P1272,Accelerator Pedal Position Sensor 2
+485,cadillac,P1273,Accelerator Pedal Position Sensor 1
+486,cadillac,P1274,Injectors Wired Incorrectly
+487,cadillac,P1275,Accelerator Pedal Position (APP) Sensor 1 Circuit
+488,cadillac,P1276,Accelerator Pedal Position Sensor 1 Circuit Performance
+489,cadillac,P1277,Accelerator Pedal Position Sensor 1 Circuit Low Voltage
+490,cadillac,P1278,Accelerator Pedal Position Sensor 1 Circuit High Voltage
+491,cadillac,P1280,Accelerator Pedal Position (APP) Sensor 2 Circuit
+492,cadillac,P1281,Accelerator Pedal Position Sensor 2 Circuit Performance
+493,cadillac,P1282,Accelerator Pedal Position Sensor 2 Circuit Low Voltage
+494,cadillac,P1283,Accelerator Pedal Position Sensor 2 Circuit High Voltage
+495,cadillac,P1285,Accelerator Pedal Position Sensor 3 Circuit
+496,cadillac,P1286,Accelerator Pedal Position Sensor 3 Circuit Performance
+497,cadillac,P1287,Accelerator Pedal Position Sensor 3 Circuit Low Voltage
+498,cadillac,P1288,Accelerator Pedal Position Sensor 3 Circuit High Voltage
+499,cadillac,P1300,Ignitor Circuit
+500,cadillac,P1305,Ignition Coil 2 Primary Feedback Circuit
+501,cadillac,P1310,Ignition Coil 3 Primary Feedback Circuit
+502,cadillac,P1315,Ignition Coil 4 Primary Feedback Circuit
+503,cadillac,P1320,IC 4X Reference Circuit Intermittent
+504,cadillac,P1321,Electronic Ignition System Fault Line
+505,cadillac,P1322,EI System or Ignition Control Extra or Missing
+506,cadillac,P1323,IC 24X Reference Circuit Low Frequency
+507,cadillac,P1324,Crank RPM Too Low
+508,cadillac,P1335,CKP Circuit
+509,cadillac,P1336,Crankshaft Position (CKP) System Variation Not Learned
+510,cadillac,P1345,Crankshaft Position (CKP)-Camshaft Position (CMP) Correlation
+511,cadillac,P1346,Intake Camshaft Position [CMP] Sensor System Performance
+512,cadillac,P1350,Ignition Control System
+513,cadillac,P1351,Ignition Coil Control Circuit High Voltage
+514,cadillac,P1352,IC Output High/Pulse Detected when GND_Cyl. 2
+515,cadillac,P1353,IC Output High/Pulse Detected when GND_Cyl. 3
+516,cadillac,P1354,IC Output High/Pulse Detected when GND_Cyl. 4
+517,cadillac,P1355,IC Output High/Pulse Detected when GND_Cyl. 5
+518,cadillac,P1356,IC Output High/Pulse Detected when GND_Cyl. 6
+519,cadillac,P1357,IC Output High/Pulse Detected when GND_Cyl. 7
+520,cadillac,P1358,IC Output High/Pulse Detected when GND_Cyl. 8
+521,cadillac,P1359,Ignition Coil Group 1 Control Circuit
+522,cadillac,P1360,Ignition Coil Group 2 Control Circuit
+523,cadillac,P1361,Ignition Coil Control Circuit Low Voltage
+524,cadillac,P1362,IC Cylinder 2 Not Toggling After Enable
+525,cadillac,P1363,IC Cylinder 3 Not Toggling After Enable
+526,cadillac,P1364,IC Cylinder 4 Not Toggling After Enable
+527,cadillac,P1365,IC Cylinder 5 Not Toggling After Enable
+528,cadillac,P1366,IC Cylinder 6 Not Toggling After Enable
+529,cadillac,P1367,IC Cylinder 7 Not Toggling After Enable
+530,cadillac,P1368,IC Cylinder 8 Not Toggling After Enable
+531,cadillac,P1370,IC 4X Reference Circuit Too Many Pulses
+532,cadillac,P1371,IC 4X Reference Circuit Too Few Pulses
+533,cadillac,P1372,Crankshaft Position (CKP) Sensor A-B Correlation
+534,cadillac,P1374,3X Reference Circuit
+535,cadillac,P1375,IC 24X Reference Circuit High Voltage
+536,cadillac,P1376,Ignition Ground Circuit
+537,cadillac,P1377,IC Cam Pulse To 4X Reference Pulse
+538,cadillac,P1380,Misfire Detected - Rough Road Data Not Available
+539,cadillac,P1381,Misfire Detected - No Communication with Brake ControlModule
+540,cadillac,P1390,Wheel Speed Sensor 1 - G - Sensor Circuit
+541,cadillac,P1391,Wheel Speed Sensor 1 - G - Sensor Circuit Performance
+542,cadillac,P1392,Wheel Speed Sensor 1 - G - Sensor Circuit Low Voltage
+543,cadillac,P1393,Wheel Speed Sensor 1 - G - Sensor Circuit High Voltage
+544,cadillac,P1394,Wheel Speed Sensor 1 - G - Sensor Circuit Intermittent
+545,cadillac,P1395,Wheel Speed Sensor 2 - G - Sensor Circuit
+546,cadillac,P1396,Wheel Speed Sensor 2 - G - Sensor Circuit Performance
+547,cadillac,P1397,Wheel Speed Sensor 2 - G - Sensor Circuit Low Voltage
+548,cadillac,P1398,Wheel Speed Sensor 2 - G - Sensor Circuit High Voltage
+549,cadillac,P1399,Wheel Speed Sensor 2 - G - Sensor Circuit Intermittent
+550,cadillac,P1403,Exhaust Gas Recirculation System Valve 1
+551,cadillac,P1404,Exhaust Gas Recirculation (EGR) Closed PositionPerformance
+552,cadillac,P1405,Exhaust Gas Recirculation System Valve 3
+553,cadillac,P1406,EGR Valve Pintle Position Circuit
+554,cadillac,P1407,EGR Air Intrusion in Exhaust Supply to EGR Valve
+555,cadillac,P1408,Intake Manifold Pressure Sensor Circuit
+556,cadillac,P1409,EGR Vacuum System Leak
+557,cadillac,P1410,Fuel Tank Pressure System
+558,cadillac,P1415,Secondary Air Injection (AIR) System Bank 1
+559,cadillac,P1416,Secondary Air Injection (AIR) System Bank 2
+560,cadillac,P1418,Secondary Air Injection System Relay A Control CircuitHigh
+561,cadillac,P1420,Intake Air Low Pressure Switch Circuit Low Voltage
+562,cadillac,P1421,Intake Air Low Pressure Switch Circuit High Voltage
+563,cadillac,P1423,Intake Air High Pressure Switch Circuit High Voltage
+564,cadillac,P1431,Fuel Level Sensor 2 Circuit Performance
+565,cadillac,P1432,Fuel Level Sensor 2 Circuit Low Voltage
+566,cadillac,P1433,Fuel Level Sensor 2 Circuit High Voltage
+567,cadillac,P1441,Evaporative Emission (EVAP) System Flow During Non-Purge
+568,cadillac,P1442,EVAP Vacuum Sw. High Voltage During Ign. On
+569,cadillac,P1450,Barometric Pressure Sensor Circuit
+570,cadillac,P1451,Barometric Press. Sensor Performance
+571,cadillac,P1480,Cooling Fan 1 Control Circuit High
+572,cadillac,P1483,Engine Cooling System Performance
+573,cadillac,P1500,Starter Signal Circuit
+574,cadillac,P1502,Theft Deterrent Fuel Enable Signal Not Received
+575,cadillac,P1503,Theft Deterrent Fuel Enable Signal Not Correct
+576,cadillac,P1504,Vehicle Speed Output Circuit
+577,cadillac,P1508,Idle Speed Low - Idle Air Control (IAC) System NotResponding
+578,cadillac,P1509,Idle Speed High - Idle Air Control (IAC) System NotResponding
+579,cadillac,P1510,Throttle Control System Performance - Throttle LimitationActive
+580,cadillac,P1511,Throttle Control System - Backup System Performance
+581,cadillac,P1514,Airflow to TP Sensor Correlation High
+582,cadillac,P1515,Electronic Throttle System Throttle Position
+583,cadillac,P1516,Throttle Actuator Control (TAC) Module Throttle ActuatorPosition Performance
+584,cadillac,P1517,Electronic Throttle Module
+585,cadillac,P1518,Electronic Throttle Module to PCM Communication
+586,cadillac,P1519,Throttle Actuator Control (TAC) Module Internal Circuit
+587,cadillac,P1520,Transmission Range Switch Circuit
+588,cadillac,P1521,Transmission Engaged at High Throttle Angle
+589,cadillac,P1522,Park/Neutral to Drive/Reverse at High RPM
+590,cadillac,P1523,Throttle Closed Position Performance
+591,cadillac,P1524,Throttle Closed Position Performance
+592,cadillac,P1525,Throttle Body ServiceRequired
+593,cadillac,P1526,Minimum Throttle Position Not Learned
+594,cadillac,P1527,Transmission Range to Pressure Switch Correlation
+595,cadillac,P1528,Governor
+596,cadillac,P1529,Heated Windshield Request Problem
+597,cadillac,P1530,Throttle Actuator Control (TAC) Module Internal Circuit
+598,cadillac,P1531,A/C Low Side Temperature Sensor Fault
+599,cadillac,P1532,A/C Evaporator Temp. Sens. Ckt. Low Voltage
+600,cadillac,P1533,A/C Evaporator Temp. Sens. Ckt. High Voltage
+601,cadillac,P1534,A/C High Side Temp. Sensor Low Voltage
+602,cadillac,P1535,A/C High Side Temperature Sensor Circuit
+603,cadillac,P1536,Engine Coolant Overtemperature - Air Conditioning (A/C)Disabled
+604,cadillac,P1537,A/C Request Circuit Low Voltage
+605,cadillac,P1538,A/C Request Circuit High Voltage
+606,cadillac,P1539,A/C Clutch Status Circuit High Voltage
+607,cadillac,P1540,Air Conditioning (A/C) Refrigerant Overpressure - AirConditioning (A/C) Disabled
+608,cadillac,P1541,A/C High Side Over Temperature
+609,cadillac,P1542,A/C System High Pressure High Temperature
+610,cadillac,P1543,A/C System Performance
+611,cadillac,P1544,A/C Refrigerant Condition Very Low
+612,cadillac,P1545,Air Conditioning (A/C) Clutch Relay Control Circuit
+613,cadillac,P1546,A/C Clutch Status Circuit Low Voltage
+614,cadillac,P1547,A/C System Performance Degraded
+615,cadillac,P1548,A/C Recirculation Circuit
+616,cadillac,P1554,Cruise Control Feedback Circuit
+617,cadillac,P1555,Electronic Variable Orifice Output
+618,cadillac,P1558,Cruise Control Servo Indicates Low
+619,cadillac,P1559,Cruise Control Power Management Mode
+620,cadillac,P1560,Transaxle Not in Drive - Cruise Control Disabled
+621,cadillac,P1561,Cruise Vent Solenoid
+622,cadillac,P1562,Cruise Vacuum Solenoid
+623,cadillac,P1563,Cruise Vehicle Speed/Set Speed Difference Too High
+624,cadillac,P1564,Vehicle Acceleration Too High - Cruise Control Disabled
+625,cadillac,P1565,Cruise Servo Position Sensor
+626,cadillac,P1566,Engine RPM Too High - Cruise Control Disabled
+627,cadillac,P1567,Active Banking Control Active - Cruise Control Disabled
+628,cadillac,P1568,Cruise Servo Stroke Greater than Commanded in Cruise
+629,cadillac,P1569,Cruise Servo Stroke High While not in Cruise
+630,cadillac,P1570,Traction Control Active - Cruise Control Disabled
+631,cadillac,P1571,Traction Control Torque Request Circuit
+632,cadillac,P1572,ASR Active Circuit Low Too Long
+633,cadillac,P1573,PCM/EBTCM Serial Data Circuit
+634,cadillac,P1574,Stoplamp Switch Circuit
+635,cadillac,P1575,Extended Travel Brake Switch Circuit
+636,cadillac,P1576,BBV Sensor Ckt. High Voltage
+637,cadillac,P1577,BBV Sensor Ckt. Low Voltage
+638,cadillac,P1578,BBV Sensor Ckt. Low Vacuum
+639,cadillac,P1579,P/N to D/R at High Throttle Angle - Power Reduction ModeActive
+640,cadillac,P1580,Cruise Move Circuit Low Voltage
+641,cadillac,P1581,Cruise Move Circuit High Voltage
+642,cadillac,P1582,Cruise Direction Circuit Low Voltage
+643,cadillac,P1583,Cruise Direction CircuitHigh Voltage
+644,cadillac,P1584,Cruise Control Disabled
+645,cadillac,P1585,Cruise Control Inhibit Output Circuit
+646,cadillac,P1586,Cruise Control Brake Switch 2 Circuit
+647,cadillac,P1587,Cruise Control Clutch Control Circuit Low
+648,cadillac,P1588,Cruise Control Clutch Control Circuit High
+649,cadillac,P1599,Engine Stall or Near Stall Detected
+650,cadillac,P1600,TCM Internal Watchdog Operation
+651,cadillac,P1601,Serial Comm. Problem With Device 1
+652,cadillac,P1602,Knock Sensor (KS) Module Performance
+653,cadillac,P1603,Loss of SDM Serial Data
+654,cadillac,P1604,Loss of IPC Serial Data
+655,cadillac,P1605,Loss of HVAC Serial Data
+656,cadillac,P1606,Serial Communication Problem With Device 6
+657,cadillac,P1607,Serial Communication Problem With Device 7
+658,cadillac,P1608,Serial Communication Problem With Device 8
+659,cadillac,P1609,Loss Of TCS Serial Data
+660,cadillac,P1610,Loss of PZM Serial Data
+661,cadillac,P1611,Loss of CVRTD Serial Data
+662,cadillac,P1612,Loss of IPM Serial Data
+663,cadillac,P1613,Loss of DIM Serial Data
+664,cadillac,P1614,Loss of RIM Serial Data
+665,cadillac,P1615,Loss of VTD Serial Data
+666,cadillac,P1617,Engine Oil Level Switch Circuit
+667,cadillac,P1619,Engine Oil Life Monitor Reset Circuit
+668,cadillac,P1620,Low Coolant Circuit
+669,cadillac,P1621,Control Module Long Term Memory Performance
+670,cadillac,P1622,Cylinder Select
+671,cadillac,P1623,Transmission Temp Pull-Up Resistor
+672,cadillac,P1624,Customer Snapshot Requested - Data Available
+673,cadillac,P1625,TCM System Reset
+674,cadillac,P1626,Theft Deterrent Fuel Enable Signal Not Received
+675,cadillac,P1627,A/D Performance
+676,cadillac,P1628,ECT Pull-Up Resistor
+677,cadillac,P1629,Theft Deterrent System - Cranking Signal
+678,cadillac,P1630,Theft Deterrent Learn Mode Active
+679,cadillac,P1631,Theft Deterrent Start Enable Signal Not Correct
+680,cadillac,P1632,Theft Deterrent Fuel Disable Signal Received
+681,cadillac,P1633,Ignition 0 Switch Circuit
+682,cadillac,P1634,Ignition 1 Switch Circuit
+683,cadillac,P1635,5 Volt Reference Circuit
+684,cadillac,P1636,PCM Stack Overrun
+685,cadillac,P1637,Generator L-Terminal Circuit
+686,cadillac,P1638,Generator F-Terminal Circuit
+687,cadillac,P1639,5 Volt Reference 2 Circuit
+688,cadillac,P1640,Driver-1-Input High Voltage
+689,cadillac,P1641,Malfunction Indicator Lamp (MIL) Control Circuit
+690,cadillac,P1642,Vehicle Speed Output Circuit
+691,cadillac,P1643,Engine Speed Output Circuit
+692,cadillac,P1644,Traction Control Delivered Torque Output Circuit
+693,cadillac,P1645,Evaporative Emission (EVAP) Vent Solenoid Contorl Circuit
+694,cadillac,P1646,Evaporative Emission (EVAP) Vent Solenoid Control Circuit
+695,cadillac,P1647,Driver 1 Line 7
+696,cadillac,P1650,Control Module Output B Circuit
+697,cadillac,P1651,Fan 1 Relay Control Circuit
+698,cadillac,P1652,Powertrain Induced Chassis Pitch Output Circuit
+699,cadillac,P1653,Oil Level Lamp Control Circuit
+700,cadillac,P1654,Cruise Control Inhibit Output Circuit
+701,cadillac,P1655,EVAP Purge Solenoid Control Circuit
+702,cadillac,P1656,Driver 2 Line 6
+703,cadillac,P1657,1-4 Upshift Solenoid Control Circuit
+704,cadillac,P1658,Starter Enable Relay Control Circuit
+705,cadillac,P1660,Cooling Fan Control Circuits
+706,cadillac,P1661,MIL Control Circuit
+707,cadillac,P1662,Cruise Lamp Control Circuit
+708,cadillac,P1663,Oil Life Lamp Control Circuit
+709,cadillac,P1664,1-4 Upshift Lamp Control Circuit
+710,cadillac,P1665,Driver 3 Line 5
+711,cadillac,P1666,Driver 3 Line 6
+712,cadillac,P1667,Reverse Inhibit Solenoid Control Circuit
+713,cadillac,P1669,ABS Unit Expected
+714,cadillac,P1670,Driver 4
+715,cadillac,P1671,Driver 4 Line 1
+716,cadillac,P1672,Low Engine Oil Level Lamp Control Circuit
+717,cadillac,P1673,Engine Hot Lamp Control Circuit
+718,cadillac,P1674,Tachometer Control Circuit
+719,cadillac,P1675,EVAP Vent Solenoid Control Circuit
+720,cadillac,P1676,Driver 4 Line 6
+721,cadillac,P1677,Driver 4 Line 7
+722,cadillac,P1680,Driver 5
+723,cadillac,P1681,Driver 5 Line 1
+724,cadillac,P1682,Driver 5 Line 2
+725,cadillac,P1683,Driver 5 Line 3
+726,cadillac,P1684,Driver 5 Line 4
+727,cadillac,P1685,Driver 5 Line 5
+728,cadillac,P1686,Driver 5 Line 6
+729,cadillac,P1687,Driver 5 Line 7
+730,cadillac,P1689,Delivered Torque Circuit Fault
+731,cadillac,P1690,ECM Loop Overrun
+732,cadillac,P1691,Coolant Gage Circuit Low Voltage
+733,cadillac,P1692,Coolant Gage Circuit High Voltage
+734,cadillac,P1693,Tachometer Circuit Low Voltage
+735,cadillac,P1694,Tachometer Circuit High Voltage
+736,cadillac,P1695,Remote Keyless Entry Circuit Low
+737,cadillac,P1696,Remote Keyless Entry Voltage High
+738,cadillac,P1700,Transmission Control Module (TCM) Requested MILIllumination
+739,cadillac,P1701,Trans. MIL Request Circuit
+740,cadillac,P1705,P/N Signal Output Circuit
+741,cadillac,P1740,Torque Reduction Signal Circuit
+742,cadillac,P1743,TP Signal from ECM
+743,cadillac,P1760,TCM Supply Voltage Interrupted
+744,cadillac,P1779,Engine Torque Delivered to TCM Signal
+745,cadillac,P1780,Park/Neutral Position [PNP] Switch Circuit
+746,cadillac,P1781,Engine Torque Signal Circuit
+747,cadillac,P1790,Transmission Control Module Checksum
+748,cadillac,P1791,Transmission Control Module Loop
+749,cadillac,P1793,Transmission Control Module Stack Overrun
+750,cadillac,P1795,CAN Bus - Throttle Body Position
+751,cadillac,P1800,TCM Power Relay Control Circuit
+752,cadillac,P1801,Performance Selector Switch Failure
+753,cadillac,P1804,Ground Control Relay
+754,cadillac,P1810,TFP Valve Position Switch Circuit
+755,cadillac,P1811,Maximum Adapt and Long Shift
+756,cadillac,P1812,Transmission Over Temperature Condition
+757,cadillac,P1813,Torque Control
+758,cadillac,P1814,Torque Converter Overstressed
+759,cadillac,P1815,Transmission Range Switch - Start In Wrong Range
+760,cadillac,P1816,TFP Valve Position Sw. - Park/Neu. With Drive Ratio
+761,cadillac,P1817,TFP Valve Position Sw. - Reverse With Drive Ratio
+762,cadillac,P1818,TFP Valve Position Sw. - Drive Without Drive Ratio
+763,cadillac,P1819,Internal Mode Switch - No Start/Wrong Range
+764,cadillac,P1820,Internal Mode Switch Circuit A Low
+765,cadillac,P1822,Internal Mode Switch Circuit B High
+766,cadillac,P1823,Internal Mode Switch Circuit P Low
+767,cadillac,P1825,Internal Mode Switch - Invalid Range
+768,cadillac,P1826,Internal Mode Switch Circuit C - High
+769,cadillac,P1831,PC Solenoid Power Circuit - Low Voltage
+770,cadillac,P1833,A/T Solenoids Power Circuit - Low Voltage
+771,cadillac,P1835,Kick-Down Switch Circuit
+772,cadillac,P1836,Kick-Down Switch Failed Open
+773,cadillac,P1837,Kick-Down Switch Failed Short
+774,cadillac,P1842,1-2 Shift Solenoid Circuit Low Voltage
+775,cadillac,P1843,1-2 Shift Solenoid Circuit High Voltage
+776,cadillac,P1844,Torque Reduction Signal Circuit Desired By TCM
+777,cadillac,P1845,2-3 Shift Solenoid Circuit Low Voltage
+778,cadillac,P1847,2-3 Shift Solenoid Circuit High Voltage
+779,cadillac,P1850,Brake Band Apply Solenoid Circuit
+780,cadillac,P1851,Brake Band Apply Solenoid Performance
+781,cadillac,P1852,Brake Band Apply SolenoidLow Voltage
+782,cadillac,P1853,Brake Band Apply Solenoid High Voltage
+783,cadillac,P1860,TCC PWM Solenoid Circuit Electrical
+784,cadillac,P1864,Torque Converter Clutch Circuit
+785,cadillac,P1868,Transmission Fluid Life
+786,cadillac,P1870,Transmission Component Slipping
+787,cadillac,P1871,Undefined Gear Ratio
+788,cadillac,P1873,TCC Stator Temp. Switch Circuit Low
+789,cadillac,P1874,TCC Stator Temp. Switch Circuit High
+790,cadillac,P1875,4WD Low Switch Circuit Electrical
+791,cadillac,P1884,TCC Enable/Shift Light Circuit
+792,cadillac,P1886,Shift Timing Solenoid
+793,cadillac,P1887,TCC Release Switch Circuit
+794,cadillac,P1891,Throttle Position Sensor PWM Signal Low
+795,cadillac,P1892,Throttle Position Sensor PWM Signal High
+796,cadillac,P1893,Engine Torque Signal Low Voltage
+797,cadillac,P1894,Engine Torque Signal High Voltage
+798,cadillac,P1895,TCM to ECM Torque Reduction Circuit
+799,chevorlet,P1031,HO2S Heater Current Monitor Control Circuit Banks 1 and 2 Sensor 1
+800,chevorlet,P1032,HO2S Heater Warm Up Control Circuit Banks 1 and 2 Sensor 1
+801,chevorlet,P1105,Secondary Vacuum Sensor Circuit
+802,chevorlet,P1106,Manifold Absolute Pressure (MAP) Sensor Circuit Intermittent High Voltage
+803,chevorlet,P1107,Manifold Absolute Pressure (MAP) Sensor Circuit Intermittent Low Voltage
+804,chevorlet,P1108,BARO to MAP Sensor Comparison Too High
+805,chevorlet,P1109,Secondary Port Throttle System
+806,chevorlet,P1111,Intake Air Temperature (IAT) Sensor Circuit Intermittent High Voltage
+807,chevorlet,P1112,Intake Air Temperature (IAT) Sensor Circuit IntermittentLow Voltage
+808,chevorlet,P1113,Intake Resonance Switchover Solenoid Control Circuit
+809,chevorlet,P1114,Engine Coolant Temperature (ECT) Sensor CircuitIntermittent Low Voltage
+810,chevorlet,P1115,Engine Coolant Temperature (ECT) Sensor CircuitIntermittent High Voltage
+811,chevorlet,P1116,ECT Signal Unstable or Intermittent
+812,chevorlet,P1117,Engine Coolant Temp. Signal Out-Of-Range Low
+813,chevorlet,P1118,Engine Coolant Temp. Signal Out-Of-Range High
+814,chevorlet,P1119,ECT Signal Out-Of-Range With TFT Sensor
+815,chevorlet,P1120,Throttle Position (TP) Sensor 1 Circuit
+816,chevorlet,P1121,Throttle Position (TP) Sensor Circuit Intermittent HighVoltage
+817,chevorlet,P1122,Throttle Position (TP) Sensor Circuit Intermittent LowVoltage
+818,chevorlet,P1125,APP System
+819,chevorlet,P1130,HO2S Circuit Low Variance Bank 1 Sensor 1
+820,chevorlet,P1131,HO2S Circuit Low Variance Bank 1 Sensor 2
+821,chevorlet,P1132,HO2S Circuit Low Variance Bank 2 Sensor 1
+822,chevorlet,P1133,HO2S Insufficient Switching Bank 1 Sensor 1
+823,chevorlet,P1134,HO2S Transition Time Ratio Bank 1 Sensor 1
+824,chevorlet,P1135,HO2S Lean Mean Bank 1 Sensor 1
+825,chevorlet,P1136,HO2S Rich Mean Bank 1 Sensor 1
+826,chevorlet,P1137,HO2S Bank 1 Sensor 2 Lean System or Low Voltage
+827,chevorlet,P1138,HO2S Bank 1 Sensor 2 Rich or High Voltage
+828,chevorlet,P1139,HO2S Insuff. Switching Bank 1 Sensor 2
+829,chevorlet,P1140,HO2S Transition Time Ratio Bank 1 Sensor 2
+830,chevorlet,P1141,HO2S Heater Control Circuit Bank 1 Sensor 2
+831,chevorlet,P1143,HO2S Bank 1 Sensor 3 Lean System or Low Voltage
+832,chevorlet,P1144,HO2S Bank 1 Sensor 3 Rich or High Voltage
+833,chevorlet,P1145,HO2S Cross Counts Bank 1 Sensor 3
+834,chevorlet,P1153,HO2S Insufficient Switching Bank 2 Sensor 1
+835,chevorlet,P1154,HO2S Transition Time Ratio Bank 2 Sensor 1
+836,chevorlet,P1155,HO2S Lean Mean Bank 2 Sensor 1
+837,chevorlet,P1156,HO2S Rich Mean Bank 2 Sensor 1
+838,chevorlet,P1157,HO2S Bank 2 Sensor 2 Lean System or Low Voltage
+839,chevorlet,P1158,HO2S Bank 2 Sensor 2 Rich or High Voltage
+840,chevorlet,P1159,HO2S Cross Counts Bank 2 Sensor 2
+841,chevorlet,P1161,HO2S Heater Control Circuit Bank 2 Sensor 2
+842,chevorlet,P1163,HO2S Bank 2 Sensor 3 Lean System or Low Voltage
+843,chevorlet,P1164,HO2S Bank 2 Sensor 3 Rich or High Voltage
+844,chevorlet,P1165,HO2S Cross Counts Bank 2 Sensor 3
+845,chevorlet,P1170,Bank to Bank Fuel TrimOffset
+846,chevorlet,P1171,Fuel System Lean During Acceleration
+847,chevorlet,P1185,Engine Oil Temperature Circuit
+848,chevorlet,P1186,EOT Circuit Performance
+849,chevorlet,P1187,EOT Sensor Ckt. Low Voltage
+850,chevorlet,P1188,EOT Sensor Ckt. High Voltage
+851,chevorlet,P1189,Engine Oil Pressure (EOP) Switch Circuit
+852,chevorlet,P1190,Engine Vacuum Leak
+853,chevorlet,P1191,Intake Air Duct Air Leak
+854,chevorlet,P1200,Injector Control Circuit
+855,chevorlet,P1201,(Alt. Fuel) Gas Mass Sensor Circuit Range/Performance
+856,chevorlet,P1202,(Alt. Fuel) Gas Mass Sensor Circuit Low Frequency
+857,chevorlet,P1203,(Alt. Fuel) Gas Mass Sensor Circuit High Frequency
+858,chevorlet,P1211,Mass Air Flow Circuit Intermittent High
+859,chevorlet,P1212,Mass Air Flow Circuit Intermittent Low
+860,chevorlet,P1214,Injection Pump Timing Offset
+861,chevorlet,P1215,Ground Fault Detection Indicated
+862,chevorlet,P1216,Fuel Solenoid Response Time Too Short
+863,chevorlet,P1217,Fuel Solenoid Response Time Too Long
+864,chevorlet,P1218,Injection Pump Calibration Circuit
+865,chevorlet,P1219,Throttle Position Sensor Reference Voltage
+866,chevorlet,P1220,Throttle Position (TP) Sensor 2 Circuit
+867,chevorlet,P1221,Fuel Pump Secondary Circuit Low
+868,chevorlet,P1222,Injector Control Circuit Intermittent
+869,chevorlet,P1225,Injector Circuit Cylinder 2 Intermittent
+870,chevorlet,P1228,Injector Circuit Cylinder 3 Intermittent
+871,chevorlet,P1231,Injector Circuit Cylinder 4 Intermittent
+872,chevorlet,P1234,Injector Circuit Cylinder 5 Intermittent
+873,chevorlet,P1237,Injector Circuit Cylinder 6 Intermittent
+874,chevorlet,P1240,Injector Circuit Cylinder 7 Intermittent
+875,chevorlet,P1243,Injector Circuit Cylinder 8 Intermittent
+876,chevorlet,P1245,Intake Plenum Switchover Valve
+877,chevorlet,P1250,Early Fuel Evaporation Heater Circuit
+878,chevorlet,P1257,Supercharger System Overboost
+879,chevorlet,P1258,Engine Coolant Overtemperature - Protection Mode Active
+880,chevorlet,P1260,Last Test Failed Failed SCC ENTER:More Info.
+881,chevorlet,P1270,Accelerator Pedal Position Sensor A/D Converter Error
+882,chevorlet,P1271,Accelerator Pedal Position (APP) Sensor 1-2 Correlation
+883,chevorlet,P1272,Accelerator Pedal Position Sensor 2
+884,chevorlet,P1273,Accelerator Pedal Position Sensor 1
+885,chevorlet,P1274,Injectors Wired Incorrectly
+886,chevorlet,P1275,Accelerator Pedal Position (APP) Sensor 1 Circuit
+887,chevorlet,P1276,Accelerator Pedal Position Sensor 1 Circuit Performance
+888,chevorlet,P1277,Accelerator Pedal Position Sensor 1 Circuit Low Voltage
+889,chevorlet,P1278,Accelerator Pedal Position Sensor 1 Circuit High Voltage
+890,chevorlet,P1280,Accelerator Pedal Position (APP) Sensor 2 Circuit
+891,chevorlet,P1281,Accelerator Pedal Position Sensor 2 Circuit Performance
+892,chevorlet,P1282,Accelerator Pedal Position Sensor 2 Circuit Low Voltage
+893,chevorlet,P1283,Accelerator Pedal Position Sensor 2 Circuit High Voltage
+894,chevorlet,P1285,Accelerator Pedal Position Sensor 3 Circuit
+895,chevorlet,P1286,Accelerator Pedal Position Sensor 3 Circuit Performance
+896,chevorlet,P1287,Accelerator Pedal Position Sensor 3 Circuit Low Voltage
+897,chevorlet,P1288,Accelerator Pedal Position Sensor 3 Circuit High Voltage
+898,chevorlet,P1300,Ignitor Circuit
+899,chevorlet,P1305,Ignition Coil 2 Primary Feedback Circuit
+900,chevorlet,P1310,Ignition Coil 3 Primary Feedback Circuit
+901,chevorlet,P1315,Ignition Coil 4 Primary Feedback Circuit
+902,chevorlet,P1320,IC 4X Reference Circuit Intermittent
+903,chevorlet,P1321,Electronic Ignition System Fault Line
+904,chevorlet,P1322,EI System or Ignition Control Extra or Missing
+905,chevorlet,P1323,IC 24X Reference Circuit Low Frequency
+906,chevorlet,P1324,Crank RPM Too Low
+907,chevorlet,P1335,CKP Circuit
+908,chevorlet,P1336,Crankshaft Position (CKP) System Variation Not Learned
+909,chevorlet,P1345,Crankshaft Position (CKP)-Camshaft Position (CMP) Correlation
+910,chevorlet,P1346,Intake Camshaft Position [CMP] Sensor System Performance
+911,chevorlet,P1350,Ignition Control System
+912,chevorlet,P1351,Ignition Coil Control Circuit High Voltage
+913,chevorlet,P1352,IC Output High/Pulse Detected when GND_Cyl. 2
+914,chevorlet,P1353,IC Output High/Pulse Detected when GND_Cyl. 3
+915,chevorlet,P1354,IC Output High/Pulse Detected when GND_Cyl. 4
+916,chevorlet,P1355,IC Output High/Pulse Detected when GND_Cyl. 5
+917,chevorlet,P1356,IC Output High/Pulse Detected when GND_Cyl. 6
+918,chevorlet,P1357,IC Output High/Pulse Detected when GND_Cyl. 7
+919,chevorlet,P1358,IC Output High/Pulse Detected when GND_Cyl. 8
+920,chevorlet,P1359,Ignition Coil Group 1 Control Circuit
+921,chevorlet,P1360,Ignition Coil Group 2 Control Circuit
+922,chevorlet,P1361,Ignition Coil Control Circuit Low Voltage
+923,chevorlet,P1362,IC Cylinder 2 Not Toggling After Enable
+924,chevorlet,P1363,IC Cylinder 3 Not Toggling After Enable
+925,chevorlet,P1364,IC Cylinder 4 Not Toggling After Enable
+926,chevorlet,P1365,IC Cylinder 5 Not Toggling After Enable
+927,chevorlet,P1366,IC Cylinder 6 Not Toggling After Enable
+928,chevorlet,P1367,IC Cylinder 7 Not Toggling After Enable
+929,chevorlet,P1368,IC Cylinder 8 Not Toggling After Enable
+930,chevorlet,P1370,IC 4X Reference Circuit Too Many Pulses
+931,chevorlet,P1371,IC 4X Reference Circuit Too Few Pulses
+932,chevorlet,P1372,Crankshaft Position (CKP) Sensor A-B Correlation
+933,chevorlet,P1374,3X Reference Circuit
+934,chevorlet,P1375,IC 24X Reference Circuit High Voltage
+935,chevorlet,P1376,Ignition Ground Circuit
+936,chevorlet,P1377,IC Cam Pulse To 4X Reference Pulse
+937,chevorlet,P1380,Misfire Detected - Rough Road Data Not Available
+938,chevorlet,P1381,Misfire Detected - No Communication with Brake ControlModule
+939,chevorlet,P1390,Wheel Speed Sensor 1 - G - Sensor Circuit
+940,chevorlet,P1391,Wheel Speed Sensor 1 - G - Sensor Circuit Performance
+941,chevorlet,P1392,Wheel Speed Sensor 1 - G - Sensor Circuit Low Voltage
+942,chevorlet,P1393,Wheel Speed Sensor 1 - G - Sensor Circuit High Voltage
+943,chevorlet,P1394,Wheel Speed Sensor 1 - G - Sensor Circuit Intermittent
+944,chevorlet,P1395,Wheel Speed Sensor 2 - G - Sensor Circuit
+945,chevorlet,P1396,Wheel Speed Sensor 2 - G - Sensor Circuit Performance
+946,chevorlet,P1397,Wheel Speed Sensor 2 - G - Sensor Circuit Low Voltage
+947,chevorlet,P1398,Wheel Speed Sensor 2 - G - Sensor Circuit High Voltage
+948,chevorlet,P1399,Wheel Speed Sensor 2 - G - Sensor Circuit Intermittent
+949,chevorlet,P1403,Exhaust Gas Recirculation System Valve 1
+950,chevorlet,P1404,Exhaust Gas Recirculation (EGR) Closed PositionPerformance
+951,chevorlet,P1405,Exhaust Gas Recirculation System Valve 3
+952,chevorlet,P1406,EGR Valve Pintle Position Circuit
+953,chevorlet,P1407,EGR Air Intrusion in Exhaust Supply to EGR Valve
+954,chevorlet,P1408,Intake Manifold Pressure Sensor Circuit
+955,chevorlet,P1409,EGR Vacuum System Leak
+956,chevorlet,P1410,Fuel Tank Pressure System
+957,chevorlet,P1415,Secondary Air Injection (AIR) System Bank 1
+958,chevorlet,P1416,Secondary Air Injection (AIR) System Bank 2
+959,chevorlet,P1418,Secondary Air Injection System Relay A Control CircuitHigh
+960,chevorlet,P1420,Intake Air Low Pressure Switch Circuit Low Voltage
+961,chevorlet,P1421,Intake Air Low Pressure Switch Circuit High Voltage
+962,chevorlet,P1423,Intake Air High Pressure Switch Circuit High Voltage
+963,chevorlet,P1431,Fuel Level Sensor 2 Circuit Performance
+964,chevorlet,P1432,Fuel Level Sensor 2 Circuit Low Voltage
+965,chevorlet,P1433,Fuel Level Sensor 2 Circuit High Voltage
+966,chevorlet,P1441,Evaporative Emission (EVAP) System Flow During Non-Purge
+967,chevorlet,P1442,EVAP Vacuum Sw. High Voltage During Ign. On
+968,chevorlet,P1450,Barometric Pressure Sensor Circuit
+969,chevorlet,P1451,Barometric Press. Sensor Performance
+970,chevorlet,P1480,Cooling Fan 1 Control Circuit High
+971,chevorlet,P1483,Engine Cooling System Performance
+972,chevorlet,P1500,Starter Signal Circuit
+973,chevorlet,P1502,Theft Deterrent Fuel Enable Signal Not Received
+974,chevorlet,P1503,Theft Deterrent Fuel Enable Signal Not Correct
+975,chevorlet,P1504,Vehicle Speed Output Circuit
+976,chevorlet,P1508,Idle Speed Low - Idle Air Control (IAC) System NotResponding
+977,chevorlet,P1509,Idle Speed High - Idle Air Control (IAC) System NotResponding
+978,chevorlet,P1510,Throttle Control System Performance - Throttle LimitationActive
+979,chevorlet,P1511,Throttle Control System - Backup System Performance
+980,chevorlet,P1514,Airflow to TP Sensor Correlation High
+981,chevorlet,P1515,Electronic Throttle System Throttle Position
+982,chevorlet,P1516,Throttle Actuator Control (TAC) Module Throttle ActuatorPosition Performance
+983,chevorlet,P1517,Electronic Throttle Module
+984,chevorlet,P1518,Electronic Throttle Module to PCM Communication
+985,chevorlet,P1519,Throttle Actuator Control (TAC) Module Internal Circuit
+986,chevorlet,P1520,Transmission Range Switch Circuit
+987,chevorlet,P1521,Transmission Engaged at High Throttle Angle
+988,chevorlet,P1522,Park/Neutral to Drive/Reverse at High RPM
+989,chevorlet,P1523,Throttle Closed Position Performance
+990,chevorlet,P1524,Throttle Closed Position Performance
+991,chevorlet,P1525,Throttle Body ServiceRequired
+992,chevorlet,P1526,Minimum Throttle Position Not Learned
+993,chevorlet,P1527,Transmission Range to Pressure Switch Correlation
+994,chevorlet,P1528,Governor
+995,chevorlet,P1529,Heated Windshield Request Problem
+996,chevorlet,P1530,Throttle Actuator Control (TAC) Module Internal Circuit
+997,chevorlet,P1531,A/C Low Side Temperature Sensor Fault
+998,chevorlet,P1532,A/C Evaporator Temp. Sens. Ckt. Low Voltage
+999,chevorlet,P1533,A/C Evaporator Temp. Sens. Ckt. High Voltage
+1000,chevorlet,P1534,A/C High Side Temp. Sensor Low Voltage
+1001,chevorlet,P1535,A/C High Side Temperature Sensor Circuit
+1002,chevorlet,P1536,Engine Coolant Overtemperature - Air Conditioning (A/C)Disabled
+1003,chevorlet,P1537,A/C Request Circuit Low Voltage
+1004,chevorlet,P1538,A/C Request Circuit High Voltage
+1005,chevorlet,P1539,A/C Clutch Status Circuit High Voltage
+1006,chevorlet,P1540,Air Conditioning (A/C) Refrigerant Overpressure - AirConditioning (A/C) Disabled
+1007,chevorlet,P1541,A/C High Side Over Temperature
+1008,chevorlet,P1542,A/C System High Pressure High Temperature
+1009,chevorlet,P1543,A/C System Performance
+1010,chevorlet,P1544,A/C Refrigerant Condition Very Low
+1011,chevorlet,P1545,Air Conditioning (A/C) Clutch Relay Control Circuit
+1012,chevorlet,P1546,A/C Clutch Status Circuit Low Voltage
+1013,chevorlet,P1547,A/C System Performance Degraded
+1014,chevorlet,P1548,A/C Recirculation Circuit
+1015,chevorlet,P1554,Cruise Control Feedback Circuit
+1016,chevorlet,P1555,Electronic Variable Orifice Output
+1017,chevorlet,P1558,Cruise Control Servo Indicates Low
+1018,chevorlet,P1559,Cruise Control Power Management Mode
+1019,chevorlet,P1560,Transaxle Not in Drive - Cruise Control Disabled
+1020,chevorlet,P1561,Cruise Vent Solenoid
+1021,chevorlet,P1562,Cruise Vacuum Solenoid
+1022,chevorlet,P1563,Cruise Vehicle Speed/Set Speed Difference Too High
+1023,chevorlet,P1564,Vehicle Acceleration Too High - Cruise Control Disabled
+1024,chevorlet,P1565,Cruise Servo Position Sensor
+1025,chevorlet,P1566,Engine RPM Too High - Cruise Control Disabled
+1026,chevorlet,P1567,Active Banking Control Active - Cruise Control Disabled
+1027,chevorlet,P1568,Cruise Servo Stroke Greater than Commanded in Cruise
+1028,chevorlet,P1569,Cruise Servo Stroke High While not in Cruise
+1029,chevorlet,P1570,Traction Control Active - Cruise Control Disabled
+1030,chevorlet,P1571,Traction Control Torque Request Circuit
+1031,chevorlet,P1572,ASR Active Circuit Low Too Long
+1032,chevorlet,P1573,PCM/EBTCM Serial Data Circuit
+1033,chevorlet,P1574,Stoplamp Switch Circuit
+1034,chevorlet,P1575,Extended Travel Brake Switch Circuit
+1035,chevorlet,P1576,BBV Sensor Ckt. High Voltage
+1036,chevorlet,P1577,BBV Sensor Ckt. Low Voltage
+1037,chevorlet,P1578,BBV Sensor Ckt. Low Vacuum
+1038,chevorlet,P1579,P/N to D/R at High Throttle Angle - Power Reduction ModeActive
+1039,chevorlet,P1580,Cruise Move Circuit Low Voltage
+1040,chevorlet,P1581,Cruise Move Circuit High Voltage
+1041,chevorlet,P1582,Cruise Direction Circuit Low Voltage
+1042,chevorlet,P1583,Cruise Direction CircuitHigh Voltage
+1043,chevorlet,P1584,Cruise Control Disabled
+1044,chevorlet,P1585,Cruise Control Inhibit Output Circuit
+1045,chevorlet,P1586,Cruise Control Brake Switch 2 Circuit
+1046,chevorlet,P1587,Cruise Control Clutch Control Circuit Low
+1047,chevorlet,P1588,Cruise Control Clutch Control Circuit High
+1048,chevorlet,P1599,Engine Stall or Near Stall Detected
+1049,chevorlet,P1600,TCM Internal Watchdog Operation
+1050,chevorlet,P1601,Serial Comm. Problem With Device 1
+1051,chevorlet,P1602,Knock Sensor (KS) Module Performance
+1052,chevorlet,P1603,Loss of SDM Serial Data
+1053,chevorlet,P1604,Loss of IPC Serial Data
+1054,chevorlet,P1605,Loss of HVAC Serial Data
+1055,chevorlet,P1606,Serial Communication Problem With Device 6
+1056,chevorlet,P1607,Serial Communication Problem With Device 7
+1057,chevorlet,P1608,Serial Communication Problem With Device 8
+1058,chevorlet,P1609,Loss Of TCS Serial Data
+1059,chevorlet,P1610,Loss of PZM Serial Data
+1060,chevorlet,P1611,Loss of CVRTD Serial Data
+1061,chevorlet,P1612,Loss of IPM Serial Data
+1062,chevorlet,P1613,Loss of DIM Serial Data
+1063,chevorlet,P1614,Loss of RIM Serial Data
+1064,chevorlet,P1615,Loss of VTD Serial Data
+1065,chevorlet,P1617,Engine Oil Level Switch Circuit
+1066,chevorlet,P1619,Engine Oil Life Monitor Reset Circuit
+1067,chevorlet,P1620,Low Coolant Circuit
+1068,chevorlet,P1621,Control Module Long Term Memory Performance
+1069,chevorlet,P1622,Cylinder Select
+1070,chevorlet,P1623,Transmission Temp Pull-Up Resistor
+1071,chevorlet,P1624,Customer Snapshot Requested - Data Available
+1072,chevorlet,P1625,TCM System Reset
+1073,chevorlet,P1626,Theft Deterrent Fuel Enable Signal Not Received
+1074,chevorlet,P1627,A/D Performance
+1075,chevorlet,P1628,ECT Pull-Up Resistor
+1076,chevorlet,P1629,Theft Deterrent System - Cranking Signal
+1077,chevorlet,P1630,Theft Deterrent Learn Mode Active
+1078,chevorlet,P1631,Theft Deterrent Start Enable Signal Not Correct
+1079,chevorlet,P1632,Theft Deterrent Fuel Disable Signal Received
+1080,chevorlet,P1633,Ignition 0 Switch Circuit
+1081,chevorlet,P1634,Ignition 1 Switch Circuit
+1082,chevorlet,P1635,5 Volt Reference Circuit
+1083,chevorlet,P1636,PCM Stack Overrun
+1084,chevorlet,P1637,Generator L-Terminal Circuit
+1085,chevorlet,P1638,Generator F-Terminal Circuit
+1086,chevorlet,P1639,5 Volt Reference 2 Circuit
+1087,chevorlet,P1640,Driver-1-Input High Voltage
+1088,chevorlet,P1641,Malfunction Indicator Lamp (MIL) Control Circuit
+1089,chevorlet,P1642,Vehicle Speed Output Circuit
+1090,chevorlet,P1643,Engine Speed Output Circuit
+1091,chevorlet,P1644,Traction Control Delivered Torque Output Circuit
+1092,chevorlet,P1645,Evaporative Emission (EVAP) Vent Solenoid Contorl Circuit
+1093,chevorlet,P1646,Evaporative Emission (EVAP) Vent Solenoid Control Circuit
+1094,chevorlet,P1647,Driver 1 Line 7
+1095,chevorlet,P1650,Control Module Output B Circuit
+1096,chevorlet,P1651,Fan 1 Relay Control Circuit
+1097,chevorlet,P1652,Powertrain Induced Chassis Pitch Output Circuit
+1098,chevorlet,P1653,Oil Level Lamp Control Circuit
+1099,chevorlet,P1654,Cruise Control Inhibit Output Circuit
+1100,chevorlet,P1655,EVAP Purge Solenoid Control Circuit
+1101,chevorlet,P1656,Driver 2 Line 6
+1102,chevorlet,P1657,1-4 Upshift Solenoid Control Circuit
+1103,chevorlet,P1658,Starter Enable Relay Control Circuit
+1104,chevorlet,P1660,Cooling Fan Control Circuits
+1105,chevorlet,P1661,MIL Control Circuit
+1106,chevorlet,P1662,Cruise Lamp Control Circuit
+1107,chevorlet,P1663,Oil Life Lamp Control Circuit
+1108,chevorlet,P1664,1-4 Upshift Lamp Control Circuit
+1109,chevorlet,P1665,Driver 3 Line 5
+1110,chevorlet,P1666,Driver 3 Line 6
+1111,chevorlet,P1667,Reverse Inhibit Solenoid Control Circuit
+1112,chevorlet,P1669,ABS Unit Expected
+1113,chevorlet,P1670,Driver 4
+1114,chevorlet,P1671,Driver 4 Line 1
+1115,chevorlet,P1672,Low Engine Oil Level Lamp Control Circuit
+1116,chevorlet,P1673,Engine Hot Lamp Control Circuit
+1117,chevorlet,P1674,Tachometer Control Circuit
+1118,chevorlet,P1675,EVAP Vent Solenoid Control Circuit
+1119,chevorlet,P1676,Driver 4 Line 6
+1120,chevorlet,P1677,Driver 4 Line 7
+1121,chevorlet,P1680,Driver 5
+1122,chevorlet,P1681,Driver 5 Line 1
+1123,chevorlet,P1682,Driver 5 Line 2
+1124,chevorlet,P1683,Driver 5 Line 3
+1125,chevorlet,P1684,Driver 5 Line 4
+1126,chevorlet,P1685,Driver 5 Line 5
+1127,chevorlet,P1686,Driver 5 Line 6
+1128,chevorlet,P1687,Driver 5 Line 7
+1129,chevorlet,P1689,Delivered Torque Circuit Fault
+1130,chevorlet,P1690,ECM Loop Overrun
+1131,chevorlet,P1691,Coolant Gage Circuit Low Voltage
+1132,chevorlet,P1692,Coolant Gage Circuit High Voltage
+1133,chevorlet,P1693,Tachometer Circuit Low Voltage
+1134,chevorlet,P1694,Tachometer Circuit High Voltage
+1135,chevorlet,P1695,Remote Keyless Entry Circuit Low
+1136,chevorlet,P1696,Remote Keyless Entry Voltage High
+1137,chevorlet,P1700,Transmission Control Module (TCM) Requested MILIllumination
+1138,chevorlet,P1701,Trans. MIL Request Circuit
+1139,chevorlet,P1705,P/N Signal Output Circuit
+1140,chevorlet,P1740,Torque Reduction Signal Circuit
+1141,chevorlet,P1743,TP Signal from ECM
+1142,chevorlet,P1760,TCM Supply Voltage Interrupted
+1143,chevorlet,P1779,Engine Torque Delivered to TCM Signal
+1144,chevorlet,P1780,Park/Neutral Position [PNP] Switch Circuit
+1145,chevorlet,P1781,Engine Torque Signal Circuit
+1146,chevorlet,P1790,Transmission Control Module Checksum
+1147,chevorlet,P1791,Transmission Control Module Loop
+1148,chevorlet,P1793,Transmission Control Module Stack Overrun
+1149,chevorlet,P1795,CAN Bus - Throttle Body Position
+1150,chevorlet,P1800,TCM Power Relay Control Circuit
+1151,chevorlet,P1801,Performance Selector Switch Failure
+1152,chevorlet,P1804,Ground Control Relay
+1153,chevorlet,P1810,TFP Valve Position Switch Circuit
+1154,chevorlet,P1811,Maximum Adapt and Long Shift
+1155,chevorlet,P1812,Transmission Over Temperature Condition
+1156,chevorlet,P1813,Torque Control
+1157,chevorlet,P1814,Torque Converter Overstressed
+1158,chevorlet,P1815,Transmission Range Switch - Start In Wrong Range
+1159,chevorlet,P1816,TFP Valve Position Sw. - Park/Neu. With Drive Ratio
+1160,chevorlet,P1817,TFP Valve Position Sw. - Reverse With Drive Ratio
+1161,chevorlet,P1818,TFP Valve Position Sw. - Drive Without Drive Ratio
+1162,chevorlet,P1819,Internal Mode Switch - No Start/Wrong Range
+1163,chevorlet,P1820,Internal Mode Switch Circuit A Low
+1164,chevorlet,P1822,Internal Mode Switch Circuit B High
+1165,chevorlet,P1823,Internal Mode Switch Circuit P Low
+1166,chevorlet,P1825,Internal Mode Switch - Invalid Range
+1167,chevorlet,P1826,Internal Mode Switch Circuit C - High
+1168,chevorlet,P1831,PC Solenoid Power Circuit - Low Voltage
+1169,chevorlet,P1833,A/T Solenoids Power Circuit - Low Voltage
+1170,chevorlet,P1835,Kick-Down Switch Circuit
+1171,chevorlet,P1836,Kick-Down Switch Failed Open
+1172,chevorlet,P1837,Kick-Down Switch Failed Short
+1173,chevorlet,P1842,1-2 Shift Solenoid Circuit Low Voltage
+1174,chevorlet,P1843,1-2 Shift Solenoid Circuit High Voltage
+1175,chevorlet,P1844,Torque Reduction Signal Circuit Desired By TCM
+1176,chevorlet,P1845,2-3 Shift Solenoid Circuit Low Voltage
+1177,chevorlet,P1847,2-3 Shift Solenoid Circuit High Voltage
+1178,chevorlet,P1850,Brake Band Apply Solenoid Circuit
+1179,chevorlet,P1851,Brake Band Apply Solenoid Performance
+1180,chevorlet,P1852,Brake Band Apply SolenoidLow Voltage
+1181,chevorlet,P1853,Brake Band Apply Solenoid High Voltage
+1182,chevorlet,P1860,TCC PWM Solenoid Circuit Electrical
+1183,chevorlet,P1864,Torque Converter Clutch Circuit
+1184,chevorlet,P1868,Transmission Fluid Life
+1185,chevorlet,P1870,Transmission Component Slipping
+1186,chevorlet,P1871,Undefined Gear Ratio
+1187,chevorlet,P1873,TCC Stator Temp. Switch Circuit Low
+1188,chevorlet,P1874,TCC Stator Temp. Switch Circuit High
+1189,chevorlet,P1875,4WD Low Switch Circuit Electrical
+1190,chevorlet,P1884,TCC Enable/Shift Light Circuit
+1191,chevorlet,P1886,Shift Timing Solenoid
+1192,chevorlet,P1887,TCC Release Switch Circuit
+1193,chevorlet,P1891,Throttle Position Sensor PWM Signal Low
+1194,chevorlet,P1892,Throttle Position Sensor PWM Signal High
+1195,chevorlet,P1893,Engine Torque Signal Low Voltage
+1196,chevorlet,P1894,Engine Torque Signal High Voltage
+1197,chevorlet,P1895,TCM to ECM Torque Reduction Circuit
+1198,generic,P0100,Mass or Volume Air Flow Circuit Malfunction
+1199,generic,P0101,Mass or Volume Air Flow Circuit Range/Performance Problem
+1200,generic,P0102,Mass or Volume Air Flow Circuit Low Input
+1201,generic,P0103,Mass or Volume Air Flow Circuit High Input
+1202,generic,P0104,Mass or Volume Air Flow Circuit Intermittent
+1203,generic,P0105,Manifold Absolute Pressure/Barometric Pressure Circuit Malfunction
+1204,generic,P0106,Manifold Absolute Pressure/Barometric Pressure Circuit Range/Performance Problem
+1205,generic,P0107,Manifold Absolute Pressure/Barometric Pressure Circuit Low Input
+1206,generic,P0108,Manifold Absolute Pressure/Barometric Pressure Circuit High Input
+1207,generic,P0111,Intake Air Temperature Circuit Range/Performance Problem
+1208,generic,P0112,Intake Air Temperature Circuit Low Input
+1209,generic,P0113,Intake Air Temperature Circuit High Input
+1210,generic,P0114,Intake Air Temperature Circuit Intermittent
+1211,generic,P0115,Engine Coolant Temperature Circuit Malfunction
+1212,generic,P0116,Engine Coolant Temperature Circuit Range/Performance Problem
+1213,generic,P0117,Engine Coolant Temperature Circuit Low Input
+1214,generic,P0118,Engine Coolant Temperature Circuit High Input
+1215,generic,P0119,Engine Coolant Temperature Circuit Intermittent
+1216,generic,P0120,Throttle/Petal Position Sensor/Switch A Circuit Malfunction
+1217,generic,P0121,Throttle/Petal Position Sensor/Switch A Circuit Range/Performance Problem
+1218,generic,P0122,Throttle/Petal Position Sensor/Switch A Circuit Low Input
+1219,generic,P0123,Throttle/Petal Position Sensor/Switch A Circuit High Input
+1220,generic,P0124,Throttle/Petal Position Sensor/Switch A Circuit Intermittent
+1221,generic,P0125,Insufficient Coolant Temperature for Closed Loop Fuel Control
+1222,generic,P0126,Insufficient Coolant Temperature for Stable Operation
+1223,generic,P0130,02 Sensor Circuit Malfunction (Bank I Sensor 1)
+1224,generic,P0131,02 Sensor Circuit Low Voltage (Bank I Sensor I)
+1225,generic,P0132,02 Sensor Circuit High Voltage (Bank I Sensor 1)
+1226,generic,P0133,02 Sensor Circuit Slow Response (Bank 1 Sensor 1)
+1227,generic,P0134,02 Sensor Circuit No Activity Detected (Bank I Sensor 1)
+1228,generic,P0135,02 Sensor Heater Circuit Malfunction (Bank 1 Sensor 1)
+1229,generic,P0136,02 Sensor Circuit Malfunction (Bank I Sensor 2)
+1230,generic,P0137,02 Sensor Circuit Low Voltage (Bank I Sensor 2)
+1231,generic,P0138,02 Sensor Circuit High Voltage (Bank I Sensor 2)
+1232,generic,P0139,02 Sensor Circuit Slow Response (Bank 1 Sensor 2)
+1233,generic,P0140,02 Sensor Circuit No Activity Detected (Bank 1 Sensor 2)
+1234,generic,P0141,02 Sensor Heater Circuit Malfunction (Bank 1 Sensor 2)
+1235,generic,P0142,02 Sensor Circuit Malfunction (Bank I Sensor 3)
+1236,generic,P0143,02 Sensor Circuit Low Voltage (Bank I Sensor 3)
+1237,generic,P0144,02 Sensor Circuit High Voltage (Bank I Sensor 3)
+1238,generic,P0145,02 Sensor Circuit Slow Response (Bank 1 Sensor 3)
+1239,generic,P0146,02 Sensor Circuit No Activity Detected (Bank I Sensor 3)
+1240,generic,P0147,02 Sensor Heater Circuit Malfunction (Bank I Sensor 3)
+1241,generic,P0150,02 Sensor Circuit Malfunction (Bank 2 Sensor I)
+1242,generic,P0151,02 Sensor Circuit Low Voltage (Bank 2 Sensor I)
+1243,generic,P0152,02 Sensor Circuit High Voltage (Bank 2 Sensor 1)
+1244,generic,P0153,02 Sensor Circuit Slow Response (Bank 2 Sensor 1)
+1245,generic,P0154,02 Sensor Circuit No Activity Detected (Bank 2 Sensor 1)
+1246,generic,P0155,02 Sensor Heater Circuit Malfunction (Bank 2 Sensor 1)
+1247,generic,P0156,02 Sensor Circuit Malfunction (Bank 2 Sensor 2)
+1248,generic,P0157,02 Sensor Circuit Low Voltage (Bank 2 Sensor 2)
+1249,generic,P0158,02 Sensor Circuit High Voltage (Bank 2 Sensor 2)
+1250,generic,P0159,02 Sensor Circuit Slow Response (Bank 2 Sensor 2)
+1251,generic,P0160,02 Sensor Circuit No Activity Detected (Bank 2 Sensor 2)
+1252,generic,P0161,02 Sensor Heater Circuit Malfunction (Bank 2 Sensor 2)
+1253,generic,P0162,02 Sensor Circuit Malfunction (Bank 2 Sensor 3)
+1254,generic,P0163,02 Sensor Circuit Low Voltage (Bank 2 Sensor 3)
+1255,generic,P0164,02 Sensor Circuit High Voltage (Bank 2 Sensor 3)
+1256,generic,P0165,02 Sensor Circuit Slow Response (Bank 2 Sensor 3)
+1257,generic,P0166,02 Sensor Circuit No Activity Detected (Bank 2 Sensor 3)
+1258,generic,P0167,02 Sensor Heater Circuit Malfunction (Bank 2 Sensor 3)
+1259,generic,P0170,Fuel Trim Malfunction (Bank 1)
+1260,generic,P0171,System too Lean (Bank 1)
+1261,generic,P0172,System too Rich (Bank 1)
+1262,generic,P0173,Fuel Trim Malfunction (Bank 2)
+1263,generic,P0174,System too Lean (Bank 2)P0175 System too Rich (Bank 2)
+1264,generic,P0176,Fuel Composition Sensor Circuit Malfunction
+1265,generic,P0177,Fuel Composition Sensor Circuit Range/Performance
+1266,generic,P0178,Fuel Composition Sensor Circuit Low Input
+1267,generic,P0179,Fuel Composition Sensor Circuit High Input
+1268,generic,P0180,Fuel Temperature Sensor A Circuit Malfunction
+1269,generic,P0181,Fuel Temperature Sensor A Circuit Range/Performance
+1270,generic,P0182,Fuel Temperature Sensor A Circuit Low Input
+1271,generic,P0183,Fuel Temperature Sensor A Circuit High Input
+1272,generic,P0184,Fuel Temperature Sensor A Circuit Intermittent
+1273,generic,P0185,Fuel Temperature Sensor B Circuit Malfunction
+1274,generic,P0186,Fuel Temperature Sensor B Circuit Range/Performance
+1275,generic,P0187,Fuel Temperature Sensor B Circuit Low Input
+1276,generic,P0188,Fuel Temperature Sensor B Circuit High Input
+1277,generic,P0189,Fuel Temperature Sensor B Circuit Intermittent
+1278,generic,P0190,Fuel Rail Pressure Sensor Circuit Malfunction
+1279,generic,P0191,Fuel Rail Pressure Sensor Circuit Range/Performance
+1280,generic,P0192,Fuel Rail Pressure Sensor Circuit Low Input
+1281,generic,P0193,Fuel Rail Pressure Sensor Circuit High Input
+1282,generic,P0194,Fuel Rail Pressure Sensor Circuit Intermittent
+1283,generic,P0195,Engine Oil Temperature Sensor Malfunction
+1284,generic,P0196,Engine Oil Temperature Sensor Range/Performance
+1285,generic,P0197,Engine Oil Temperature Sensor Low
+1286,generic,P0198,Engine Oil Temperature Sensor High
+1287,generic,P0199,Engine Oil Temperature Sensor Intermittent
+1288,generic,P0200,Injector Circuit Malfunction
+1289,generic,P0201,Injector Circuit Malfunction - Cylinder 1
+1290,generic,P0202,Injector Circuit Malfunction - Cylinder 2
+1291,generic,P0203,Injector Circuit Malfunction - Cylinder 3
+1292,generic,P0204,Injector Circuit Malfunction - Cylinder 4
+1293,generic,P0205,Injector Circuit Malfunction - Cylinder 5
+1294,generic,P0206,Injector Circuit Malfunction - Cylinder 6
+1295,generic,P0207,Injector Circuit Malfunction - Cylinder 7
+1296,generic,P0208,Injector Circuit Malfunction - Cylinder 8
+1297,generic,P0209,Injector Circuit Malfunction - Cylinder 9
+1298,generic,P0210,Injector Circuit Malfunction - Cylinder 10
+1299,generic,P0211,Injector Circuit Malfunction - Cylinder 11
+1300,generic,P0212,Injector Circuit Malfunction - Cylinder 12
+1301,generic,P0213,Cold Start Injector 1 Malfunction
+1302,generic,P0214,Cold Start Injector 2 Malfunction
+1303,generic,P0215,Engine Shutoff Solenoid Malfunction
+1304,generic,P0216,Injection Timing Control Circuit Malfunction
+1305,generic,P0217,Engine Overtemp Condition
+1306,generic,P0218,Transmission Over Temperature Condition
+1307,generic,P0219,Engine Overspeed Condition
+1308,generic,P0220,Throttle/Petal Position Sensor/Switch B Circuit Malfunction
+1309,generic,P0221,Throttle/Petal Position Sensor/Switch B Circuit Range/Performance Problem
+1310,generic,P0222,Throttle/Petal Position Sensor/Switch B Circuit Low Input
+1311,generic,P0223,Throttle/Petal Position Sensor/Switch B Circuit High Input
+1312,generic,P0224,Throttle/Petal Position Sensor/Switch B Circuit Intermittent
+1313,generic,P0225,Throttle/Petal Position Sensor/Switch C Circuit Malfunction
+1314,generic,P0226,Throttle/Petal Position Sensor/Switch C Circuit Range/Performance Problem
+1315,generic,P0227,Throttle/Petal Position Sensor/Switch C Circuit Low Input
+1316,generic,P0228,Throttle/Petal Position Sensor/Switch C Circuit High Input
+1317,generic,P0229,Throttle/Petal Position Sensor/Switch C Circuit Intermittent
+1318,generic,P0230,Fuel Pump Primary Circuit Malfunction
+1319,generic,P0231,Fuel Pump Secondary Circuit Low
+1320,generic,P0232,Fuel Pump Secondary Circuit High
+1321,generic,P0233,Fuel Pump Secondary Circuit Intermittent
+1322,generic,P0234,Engine Overboost Condition
+1323,generic,P0235,Turbocharger Boost Sensor A Circuit Malfunction
+1324,generic,P0236,Turbocharger Boost Sensor A Circuit Range/Performance
+1325,generic,P0237,Turbocharger Boost Sensor A Circuit Low
+1326,generic,P0238,Turbocharger Boost Sensor A Circuit High
+1327,generic,P0239,Turbocharger Boost Sensor B Malfunction
+1328,generic,P0240,Turbocharger Boost Sensor B Circuit Range/Performance
+1329,generic,P0241,Turbocharger Boost Sensor B Circuit Low
+1330,generic,P0242,Turbocharger Boost Sensor B Circuit High
+1331,generic,P0243,Turbocharger Wastegate Solenoid A Malfunction
+1332,generic,P0244,Turbocharger Wastegate Solenoid A Range/Performance
+1333,generic,P0245,Turbocharger Wastegate Solenoid A Low
+1334,generic,P0246,Turbocharger Wastegate Solenoid A High
+1335,generic,P0247,Turbocharger Wastegate Solenoid B Malfunction
+1336,generic,P0248,Turbocharger Wastegate Solenoid B Range/Performance
+1337,generic,P0249,Turbocharger Wastegate Solenoid B Low
+1338,generic,P0250,Turbocharger Wastegate Solenoid B High
+1339,generic,P0251,"Injection Pump Fuel Metering Control ""A"" Malfunction (Cam/Rotor/Injector)"
+1340,generic,P0252,"Injection Pump Fuel Metering Control ""A"" Range/Performance (Cam/Rotor/Injector)"
+1341,generic,P0253,"Injection Pump Fuel Metering Control ""A"" Low (Cam/Rotor/Injector)"
+1342,generic,P0254,"Injection Pump Fuel Metering Control ""A"" High (Cam/Rotor/Injector)"
+1343,generic,P0255,"Injection Pump Fuel Metering Control ""A"" Intermittent (Cam/Rotor/Injector)"
+1344,generic,P0256,"Injection Pump Fuel Metering Control ""B"" Malfunction (Cam/Rotor/Injector)"
+1345,generic,P0257,"Injection Pump Fuel Metering Control ""B"" Range/Performance Injector)"
+1346,generic,P0258,"Injection Pump Fuel Metering Control ""B"" Low (Cam/R"
+1347,generic,P0259,"Injection Pump Fuel Metering Control ""B"" High (Cam/R"
+1348,generic,P0260,"Injection Pump Fuel Metering Control ""B"" Intermittent Injector)"
+1349,generic,P0261,Cylinder I Injector Circuit Low
+1350,generic,P0262,Cylinder I Injector Circuit High
+1351,generic,P0263,Cylinder I Contribution/Balance Fault
+1352,generic,P0264,Cylinder 2 Injector Circuit Low
+1353,generic,P0265,Cylinder 2 Injector Circuit High
+1354,generic,P0266,Cylinder 2 Contribution/Balance Fault
+1355,generic,P0267,Cylinder 3 Injector Circuit Low
+1356,generic,P0268,Cylinder 3 Injector Circuit High
+1357,generic,P0269,Cylinder 3 Contribution/Balance Fault
+1358,generic,P0270,Cylinder 4 Injector Circuit Low
+1359,generic,P0271,Cylinder 4 Injector Circuit High
+1360,generic,P0272,Cylinder 4 Contribution/Balance Fault
+1361,generic,P0273,Cylinder 5 Injector Circuit Low
+1362,generic,P0274,Cylinder 5 Injector Circuit High
+1363,generic,P0275,Cylinder S Contribution/Balance Fault
+1364,generic,P0276,Cylinder 6 Injector Circuit Low
+1365,generic,P0277,Cylinder 6 Injector Circuit High
+1366,generic,P0278,Cylinder 6 Contribution/Balance Fault
+1367,generic,P0279,Cylinder 7 Injector Circuit Low
+1368,generic,P0280,Cylinder 7 Injector Circuit High
+1369,generic,P0281,Cylinder 7 Contribution/Balance Fault
+1370,generic,P0282,Cylinder 8 Injector Circuit Low
+1371,generic,P0283,Cylinder 8 Injector Circuit High
+1372,generic,P0284,Cylinder 8 Contribution/Balance Fault
+1373,generic,P0285,Cylinder 9 Injector Circuit Low
+1374,generic,P0286,Cylinder 9 Injector Circuit High
+1375,generic,P0287,Cylinder 9 Contribution/Balance Fault
+1376,generic,P0288,Cylinder 10 Injector Circuit Low
+1377,generic,P0289,Cylinder 10 Injector Circuit High
+1378,generic,P0290,Cylinder 10 Contribution/Balance Fault
+1379,generic,P0291,Cylinder 11 Injector Circuit Low
+1380,generic,P0292,Cylinder 11 Injector Circuit High
+1381,generic,P0293,Cylinder 11 Contribution/Balance Fault
+1382,generic,P0294,Cylinder 12 Injector Circuit Low
+1383,generic,P0295,Cylinder 12 Injector Circuit High
+1384,generic,P0296,Cylinder 12 Contribution/Range Fault
+1385,generic,P0300,Random/Multiple Cylinder Misfire Detected
+1386,generic,P0301,Cylinder 1 Misfire Detected
+1387,generic,P0302,Cylinder 2 Misfire Detected
+1388,generic,P0303,Cylinder 3 Misfire Detected
+1389,generic,P0304,Cylinder 4 Misfire Detected
+1390,generic,P0305,Cylinder 5 Misfire Detected
+1391,generic,P0306,Cylinder 6 Misfire Detected
+1392,generic,P0307,Cylinder 7 Misfire Detected
+1393,generic,P0308,Cylinder 8 Misfire Detected
+1394,generic,P0309,Cylinder 9 Misfire Detected
+1395,generic,P0311,Cylinder 11 Misfire Detected
+1396,generic,P0312,Cylinder 12 Misfire Detected
+1397,generic,P0320,Ignition/Distributor Engine Speed Input Circuit Malfunction
+1398,generic,P0321,Ignition/Distributor Engine Speed Input Circuit Range/Performance
+1399,generic,P0322,Ignition/Distributor Engine Speed Input Circuit No Signal
+1400,generic,P0323,Ignition/Distributor Engine Speed Input Circuit Intermittent
+1401,generic,P0325,Knock Sensor 1 Circuit Malfunction (Bank I or Single Sensor)
+1402,generic,P0326,Knock Sensor 1 Circuit Range/Performance (Bank 1 or Single Sensor)
+1403,generic,P0327,Knock Sensor 1 Circuit Low Input (Bank I or Single Sensor)
+1404,generic,P0328,Knock Sensor 1 Circuit High Input (Bank I or Single Sensor)
+1405,generic,P0329,Knock Sensor 1 Circuit Intermittent (Bank 1 or Single Sensor)
+1406,generic,P0330,Knock Sensor 2 Circuit Malfunction (Bank 2)
+1407,generic,P0331,Knock Sensor 2 Circuit Range/Performance (Bank 2)
+1408,generic,P0332,Knock Sensor 2 Circuit Low Input (Bank 2)
+1409,generic,P0333,Knock Sensor 2 Circuit High Input (Bank 2)
+1410,generic,P0334,Knock Sensor 2 Circuit Intermittent (Bank 2)
+1411,generic,P0335,Crankshaft Position Sensor A Circuit Malfunction
+1412,generic,P0336,Crankshaft Position Sensor A Circuit Range/Performance
+1413,generic,P0337,Crankshaft Position Sensor A Circuit Low Input
+1414,generic,P0338,Crankshaft Position Sensor A Circuit High Input
+1415,generic,P0339,Crankshaft Position Sensor A Circuit Intermittent
+1416,generic,P0340,Camshaft Position Sensor Circuit Malfunction
+1417,generic,P0341,Camshaft Position Sensor Circuit Range/Performance
+1418,generic,P0342,Camshaft Position Sensor Circuit Low Input
+1419,generic,P0343,Camshaft Position Sensor Circuit High Input
+1420,generic,P0344,Camshaft Position Sensor Circuit Intermittent
+1421,generic,P0350,Ignition Coil Primary/Secondary Circuit Malfunction
+1422,generic,P0351,Ignition Coil A Primary/Secondary Circuit Malfunction
+1423,generic,P0352,Ignition Coil B Primary/Secondary Circuit Malfunction
+1424,generic,P0353,Ignition Coil C Primary/Secondary Circuit Malfunction
+1425,generic,P0354,Ignition Coil D Primary/Secondary Circuit Malfunction
+1426,generic,P0355,Ignition Coil E Primary/Secondary Circuit Malfunction
+1427,generic,P0356,Ignition Coil F Primary/Secondary Circuit Malfunction
+1428,generic,P0357,Ignition Coil G Primary/Secondary Circuit Malfunction
+1429,generic,P0358,Ignition Coil H Primary/Secondary Circuit Malfunction
+1430,generic,P0359,Ignition Coil I Primary/Secondary Circuit Malfunction
+1431,generic,P0360,Ignition Coil J Primary/Secondary Circuit Malfunction
+1432,generic,P0361,Ignition Coil K Primary/Secondary Circuit Malfunction
+1433,generic,P0362,Ignition Coil L Primary/Secondary Circuit Malfunction
+1434,generic,P0370,Timing Reference High Resolution Signal A Malfunction
+1435,generic,P0371,Timing Reference High Resolution Signal A Too Many Pulses
+1436,generic,P0372,Timing Reference High Resolution Signal A Too Few Pulses
+1437,generic,P0373,Timing Reference High Resolution Signal A Intermittent/Erratic Pulses
+1438,generic,P0374,Timing Reference High Resolution Signal A No Pulses
+1439,generic,P0375,Timing Reference High Resolution Signal B Malfunction
+1440,generic,P0376,Timing Reference High Resolution Signal B Too Many Pulses
+1441,generic,P0377,Timing Reference High Resolution Signal B Too Few Pulses
+1442,generic,P0378,Timing Reference High Resolution Signal B Intermittent/Erratic Pulses
+1443,generic,P0379,Timing Reference High Resolution Signal B No Pulses
+1444,generic,P0380,"Glow Plug/Heater Circuit ""A"" Malfunction"
+1445,generic,P0381,Glow Plug/Heater Indicator Circuit Malfunction
+1446,generic,P0382,Exhaust Gas Recirculation Flow Malfunction
+1447,generic,P0385,Crankshaft Position Sensor B Circuit Malfunction
+1448,generic,P0386,Crankshaft Position Sensor B Circuit Range/Performance
+1449,generic,P0387,Crankshaft Position Sensor B Circuit Low Input
+1450,generic,P0388,Crankshaft Position Sensor B Circuit High Input
+1451,generic,P0389,Crankshaft Position Sensor B Circuit Intermittent
+1452,generic,P0400,Exhaust Gas Recirculation Flow Malfunction
+1453,generic,P0401,Exhaust Gas Recirculation Flow Insufficient Detected
+1454,generic,P0402,Exhaust Gas Recirculation Flow Excessive Detected
+1455,generic,P0403,Exhaust Gas Recirculation Circuit Malfunction
+1456,generic,P0404,Exhaust Gas Recirculation Circuit Range/Performance
+1457,generic,P0405,Exhaust Gas Recirculation Sensor A Circuit Low
+1458,generic,P0406,Exhaust Gas Recirculation Sensor A Circuit High
+1459,generic,P0407,Exhaust Gas Recirculation Sensor B Circuit Low
+1460,generic,P0408,Exhaust Gas Recirculation Sensor B Circuit High
+1461,generic,P0410,Secondary Air Injection System Malfunction
+1462,generic,P0411,Secondary Air Injection System Incorrect Flow Detected
+1463,generic,P0412,Secondary Air Injection System Switching Valve A Circuit Malfunction
+1464,generic,P0413,Secondary Air Injection System Switching Valve A Circuit Open
+1465,generic,P0414,Secondary Air Injection System Switching Valve A Circuit Shorted
+1466,generic,P0415,Secondary Air Injection System Switching Valve B Circuit Malfunction
+1467,generic,P0416,Secondary Air Injection System Switching Valve B Circuit Open
+1468,generic,P0417,Secondary Air Injection System Switching Valve B Circuit Shorted
+1469,generic,P0418,"Secondary Air Injection System Relay ‘A"" Circuit Malfunction"
+1470,generic,P0419,"Secondary Air Injection System Relay ""B’ Circuit Malfunction"
+1471,generic,P0420,Catalyst System Efficiency Below Threshold (Bank 1)
+1472,generic,P0421,Warm Up Catalyst Efficiency Below Threshold (Bank 1)
+1473,generic,P0422,Main Catalyst Efficiency Below Threshold (Bank 1)
+1474,generic,P0423,Heated Catalyst Efficiency Below Threshold (Bank 1)
+1475,generic,P0424,Heated Catalyst Temperature Below Threshold (Bank 1)
+1476,generic,P0430,Catalyst System Efficiency Below Threshold (Bank 2)
+1477,generic,P0431,Warm Up Catalyst Efficiency Below Threshold (Bank 2)
+1478,generic,P0432,Main Catalyst Efficiency Below Threshold (Bank 2)
+1479,generic,P0433,Heated Catalyst Efficiency Below Threshold (Bank 2)
+1480,generic,P0434,Heated Catalyst Temperature Below Threshold (Bank 2)
+1481,generic,P0440,Evaporative Emission Control System Malfunction
+1482,generic,P0441,Evaporative Emission Control System Incorrect Purge Flow
+1483,generic,P0442,Evaporative Emission Control System Leak Detected (small leak)
+1484,generic,P0443,Evaporative Emission Control System Purge Control Valve Circuit
+1485,generic,P0444,Evaporative Emission Control System Purge Control Valve Circuit
+1486,generic,P0445,Evaporative Emission Control System Purge Control Valve Circuit Shorted
+1487,generic,P0446,Evaporative Emission Control System Vent Control Circuit Malfunction
+1488,generic,P0447,Evaporative Emission Control System Vent Control Circuit Open
+1489,generic,P0448,Evaporative Emission Control System Vent Control Circuit Shorted
+1490,generic,P0449,Evaporative Emission Control System Vent Valve/Solenoid Circuit Malfunction
+1491,generic,P0450,Evaporative Emission Control System Pressure Sensor Malfunction
+1492,generic,P0451,Evaporative Emission Control System Pressure Sensor Range/Performance
+1493,generic,P0452,Evaporative Emission Control System Pressure Sensor Low Input
+1494,generic,P0453,Evaporative Emission Control System Pressure Sensor High Input
+1495,generic,P0454,Evaporative Emission Control System Pressure Sensor Intermittent
+1496,generic,P0455,Evaporative Emission Control System Leak Detected (gross leak)
+1497,generic,P0460,Fuel Level Sensor Circuit Malfunction
+1498,generic,P0461,Fuel Level Sensor Circuit Range/Performance
+1499,generic,P0462,Fuel Level Sensor Circuit Low Input
+1500,generic,P0463,Fuel Level Sensor Circuit High Input
+1501,generic,P0464,Fuel Level Sensor Circuit Intermittent
+1502,generic,P0465,Purge Flow Sensor Circuit Malfunction
+1503,generic,P0466,Purge Flow Sensor Circuit Range/Performance
+1504,generic,P0467,Purge Flow Sensor Circuit Low Input
+1505,generic,P0468,Purge Flow Sensor Circuit High Input
+1506,generic,P0469,Purge Flow Sensor Circuit Intermittent
+1507,generic,P0470,Exhaust Pressure Sensor Malfunction
+1508,generic,P0471,Exhaust Pressure Sensor Range/Performance
+1509,generic,P0472,Exhaust Pressure Sensor Low
+1510,generic,P0473,Exhaust Pressure Sensor High
+1511,generic,P0474,Exhaust Pressure Sensor Intermittent
+1512,generic,P0475,Exhaust Pressure Control Valve Malfunction
+1513,generic,P0476,Exhaust Pressure Control Valve Range/Performance
+1514,generic,P0477,Exhaust Pressure Control Valve Low
+1515,generic,P0478,Exhaust Pressure Control Valve High
+1516,generic,P0479,Exhaust Pressure Control Valve Intermittent
+1517,generic,P0480,Cooling Fan I Control Circuit Malfunction
+1518,generic,P0481,Cooling Fan 2 Control Circuit Malfunction
+1519,generic,P0482,Cooling Fan 3 Control Circuit Malfunction
+1520,generic,P0483,Cooling Fan Rationality Check Malfunction
+1521,generic,P0484,Cooling Fan Circuit Over Current
+1522,generic,P0485,Cooling Fan Power/Ground Circuit Malfunction
+1523,generic,P0500,Vehicle Speed Sensor Malfunction
+1524,generic,P0501,Vehicle Speed Sensor Range/Performance
+1525,generic,P0502,Vehicle Speed Sensor Low Input
+1526,generic,P0503,Vehicle Speed Sensor Intermittent/Erratic/High
+1527,generic,P0505,Idle Control System Malfunction
+1528,generic,P0506,Idle Control System RPM Lower Than Expected
+1529,generic,P0507,Idle Control System RPM Higher Than Expected
+1530,generic,P0510,Closed Throttle Position Switch Malfunction
+1531,generic,P0520,Engine Oil Pressure Sensor/Switch Circuit Malfunction
+1532,generic,P0521,Engine Oil Pressure Sensor/Switch Circuit Range/Performance
+1533,generic,P0522,Engine Oil Pressure Sensor/Switch Circuit Low Voltage
+1534,generic,P0523,Engine Oil Pressure Sensor/Switch Circuit High Voltage
+1535,generic,P0530,A/C Refrigerant Pressure Sensor Circuit Malfunction
+1536,generic,P0531,A/C Refrigerant Pressure Sensor Circuit Range/Performance
+1537,generic,P0532,A/C Refrigerant Pressure Sensor Circuit Low Input
+1538,generic,P0533,A/C Refrigerant Pressure Sensor Circuit High Input
+1539,generic,P0534,Air Conditioner Refrigerant Charge Loss
+1540,generic,P0550,Power Steering Pressure Sensor Circuit Malfunction
+1541,generic,P0551,Power Steering Pressure Sensor Circuit Range/Performance
+1542,generic,P0552,Power Steering Pressure Sensor Circuit Low Input
+1543,generic,P0553,Power Steering Pressure Sensor Circuit High Input
+1544,generic,P0554,Power Steering Pressure Sensor Circuit Intermittent
+1545,generic,P0560,System Voltage Malfunction
+1546,generic,P0561,System Voltage Unstable
+1547,generic,P0562,System Voltage Low
+1548,generic,P0563,System Voltage High
+1549,generic,P0565,Cruise Control On Signal Malfunction
+1550,generic,P0566,Cruise Control Off Signal Malfunction
+1551,generic,P0567,Cruise Control Resume Signal Malfunction
+1552,generic,P0568,Cruise Control Set Signal Malfunction
+1553,generic,P0569,Cruise Control Coast Signal Malfunction
+1554,generic,P0570,Cruise Control Accel Signal Malfunction
+1555,generic,P0571,Cruise Control/Brake Switch A Circuit Malfunction
+1556,generic,P0572,Cruise Control/Brake Switch A Circuit Low
+1557,generic,P0573,Cruise Control/Brake Switch A Circuit High
+1558,generic,P0574,Cruise Control Related Malfunction
+1559,generic,P0575,Cruise Control Related Malfunction
+1560,generic,P0576,Cruise Control Related Malfunction
+1561,generic,P0578,Cruise Control Related Malfunction
+1562,generic,P0579,Cruise Control Related Malfunction
+1563,generic,P0580,Cruise Control Related Malfunction
+1564,generic,P0600,Serial Communication Link Malfunction
+1565,generic,P0601,Internal Control Module Memory Check Sum Error
+1566,generic,P0602,Control Module Programming Error
+1567,generic,P0603,Internal Control Module Keep Alive Memory (KAM) Error
+1568,generic,P0604,Internal Control Module Random Access Memory (RAM) Error
+1569,generic,P0605,Internal Control Module Read Only Memory (ROM) Error
+1570,generic,P0606,PCM Processor Fault
+1571,generic,P0608,"Control Module VSS Output ""A’ Malfunction"
+1572,generic,P0609,"Control Module VSS Output ""B"" Malfunction"
+1573,generic,P0620,Generator Control Circuit Malfunction
+1574,generic,P0621,"Generator Lamp ""L"" Control Circuit Malfunction"
+1575,generic,P0622,"Generator Field ""F"" Control Circuit Malfunction"
+1576,generic,P0650,Malfunction Indicator Lamp (MIL) Control Circuit Malfunction
+1577,generic,P0654,Engine RPM Output Circuit Malfunction
+1578,generic,P0655,Engine Hot Lamp Output Control Circuit Malfunction
+1579,generic,P0656,Fuel Level Output Circuit Malfunction
+1580,generic,P0700,Transmission Control System Malfunction
+1581,generic,P0701,Transmission Control System Range/Performance
+1582,generic,P0702,Transmission Control System Electrical
+1583,generic,P0703,Torque Converter/Brake Switch B Circuit Malfunction
+1584,generic,P0704,Clutch Switch Input Circuit Malfunction
+1585,generic,P0705,Transmission Range Sensor Circuit malfunction (PRNDL Input)
+1586,generic,P0706,Transmission Range Sensor Circuit Range/Performance
+1587,generic,P0707,Transmission Range Sensor Circuit Low Input
+1588,generic,P0708,Transmission Range Sensor Circuit High Input
+1589,generic,P0709,Transmission Range Sensor Circuit Intermittent
+1590,generic,P0710,Transmission Fluid Temperature Sensor Circuit Malfunction
+1591,generic,P0711,Transmission Fluid Temperature Sensor Circuit Range/Performance
+1592,generic,P0712,Transmission Fluid Temperature Sensor Circuit Low Input
+1593,generic,P0713,Transmission Fluid Temperature Sensor Circuit High Input
+1594,generic,P0714,Transmission Fluid Temperature Sensor Circuit Intermittent
+1595,generic,P0715,Input/Turbine Speed Sensor Circuit Malfunction
+1596,generic,P0716,Input/Turbine Speed Sensor Circuit Range/Performance
+1597,generic,P0717,Input/Turbine Speed Sensor Circuit No Signal
+1598,generic,P0718,Input/Turbine Speed Sensor Circuit Intermittent
+1599,generic,P0719,Torque Converter/Brake Switch B Circuit Low
+1600,generic,P0720,Output Speed Sensor Circuit Malfunction
+1601,generic,P0721,Output Speed Sensor Range/Performance
+1602,generic,P0722,Output Speed Sensor No Signal
+1603,generic,P0723,Output Speed Sensor Intermittent
+1604,generic,P0724,Torque Converter/Brake Switch B Circuit High
+1605,generic,P0725,Engine Speed input Circuit Malfunction
+1606,generic,P0726,Engine Speed Input Circuit Range/Performance
+1607,generic,P0727,Engine Speed Input Circuit No Signal
+1608,generic,P0728,Engine Speed Input Circuit Intermittent
+1609,generic,P0730,Incorrect Gear Ratio
+1610,generic,P0731,Gear I Incorrect ratio
+1611,generic,P0732,Gear 2 Incorrect ratio
+1612,generic,P0733,Gear 3 Incorrect ratio
+1613,generic,P0734,Gear 4 Incorrect ratio
+1614,generic,P0735,Gear 5 Incorrect ratio
+1615,generic,P0736,Reverse incorrect gear ratio
+1616,generic,P0740,Torque Converter Clutch Circuit Malfunction
+1617,generic,P0741,Torque Converter Clutch Circuit Performance or Stuck Off
+1618,generic,P0742,Torque Converter Clutch Circuit Stock On
+1619,generic,P0743,Torque Converter Clutch Circuit Electrical
+1620,generic,P0744,Torque Converter Clutch Circuit Intermittent
+1621,generic,P0745,Pressure Control Solenoid Malfunction
+1622,generic,P0746,Pressure Control Solenoid Performance or Stuck Off
+1623,generic,P0747,Pressure Control Solenoid Stuck On
+1624,generic,P0748,Pressure Control Solenoid Electrical
+1625,generic,P0749,Pressure Control Solenoid Intermittent
+1626,generic,P0750,Shift Solenoid A Malfunction
+1627,generic,P0751,Shift Solenoid A Performance or Stuck Off
+1628,generic,P0752,Shift Solenoid A Stuck OnP0753 Shift Solenoid A Electrical
+1629,generic,P0754,Shift Solenoid A Intermittent
+1630,generic,P0755,Shift Solenoid B Malfunction
+1631,generic,P0756,Shift Solenoid B Performance or Stock Off
+1632,generic,P0757,Shift Solenoid B Stuck On
+1633,generic,P0758,Shift Solenoid B Electrical
+1634,generic,P0759,Shift Solenoid B Intermittent
+1635,generic,P0760,Shift Solenoid C Malfunction
+1636,generic,P0761,Shift Solenoid C Performance or Stuck Off
+1637,generic,P0762,Shift Solenoid C Stuck On
+1638,generic,P0763,Shift Solenoid C Electrical
+1639,generic,P0764,Shift Solenoid C Intermittent
+1640,generic,P0765,Shift Solenoid D Malfunction
+1641,generic,P0766,Shift Solenoid D Performance or Stuck Off
+1642,generic,P0767,Shift Solenoid D Stuck On
+1643,generic,P0768,Shift Solenoid D Electrical
+1644,generic,P0769,Shift Solenoid D Intermittent
+1645,generic,P0770,Shift Solenoid E Malfunction
+1646,generic,P0771,Shift Solenoid E Performance or Stuck Off
+1647,generic,P0772,Shift Solenoid E Stuck On
+1648,generic,P0773,Shift Solenoid E Electrical
+1649,generic,P0774,Shift Solenoid E Intermittent
+1650,generic,P0780,Shift Malfunction
+1651,generic,P0781,1-2 Shift Malfunction
+1652,generic,P0782,2-3 Shift Malfunction
+1653,generic,P0783,3-4 Shift Malfunction
+1654,generic,P0784,4-5 Shift Malfunction
+1655,generic,P0785,Shift/Timing Solenoid Malfunction
+1656,generic,P0786,Shift/Timing Solenoid Range/Performance
+1657,generic,P0787,Shift/Timing Solenoid Low
+1658,generic,P0788,Shift/Timing Solenoid High
+1659,generic,P0789,Shift/Timing Solenoid Intermittent
+1660,generic,P0790,Normal/Performance Switch Circuit Malfunction
+1661,generic,P0801,Reverse Inhibit Control Circuit Malfunction
+1662,generic,P0803,1-4 Upshift (Skip Shift) Solenoid Control Circuit Malfunction
+1663,generic,P0804,1-4 Upshift (Skip Shift) Lamp Control Circuit Malfunction
+1664,gmc,P1031,HO2S Heater Current Monitor Control Circuit Banks 1 and 2 Sensor 1
+1665,gmc,P1032,HO2S Heater Warm Up Control Circuit Banks 1 and 2 Sensor 1
+1666,gmc,P1105,Secondary Vacuum Sensor Circuit
+1667,gmc,P1106,Manifold Absolute Pressure (MAP) Sensor Circuit Intermittent High Voltage
+1668,gmc,P1107,Manifold Absolute Pressure (MAP) Sensor Circuit Intermittent Low Voltage
+1669,gmc,P1108,BARO to MAP Sensor Comparison Too High
+1670,gmc,P1109,Secondary Port Throttle System
+1671,gmc,P1111,Intake Air Temperature (IAT) Sensor Circuit Intermittent High Voltage
+1672,gmc,P1112,Intake Air Temperature (IAT) Sensor Circuit IntermittentLow Voltage
+1673,gmc,P1113,Intake Resonance Switchover Solenoid Control Circuit
+1674,gmc,P1114,Engine Coolant Temperature (ECT) Sensor CircuitIntermittent Low Voltage
+1675,gmc,P1115,Engine Coolant Temperature (ECT) Sensor CircuitIntermittent High Voltage
+1676,gmc,P1116,ECT Signal Unstable or Intermittent
+1677,gmc,P1117,Engine Coolant Temp. Signal Out-Of-Range Low
+1678,gmc,P1118,Engine Coolant Temp. Signal Out-Of-Range High
+1679,gmc,P1119,ECT Signal Out-Of-Range With TFT Sensor
+1680,gmc,P1120,Throttle Position (TP) Sensor 1 Circuit
+1681,gmc,P1121,Throttle Position (TP) Sensor Circuit Intermittent HighVoltage
+1682,gmc,P1122,Throttle Position (TP) Sensor Circuit Intermittent LowVoltage
+1683,gmc,P1125,APP System
+1684,gmc,P1130,HO2S Circuit Low Variance Bank 1 Sensor 1
+1685,gmc,P1131,HO2S Circuit Low Variance Bank 1 Sensor 2
+1686,gmc,P1132,HO2S Circuit Low Variance Bank 2 Sensor 1
+1687,gmc,P1133,HO2S Insufficient Switching Bank 1 Sensor 1
+1688,gmc,P1134,HO2S Transition Time Ratio Bank 1 Sensor 1
+1689,gmc,P1135,HO2S Lean Mean Bank 1 Sensor 1
+1690,gmc,P1136,HO2S Rich Mean Bank 1 Sensor 1
+1691,gmc,P1137,HO2S Bank 1 Sensor 2 Lean System or Low Voltage
+1692,gmc,P1138,HO2S Bank 1 Sensor 2 Rich or High Voltage
+1693,gmc,P1139,HO2S Insuff. Switching Bank 1 Sensor 2
+1694,gmc,P1140,HO2S Transition Time Ratio Bank 1 Sensor 2
+1695,gmc,P1141,HO2S Heater Control Circuit Bank 1 Sensor 2
+1696,gmc,P1143,HO2S Bank 1 Sensor 3 Lean System or Low Voltage
+1697,gmc,P1144,HO2S Bank 1 Sensor 3 Rich or High Voltage
+1698,gmc,P1145,HO2S Cross Counts Bank 1 Sensor 3
+1699,gmc,P1153,HO2S Insufficient Switching Bank 2 Sensor 1
+1700,gmc,P1154,HO2S Transition Time Ratio Bank 2 Sensor 1
+1701,gmc,P1155,HO2S Lean Mean Bank 2 Sensor 1
+1702,gmc,P1156,HO2S Rich Mean Bank 2 Sensor 1
+1703,gmc,P1157,HO2S Bank 2 Sensor 2 Lean System or Low Voltage
+1704,gmc,P1158,HO2S Bank 2 Sensor 2 Rich or High Voltage
+1705,gmc,P1159,HO2S Cross Counts Bank 2 Sensor 2
+1706,gmc,P1161,HO2S Heater Control Circuit Bank 2 Sensor 2
+1707,gmc,P1163,HO2S Bank 2 Sensor 3 Lean System or Low Voltage
+1708,gmc,P1164,HO2S Bank 2 Sensor 3 Rich or High Voltage
+1709,gmc,P1165,HO2S Cross Counts Bank 2 Sensor 3
+1710,gmc,P1170,Bank to Bank Fuel TrimOffset
+1711,gmc,P1171,Fuel System Lean During Acceleration
+1712,gmc,P1185,Engine Oil Temperature Circuit
+1713,gmc,P1186,EOT Circuit Performance
+1714,gmc,P1187,EOT Sensor Ckt. Low Voltage
+1715,gmc,P1188,EOT Sensor Ckt. High Voltage
+1716,gmc,P1189,Engine Oil Pressure (EOP) Switch Circuit
+1717,gmc,P1190,Engine Vacuum Leak
+1718,gmc,P1191,Intake Air Duct Air Leak
+1719,gmc,P1200,Injector Control Circuit
+1720,gmc,P1201,(Alt. Fuel) Gas Mass Sensor Circuit Range/Performance
+1721,gmc,P1202,(Alt. Fuel) Gas Mass Sensor Circuit Low Frequency
+1722,gmc,P1203,(Alt. Fuel) Gas Mass Sensor Circuit High Frequency
+1723,gmc,P1211,Mass Air Flow Circuit Intermittent High
+1724,gmc,P1212,Mass Air Flow Circuit Intermittent Low
+1725,gmc,P1214,Injection Pump Timing Offset
+1726,gmc,P1215,Ground Fault Detection Indicated
+1727,gmc,P1216,Fuel Solenoid Response Time Too Short
+1728,gmc,P1217,Fuel Solenoid Response Time Too Long
+1729,gmc,P1218,Injection Pump Calibration Circuit
+1730,gmc,P1219,Throttle Position Sensor Reference Voltage
+1731,gmc,P1220,Throttle Position (TP) Sensor 2 Circuit
+1732,gmc,P1221,Fuel Pump Secondary Circuit Low
+1733,gmc,P1222,Injector Control Circuit Intermittent
+1734,gmc,P1225,Injector Circuit Cylinder 2 Intermittent
+1735,gmc,P1228,Injector Circuit Cylinder 3 Intermittent
+1736,gmc,P1231,Injector Circuit Cylinder 4 Intermittent
+1737,gmc,P1234,Injector Circuit Cylinder 5 Intermittent
+1738,gmc,P1237,Injector Circuit Cylinder 6 Intermittent
+1739,gmc,P1240,Injector Circuit Cylinder 7 Intermittent
+1740,gmc,P1243,Injector Circuit Cylinder 8 Intermittent
+1741,gmc,P1245,Intake Plenum Switchover Valve
+1742,gmc,P1250,Early Fuel Evaporation Heater Circuit
+1743,gmc,P1257,Supercharger System Overboost
+1744,gmc,P1258,Engine Coolant Overtemperature - Protection Mode Active
+1745,gmc,P1260,Last Test Failed Failed SCC ENTER:More Info.
+1746,gmc,P1270,Accelerator Pedal Position Sensor A/D Converter Error
+1747,gmc,P1271,Accelerator Pedal Position (APP) Sensor 1-2 Correlation
+1748,gmc,P1272,Accelerator Pedal Position Sensor 2
+1749,gmc,P1273,Accelerator Pedal Position Sensor 1
+1750,gmc,P1274,Injectors Wired Incorrectly
+1751,gmc,P1275,Accelerator Pedal Position (APP) Sensor 1 Circuit
+1752,gmc,P1276,Accelerator Pedal Position Sensor 1 Circuit Performance
+1753,gmc,P1277,Accelerator Pedal Position Sensor 1 Circuit Low Voltage
+1754,gmc,P1278,Accelerator Pedal Position Sensor 1 Circuit High Voltage
+1755,gmc,P1280,Accelerator Pedal Position (APP) Sensor 2 Circuit
+1756,gmc,P1281,Accelerator Pedal Position Sensor 2 Circuit Performance
+1757,gmc,P1282,Accelerator Pedal Position Sensor 2 Circuit Low Voltage
+1758,gmc,P1283,Accelerator Pedal Position Sensor 2 Circuit High Voltage
+1759,gmc,P1285,Accelerator Pedal Position Sensor 3 Circuit
+1760,gmc,P1286,Accelerator Pedal Position Sensor 3 Circuit Performance
+1761,gmc,P1287,Accelerator Pedal Position Sensor 3 Circuit Low Voltage
+1762,gmc,P1288,Accelerator Pedal Position Sensor 3 Circuit High Voltage
+1763,gmc,P1300,Ignitor Circuit
+1764,gmc,P1305,Ignition Coil 2 Primary Feedback Circuit
+1765,gmc,P1310,Ignition Coil 3 Primary Feedback Circuit
+1766,gmc,P1315,Ignition Coil 4 Primary Feedback Circuit
+1767,gmc,P1320,IC 4X Reference Circuit Intermittent
+1768,gmc,P1321,Electronic Ignition System Fault Line
+1769,gmc,P1322,EI System or Ignition Control Extra or Missing
+1770,gmc,P1323,IC 24X Reference Circuit Low Frequency
+1771,gmc,P1324,Crank RPM Too Low
+1772,gmc,P1335,CKP Circuit
+1773,gmc,P1336,Crankshaft Position (CKP) System Variation Not Learned
+1774,gmc,P1345,Crankshaft Position (CKP)-Camshaft Position (CMP) Correlation
+1775,gmc,P1346,Intake Camshaft Position [CMP] Sensor System Performance
+1776,gmc,P1350,Ignition Control System
+1777,gmc,P1351,Ignition Coil Control Circuit High Voltage
+1778,gmc,P1352,IC Output High/Pulse Detected when GND_Cyl. 2
+1779,gmc,P1353,IC Output High/Pulse Detected when GND_Cyl. 3
+1780,gmc,P1354,IC Output High/Pulse Detected when GND_Cyl. 4
+1781,gmc,P1355,IC Output High/Pulse Detected when GND_Cyl. 5
+1782,gmc,P1356,IC Output High/Pulse Detected when GND_Cyl. 6
+1783,gmc,P1357,IC Output High/Pulse Detected when GND_Cyl. 7
+1784,gmc,P1358,IC Output High/Pulse Detected when GND_Cyl. 8
+1785,gmc,P1359,Ignition Coil Group 1 Control Circuit
+1786,gmc,P1360,Ignition Coil Group 2 Control Circuit
+1787,gmc,P1361,Ignition Coil Control Circuit Low Voltage
+1788,gmc,P1362,IC Cylinder 2 Not Toggling After Enable
+1789,gmc,P1363,IC Cylinder 3 Not Toggling After Enable
+1790,gmc,P1364,IC Cylinder 4 Not Toggling After Enable
+1791,gmc,P1365,IC Cylinder 5 Not Toggling After Enable
+1792,gmc,P1366,IC Cylinder 6 Not Toggling After Enable
+1793,gmc,P1367,IC Cylinder 7 Not Toggling After Enable
+1794,gmc,P1368,IC Cylinder 8 Not Toggling After Enable
+1795,gmc,P1370,IC 4X Reference Circuit Too Many Pulses
+1796,gmc,P1371,IC 4X Reference Circuit Too Few Pulses
+1797,gmc,P1372,Crankshaft Position (CKP) Sensor A-B Correlation
+1798,gmc,P1374,3X Reference Circuit
+1799,gmc,P1375,IC 24X Reference Circuit High Voltage
+1800,gmc,P1376,Ignition Ground Circuit
+1801,gmc,P1377,IC Cam Pulse To 4X Reference Pulse
+1802,gmc,P1380,Misfire Detected - Rough Road Data Not Available
+1803,gmc,P1381,Misfire Detected - No Communication with Brake ControlModule
+1804,gmc,P1390,Wheel Speed Sensor 1 - G - Sensor Circuit
+1805,gmc,P1391,Wheel Speed Sensor 1 - G - Sensor Circuit Performance
+1806,gmc,P1392,Wheel Speed Sensor 1 - G - Sensor Circuit Low Voltage
+1807,gmc,P1393,Wheel Speed Sensor 1 - G - Sensor Circuit High Voltage
+1808,gmc,P1394,Wheel Speed Sensor 1 - G - Sensor Circuit Intermittent
+1809,gmc,P1395,Wheel Speed Sensor 2 - G - Sensor Circuit
+1810,gmc,P1396,Wheel Speed Sensor 2 - G - Sensor Circuit Performance
+1811,gmc,P1397,Wheel Speed Sensor 2 - G - Sensor Circuit Low Voltage
+1812,gmc,P1398,Wheel Speed Sensor 2 - G - Sensor Circuit High Voltage
+1813,gmc,P1399,Wheel Speed Sensor 2 - G - Sensor Circuit Intermittent
+1814,gmc,P1403,Exhaust Gas Recirculation System Valve 1
+1815,gmc,P1404,Exhaust Gas Recirculation (EGR) Closed PositionPerformance
+1816,gmc,P1405,Exhaust Gas Recirculation System Valve 3
+1817,gmc,P1406,EGR Valve Pintle Position Circuit
+1818,gmc,P1407,EGR Air Intrusion in Exhaust Supply to EGR Valve
+1819,gmc,P1408,Intake Manifold Pressure Sensor Circuit
+1820,gmc,P1409,EGR Vacuum System Leak
+1821,gmc,P1410,Fuel Tank Pressure System
+1822,gmc,P1415,Secondary Air Injection (AIR) System Bank 1
+1823,gmc,P1416,Secondary Air Injection (AIR) System Bank 2
+1824,gmc,P1418,Secondary Air Injection System Relay A Control CircuitHigh
+1825,gmc,P1420,Intake Air Low Pressure Switch Circuit Low Voltage
+1826,gmc,P1421,Intake Air Low Pressure Switch Circuit High Voltage
+1827,gmc,P1423,Intake Air High Pressure Switch Circuit High Voltage
+1828,gmc,P1431,Fuel Level Sensor 2 Circuit Performance
+1829,gmc,P1432,Fuel Level Sensor 2 Circuit Low Voltage
+1830,gmc,P1433,Fuel Level Sensor 2 Circuit High Voltage
+1831,gmc,P1441,Evaporative Emission (EVAP) System Flow During Non-Purge
+1832,gmc,P1442,EVAP Vacuum Sw. High Voltage During Ign. On
+1833,gmc,P1450,Barometric Pressure Sensor Circuit
+1834,gmc,P1451,Barometric Press. Sensor Performance
+1835,gmc,P1480,Cooling Fan 1 Control Circuit High
+1836,gmc,P1483,Engine Cooling System Performance
+1837,gmc,P1500,Starter Signal Circuit
+1838,gmc,P1502,Theft Deterrent Fuel Enable Signal Not Received
+1839,gmc,P1503,Theft Deterrent Fuel Enable Signal Not Correct
+1840,gmc,P1504,Vehicle Speed Output Circuit
+1841,gmc,P1508,Idle Speed Low - Idle Air Control (IAC) System NotResponding
+1842,gmc,P1509,Idle Speed High - Idle Air Control (IAC) System NotResponding
+1843,gmc,P1510,Throttle Control System Performance - Throttle LimitationActive
+1844,gmc,P1511,Throttle Control System - Backup System Performance
+1845,gmc,P1514,Airflow to TP Sensor Correlation High
+1846,gmc,P1515,Electronic Throttle System Throttle Position
+1847,gmc,P1516,Throttle Actuator Control (TAC) Module Throttle ActuatorPosition Performance
+1848,gmc,P1517,Electronic Throttle Module
+1849,gmc,P1518,Electronic Throttle Module to PCM Communication
+1850,gmc,P1519,Throttle Actuator Control (TAC) Module Internal Circuit
+1851,gmc,P1520,Transmission Range Switch Circuit
+1852,gmc,P1521,Transmission Engaged at High Throttle Angle
+1853,gmc,P1522,Park/Neutral to Drive/Reverse at High RPM
+1854,gmc,P1523,Throttle Closed Position Performance
+1855,gmc,P1524,Throttle Closed Position Performance
+1856,gmc,P1525,Throttle Body ServiceRequired
+1857,gmc,P1526,Minimum Throttle Position Not Learned
+1858,gmc,P1527,Transmission Range to Pressure Switch Correlation
+1859,gmc,P1528,Governor
+1860,gmc,P1529,Heated Windshield Request Problem
+1861,gmc,P1530,Throttle Actuator Control (TAC) Module Internal Circuit
+1862,gmc,P1531,A/C Low Side Temperature Sensor Fault
+1863,gmc,P1532,A/C Evaporator Temp. Sens. Ckt. Low Voltage
+1864,gmc,P1533,A/C Evaporator Temp. Sens. Ckt. High Voltage
+1865,gmc,P1534,A/C High Side Temp. Sensor Low Voltage
+1866,gmc,P1535,A/C High Side Temperature Sensor Circuit
+1867,gmc,P1536,Engine Coolant Overtemperature - Air Conditioning (A/C)Disabled
+1868,gmc,P1537,A/C Request Circuit Low Voltage
+1869,gmc,P1538,A/C Request Circuit High Voltage
+1870,gmc,P1539,A/C Clutch Status Circuit High Voltage
+1871,gmc,P1540,Air Conditioning (A/C) Refrigerant Overpressure - AirConditioning (A/C) Disabled
+1872,gmc,P1541,A/C High Side Over Temperature
+1873,gmc,P1542,A/C System High Pressure High Temperature
+1874,gmc,P1543,A/C System Performance
+1875,gmc,P1544,A/C Refrigerant Condition Very Low
+1876,gmc,P1545,Air Conditioning (A/C) Clutch Relay Control Circuit
+1877,gmc,P1546,A/C Clutch Status Circuit Low Voltage
+1878,gmc,P1547,A/C System Performance Degraded
+1879,gmc,P1548,A/C Recirculation Circuit
+1880,gmc,P1554,Cruise Control Feedback Circuit
+1881,gmc,P1555,Electronic Variable Orifice Output
+1882,gmc,P1558,Cruise Control Servo Indicates Low
+1883,gmc,P1559,Cruise Control Power Management Mode
+1884,gmc,P1560,Transaxle Not in Drive - Cruise Control Disabled
+1885,gmc,P1561,Cruise Vent Solenoid
+1886,gmc,P1562,Cruise Vacuum Solenoid
+1887,gmc,P1563,Cruise Vehicle Speed/Set Speed Difference Too High
+1888,gmc,P1564,Vehicle Acceleration Too High - Cruise Control Disabled
+1889,gmc,P1565,Cruise Servo Position Sensor
+1890,gmc,P1566,Engine RPM Too High - Cruise Control Disabled
+1891,gmc,P1567,Active Banking Control Active - Cruise Control Disabled
+1892,gmc,P1568,Cruise Servo Stroke Greater than Commanded in Cruise
+1893,gmc,P1569,Cruise Servo Stroke High While not in Cruise
+1894,gmc,P1570,Traction Control Active - Cruise Control Disabled
+1895,gmc,P1571,Traction Control Torque Request Circuit
+1896,gmc,P1572,ASR Active Circuit Low Too Long
+1897,gmc,P1573,PCM/EBTCM Serial Data Circuit
+1898,gmc,P1574,Stoplamp Switch Circuit
+1899,gmc,P1575,Extended Travel Brake Switch Circuit
+1900,gmc,P1576,BBV Sensor Ckt. High Voltage
+1901,gmc,P1577,BBV Sensor Ckt. Low Voltage
+1902,gmc,P1578,BBV Sensor Ckt. Low Vacuum
+1903,gmc,P1579,P/N to D/R at High Throttle Angle - Power Reduction ModeActive
+1904,gmc,P1580,Cruise Move Circuit Low Voltage
+1905,gmc,P1581,Cruise Move Circuit High Voltage
+1906,gmc,P1582,Cruise Direction Circuit Low Voltage
+1907,gmc,P1583,Cruise Direction CircuitHigh Voltage
+1908,gmc,P1584,Cruise Control Disabled
+1909,gmc,P1585,Cruise Control Inhibit Output Circuit
+1910,gmc,P1586,Cruise Control Brake Switch 2 Circuit
+1911,gmc,P1587,Cruise Control Clutch Control Circuit Low
+1912,gmc,P1588,Cruise Control Clutch Control Circuit High
+1913,gmc,P1599,Engine Stall or Near Stall Detected
+1914,gmc,P1600,TCM Internal Watchdog Operation
+1915,gmc,P1601,Serial Comm. Problem With Device 1
+1916,gmc,P1602,Knock Sensor (KS) Module Performance
+1917,gmc,P1603,Loss of SDM Serial Data
+1918,gmc,P1604,Loss of IPC Serial Data
+1919,gmc,P1605,Loss of HVAC Serial Data
+1920,gmc,P1606,Serial Communication Problem With Device 6
+1921,gmc,P1607,Serial Communication Problem With Device 7
+1922,gmc,P1608,Serial Communication Problem With Device 8
+1923,gmc,P1609,Loss Of TCS Serial Data
+1924,gmc,P1610,Loss of PZM Serial Data
+1925,gmc,P1611,Loss of CVRTD Serial Data
+1926,gmc,P1612,Loss of IPM Serial Data
+1927,gmc,P1613,Loss of DIM Serial Data
+1928,gmc,P1614,Loss of RIM Serial Data
+1929,gmc,P1615,Loss of VTD Serial Data
+1930,gmc,P1617,Engine Oil Level Switch Circuit
+1931,gmc,P1619,Engine Oil Life Monitor Reset Circuit
+1932,gmc,P1620,Low Coolant Circuit
+1933,gmc,P1621,Control Module Long Term Memory Performance
+1934,gmc,P1622,Cylinder Select
+1935,gmc,P1623,Transmission Temp Pull-Up Resistor
+1936,gmc,P1624,Customer Snapshot Requested - Data Available
+1937,gmc,P1625,TCM System Reset
+1938,gmc,P1626,Theft Deterrent Fuel Enable Signal Not Received
+1939,gmc,P1627,A/D Performance
+1940,gmc,P1628,ECT Pull-Up Resistor
+1941,gmc,P1629,Theft Deterrent System - Cranking Signal
+1942,gmc,P1630,Theft Deterrent Learn Mode Active
+1943,gmc,P1631,Theft Deterrent Start Enable Signal Not Correct
+1944,gmc,P1632,Theft Deterrent Fuel Disable Signal Received
+1945,gmc,P1633,Ignition 0 Switch Circuit
+1946,gmc,P1634,Ignition 1 Switch Circuit
+1947,gmc,P1635,5 Volt Reference Circuit
+1948,gmc,P1636,PCM Stack Overrun
+1949,gmc,P1637,Generator L-Terminal Circuit
+1950,gmc,P1638,Generator F-Terminal Circuit
+1951,gmc,P1639,5 Volt Reference 2 Circuit
+1952,gmc,P1640,Driver-1-Input High Voltage
+1953,gmc,P1641,Malfunction Indicator Lamp (MIL) Control Circuit
+1954,gmc,P1642,Vehicle Speed Output Circuit
+1955,gmc,P1643,Engine Speed Output Circuit
+1956,gmc,P1644,Traction Control Delivered Torque Output Circuit
+1957,gmc,P1645,Evaporative Emission (EVAP) Vent Solenoid Contorl Circuit
+1958,gmc,P1646,Evaporative Emission (EVAP) Vent Solenoid Control Circuit
+1959,gmc,P1647,Driver 1 Line 7
+1960,gmc,P1650,Control Module Output B Circuit
+1961,gmc,P1651,Fan 1 Relay Control Circuit
+1962,gmc,P1652,Powertrain Induced Chassis Pitch Output Circuit
+1963,gmc,P1653,Oil Level Lamp Control Circuit
+1964,gmc,P1654,Cruise Control Inhibit Output Circuit
+1965,gmc,P1655,EVAP Purge Solenoid Control Circuit
+1966,gmc,P1656,Driver 2 Line 6
+1967,gmc,P1657,1-4 Upshift Solenoid Control Circuit
+1968,gmc,P1658,Starter Enable Relay Control Circuit
+1969,gmc,P1660,Cooling Fan Control Circuits
+1970,gmc,P1661,MIL Control Circuit
+1971,gmc,P1662,Cruise Lamp Control Circuit
+1972,gmc,P1663,Oil Life Lamp Control Circuit
+1973,gmc,P1664,1-4 Upshift Lamp Control Circuit
+1974,gmc,P1665,Driver 3 Line 5
+1975,gmc,P1666,Driver 3 Line 6
+1976,gmc,P1667,Reverse Inhibit Solenoid Control Circuit
+1977,gmc,P1669,ABS Unit Expected
+1978,gmc,P1670,Driver 4
+1979,gmc,P1671,Driver 4 Line 1
+1980,gmc,P1672,Low Engine Oil Level Lamp Control Circuit
+1981,gmc,P1673,Engine Hot Lamp Control Circuit
+1982,gmc,P1674,Tachometer Control Circuit
+1983,gmc,P1675,EVAP Vent Solenoid Control Circuit
+1984,gmc,P1676,Driver 4 Line 6
+1985,gmc,P1677,Driver 4 Line 7
+1986,gmc,P1680,Driver 5
+1987,gmc,P1681,Driver 5 Line 1
+1988,gmc,P1682,Driver 5 Line 2
+1989,gmc,P1683,Driver 5 Line 3
+1990,gmc,P1684,Driver 5 Line 4
+1991,gmc,P1685,Driver 5 Line 5
+1992,gmc,P1686,Driver 5 Line 6
+1993,gmc,P1687,Driver 5 Line 7
+1994,gmc,P1689,Delivered Torque Circuit Fault
+1995,gmc,P1690,ECM Loop Overrun
+1996,gmc,P1691,Coolant Gage Circuit Low Voltage
+1997,gmc,P1692,Coolant Gage Circuit High Voltage
+1998,gmc,P1693,Tachometer Circuit Low Voltage
+1999,gmc,P1694,Tachometer Circuit High Voltage
+2000,gmc,P1695,Remote Keyless Entry Circuit Low
+2001,gmc,P1696,Remote Keyless Entry Voltage High
+2002,gmc,P1700,Transmission Control Module (TCM) Requested MILIllumination
+2003,gmc,P1701,Trans. MIL Request Circuit
+2004,gmc,P1705,P/N Signal Output Circuit
+2005,gmc,P1740,Torque Reduction Signal Circuit
+2006,gmc,P1743,TP Signal from ECM
+2007,gmc,P1760,TCM Supply Voltage Interrupted
+2008,gmc,P1779,Engine Torque Delivered to TCM Signal
+2009,gmc,P1780,Park/Neutral Position [PNP] Switch Circuit
+2010,gmc,P1781,Engine Torque Signal Circuit
+2011,gmc,P1790,Transmission Control Module Checksum
+2012,gmc,P1791,Transmission Control Module Loop
+2013,gmc,P1793,Transmission Control Module Stack Overrun
+2014,gmc,P1795,CAN Bus - Throttle Body Position
+2015,gmc,P1800,TCM Power Relay Control Circuit
+2016,gmc,P1801,Performance Selector Switch Failure
+2017,gmc,P1804,Ground Control Relay
+2018,gmc,P1810,TFP Valve Position Switch Circuit
+2019,gmc,P1811,Maximum Adapt and Long Shift
+2020,gmc,P1812,Transmission Over Temperature Condition
+2021,gmc,P1813,Torque Control
+2022,gmc,P1814,Torque Converter Overstressed
+2023,gmc,P1815,Transmission Range Switch - Start In Wrong Range
+2024,gmc,P1816,TFP Valve Position Sw. - Park/Neu. With Drive Ratio
+2025,gmc,P1817,TFP Valve Position Sw. - Reverse With Drive Ratio
+2026,gmc,P1818,TFP Valve Position Sw. - Drive Without Drive Ratio
+2027,gmc,P1819,Internal Mode Switch - No Start/Wrong Range
+2028,gmc,P1820,Internal Mode Switch Circuit A Low
+2029,gmc,P1822,Internal Mode Switch Circuit B High
+2030,gmc,P1823,Internal Mode Switch Circuit P Low
+2031,gmc,P1825,Internal Mode Switch - Invalid Range
+2032,gmc,P1826,Internal Mode Switch Circuit C - High
+2033,gmc,P1831,PC Solenoid Power Circuit - Low Voltage
+2034,gmc,P1833,A/T Solenoids Power Circuit - Low Voltage
+2035,gmc,P1835,Kick-Down Switch Circuit
+2036,gmc,P1836,Kick-Down Switch Failed Open
+2037,gmc,P1837,Kick-Down Switch Failed Short
+2038,gmc,P1842,1-2 Shift Solenoid Circuit Low Voltage
+2039,gmc,P1843,1-2 Shift Solenoid Circuit High Voltage
+2040,gmc,P1844,Torque Reduction Signal Circuit Desired By TCM
+2041,gmc,P1845,2-3 Shift Solenoid Circuit Low Voltage
+2042,gmc,P1847,2-3 Shift Solenoid Circuit High Voltage
+2043,gmc,P1850,Brake Band Apply Solenoid Circuit
+2044,gmc,P1851,Brake Band Apply Solenoid Performance
+2045,gmc,P1852,Brake Band Apply SolenoidLow Voltage
+2046,gmc,P1853,Brake Band Apply Solenoid High Voltage
+2047,gmc,P1860,TCC PWM Solenoid Circuit Electrical
+2048,gmc,P1864,Torque Converter Clutch Circuit
+2049,gmc,P1868,Transmission Fluid Life
+2050,gmc,P1870,Transmission Component Slipping
+2051,gmc,P1871,Undefined Gear Ratio
+2052,gmc,P1873,TCC Stator Temp. Switch Circuit Low
+2053,gmc,P1874,TCC Stator Temp. Switch Circuit High
+2054,gmc,P1875,4WD Low Switch Circuit Electrical
+2055,gmc,P1884,TCC Enable/Shift Light Circuit
+2056,gmc,P1886,Shift Timing Solenoid
+2057,gmc,P1887,TCC Release Switch Circuit
+2058,gmc,P1891,Throttle Position Sensor PWM Signal Low
+2059,gmc,P1892,Throttle Position Sensor PWM Signal High
+2060,gmc,P1893,Engine Torque Signal Low Voltage
+2061,gmc,P1894,Engine Torque Signal High Voltage
+2062,gmc,P1895,TCM to ECM Torque Reduction Circuit
+2063,honda,P1106,Barometric Pressure Circuit Range/Performance
+2064,honda,P1107,Barometric Pressure Circuit Low Input
+2065,honda,P1108,Barometric Pressure Circuit High Input
+2066,honda,P1121,Throttle Position Lower Than Expected
+2067,honda,P1122,Throttle Position Higher Than Expected
+2068,honda,P1128,MAP Lower Than Expected
+2069,honda,P1129,MAP Higher Than Expected
+2070,honda,P1149,Primary HO2S (Sensor 1) Circuit Range/Performance Problem
+2071,honda,P1162,Primary HO2S (No. 1) Circuit Malfunction
+2072,honda,P1163,Primary HO2S (No. 1) Circuit Slow Response
+2073,honda,P1164,Primary HO2S (No. 1) Circuit Range/Performance
+2074,honda,P1165,Primary HO2S (No. 1) Circuit Range/Performance
+2075,honda,P1166,Primary HO2S (No. 1) Heater System Electrical
+2076,honda,P1167,Primary HO2S (No. 1) Heater System
+2077,honda,P1168,Primary HO2S (No. 1) LABEL Low Input
+2078,honda,P1169,Primary HO2S (No. 1) LABEL High Input
+2079,honda,P1253,VTEC System Malfunction
+2080,honda,P1257,VTEC System Malfunction
+2081,honda,P1258,VTEC System Malfunction
+2082,honda,P1259,VTEC System Malfunction
+2083,honda,P1297,Electrical Load Detector Circuit Low Input
+2084,honda,P1298,Electrical Load Detector Circuit High Input
+2085,honda,P1300,Multiple Cylinder Misfire Detected
+2086,honda,P1336,CSF Sensor Intermittent Interruption
+2087,honda,P1337,CSF Sensor No Signal
+2088,honda,P1359,CKP/TDC Sensor Connector Disconnection
+2089,honda,P1361,Intermittent Interruption In TDC 1 Sensor Circuit
+2090,honda,P1362,No Signal In TDC 1 Sensor Circuit
+2091,honda,P1366,Intermittent Interruption In TDC 2 Sensor Circuit
+2092,honda,P1367,No Signal In TDC 2 Sensor Circuit
+2093,honda,P1381,Cylinder Position Sensor Intermittent Interruption
+2094,honda,P1382,Cylinder Position Sensor No Signal
+2095,honda,P1456,EVAP Emission Control System Leak Detected (Fuel Tank System)
+2096,honda,P1457,EVAP Emission Control System Leak Detected (Control Canister System)
+2097,honda,P1459,EVAP Emission Purge Flow Switch Malfunction
+2098,honda,P1486,Thermostat Range/Performance Problem
+2099,honda,P1491,EGR Valve Lift Insufficient Detected
+2100,honda,P1498,EGR Valve Lift Sensor High Voltage
+2101,honda,P1508,IAC Valve Circuit Failure
+2102,honda,P1509,IAC Valve Circuit Failure
+2103,honda,P1519,Idle Air Control Valve Circuit Failure
+2104,honda,P1607,ECM/PCM Internal Circuit Failure A
+2105,honda,P1655,SEAF/SEFA/TMA/TMB Signal Line Failure
+2106,honda,P1656,Automatic Transaxle
+2107,honda,P1660,Automatic Transaxle FI Signal A Circuit Failure
+2108,honda,P1676,FPTDR Signal Line Failure
+2109,honda,P1678,FPTDR Signal Line Failure
+2110,honda,P1681,Automatic Transaxle FI Signal A Low Input
+2111,honda,P1682,Automatic Transaxle FI Signal A High Input
+2112,honda,P1686,Automatic Transaxle FI Signal B Low Input
+2113,honda,P1687,Automatic Transaxle FI Signal B High Input
+2114,honda,P1705,Automatic Transaxle Concerns
+2115,honda,P1706,Automatic Transaxle Concerns
+2116,honda,P1738,Automatic Transaxle Concerns
+2117,honda,P1739,Automatic Transaxle Concerns
+2118,honda,P1753,Automatic Transaxle Concerns
+2119,honda,P1758,Automatic Transaxle Concerns
+2120,honda,P1768,Automatic Transaxle Concerns
+2121,honda,P1773,Automatic Transaxle Concerns
+2122,honda,P1785,Automatic Transaxle Concerns
+2123,honda,P1786,Automatic Transaxle Concerns
+2124,honda,P1790,Automatic Transaxle Concerns
+2125,honda,P1791,Automatic Transaxle Concerns
+2126,honda,P1792,Automatic Transaxle Concerns
+2127,honda,P1793,Automatic Transaxle Concerns
+2128,honda,P1794,Automatic Transaxle Concerns
+2129,honda,P1870,Automatic Transaxle Concerns
+2130,honda,P1873,Automatic Transaxle Concerns
+2131,honda,P1879,Automatic Transaxle Concerns
+2132,honda,P1885,Automatic Transaxle Concerns
+2133,honda,P1886,Automatic Transaxle Concerns
+2134,honda,P1888,Automatic Transaxle Concerns
+2135,honda,P1890,Automatic Transaxle Concerns
+2136,honda,P1891,Automatic Transaxle Concerns
+2137,oldsmobile,P1031,HO2S Heater Current Monitor Control Circuit Banks 1 and 2 Sensor 1
+2138,oldsmobile,P1032,HO2S Heater Warm Up Control Circuit Banks 1 and 2 Sensor 1
+2139,oldsmobile,P1105,Secondary Vacuum Sensor Circuit
+2140,oldsmobile,P1106,Manifold Absolute Pressure (MAP) Sensor Circuit Intermittent High Voltage
+2141,oldsmobile,P1107,Manifold Absolute Pressure (MAP) Sensor Circuit Intermittent Low Voltage
+2142,oldsmobile,P1108,BARO to MAP Sensor Comparison Too High
+2143,oldsmobile,P1109,Secondary Port Throttle System
+2144,oldsmobile,P1111,Intake Air Temperature (IAT) Sensor Circuit Intermittent High Voltage
+2145,oldsmobile,P1112,Intake Air Temperature (IAT) Sensor Circuit IntermittentLow Voltage
+2146,oldsmobile,P1113,Intake Resonance Switchover Solenoid Control Circuit
+2147,oldsmobile,P1114,Engine Coolant Temperature (ECT) Sensor CircuitIntermittent Low Voltage
+2148,oldsmobile,P1115,Engine Coolant Temperature (ECT) Sensor CircuitIntermittent High Voltage
+2149,oldsmobile,P1116,ECT Signal Unstable or Intermittent
+2150,oldsmobile,P1117,Engine Coolant Temp. Signal Out-Of-Range Low
+2151,oldsmobile,P1118,Engine Coolant Temp. Signal Out-Of-Range High
+2152,oldsmobile,P1119,ECT Signal Out-Of-Range With TFT Sensor
+2153,oldsmobile,P1120,Throttle Position (TP) Sensor 1 Circuit
+2154,oldsmobile,P1121,Throttle Position (TP) Sensor Circuit Intermittent HighVoltage
+2155,oldsmobile,P1122,Throttle Position (TP) Sensor Circuit Intermittent LowVoltage
+2156,oldsmobile,P1125,APP System
+2157,oldsmobile,P1130,HO2S Circuit Low Variance Bank 1 Sensor 1
+2158,oldsmobile,P1131,HO2S Circuit Low Variance Bank 1 Sensor 2
+2159,oldsmobile,P1132,HO2S Circuit Low Variance Bank 2 Sensor 1
+2160,oldsmobile,P1133,HO2S Insufficient Switching Bank 1 Sensor 1
+2161,oldsmobile,P1134,HO2S Transition Time Ratio Bank 1 Sensor 1
+2162,oldsmobile,P1135,HO2S Lean Mean Bank 1 Sensor 1
+2163,oldsmobile,P1136,HO2S Rich Mean Bank 1 Sensor 1
+2164,oldsmobile,P1137,HO2S Bank 1 Sensor 2 Lean System or Low Voltage
+2165,oldsmobile,P1138,HO2S Bank 1 Sensor 2 Rich or High Voltage
+2166,oldsmobile,P1139,HO2S Insuff. Switching Bank 1 Sensor 2
+2167,oldsmobile,P1140,HO2S Transition Time Ratio Bank 1 Sensor 2
+2168,oldsmobile,P1141,HO2S Heater Control Circuit Bank 1 Sensor 2
+2169,oldsmobile,P1143,HO2S Bank 1 Sensor 3 Lean System or Low Voltage
+2170,oldsmobile,P1144,HO2S Bank 1 Sensor 3 Rich or High Voltage
+2171,oldsmobile,P1145,HO2S Cross Counts Bank 1 Sensor 3
+2172,oldsmobile,P1153,HO2S Insufficient Switching Bank 2 Sensor 1
+2173,oldsmobile,P1154,HO2S Transition Time Ratio Bank 2 Sensor 1
+2174,oldsmobile,P1155,HO2S Lean Mean Bank 2 Sensor 1
+2175,oldsmobile,P1156,HO2S Rich Mean Bank 2 Sensor 1
+2176,oldsmobile,P1157,HO2S Bank 2 Sensor 2 Lean System or Low Voltage
+2177,oldsmobile,P1158,HO2S Bank 2 Sensor 2 Rich or High Voltage
+2178,oldsmobile,P1159,HO2S Cross Counts Bank 2 Sensor 2
+2179,oldsmobile,P1161,HO2S Heater Control Circuit Bank 2 Sensor 2
+2180,oldsmobile,P1163,HO2S Bank 2 Sensor 3 Lean System or Low Voltage
+2181,oldsmobile,P1164,HO2S Bank 2 Sensor 3 Rich or High Voltage
+2182,oldsmobile,P1165,HO2S Cross Counts Bank 2 Sensor 3
+2183,oldsmobile,P1170,Bank to Bank Fuel TrimOffset
+2184,oldsmobile,P1171,Fuel System Lean During Acceleration
+2185,oldsmobile,P1185,Engine Oil Temperature Circuit
+2186,oldsmobile,P1186,EOT Circuit Performance
+2187,oldsmobile,P1187,EOT Sensor Ckt. Low Voltage
+2188,oldsmobile,P1188,EOT Sensor Ckt. High Voltage
+2189,oldsmobile,P1189,Engine Oil Pressure (EOP) Switch Circuit
+2190,oldsmobile,P1190,Engine Vacuum Leak
+2191,oldsmobile,P1191,Intake Air Duct Air Leak
+2192,oldsmobile,P1200,Injector Control Circuit
+2193,oldsmobile,P1201,(Alt. Fuel) Gas Mass Sensor Circuit Range/Performance
+2194,oldsmobile,P1202,(Alt. Fuel) Gas Mass Sensor Circuit Low Frequency
+2195,oldsmobile,P1203,(Alt. Fuel) Gas Mass Sensor Circuit High Frequency
+2196,oldsmobile,P1211,Mass Air Flow Circuit Intermittent High
+2197,oldsmobile,P1212,Mass Air Flow Circuit Intermittent Low
+2198,oldsmobile,P1214,Injection Pump Timing Offset
+2199,oldsmobile,P1215,Ground Fault Detection Indicated
+2200,oldsmobile,P1216,Fuel Solenoid Response Time Too Short
+2201,oldsmobile,P1217,Fuel Solenoid Response Time Too Long
+2202,oldsmobile,P1218,Injection Pump Calibration Circuit
+2203,oldsmobile,P1219,Throttle Position Sensor Reference Voltage
+2204,oldsmobile,P1220,Throttle Position (TP) Sensor 2 Circuit
+2205,oldsmobile,P1221,Fuel Pump Secondary Circuit Low
+2206,oldsmobile,P1222,Injector Control Circuit Intermittent
+2207,oldsmobile,P1225,Injector Circuit Cylinder 2 Intermittent
+2208,oldsmobile,P1228,Injector Circuit Cylinder 3 Intermittent
+2209,oldsmobile,P1231,Injector Circuit Cylinder 4 Intermittent
+2210,oldsmobile,P1234,Injector Circuit Cylinder 5 Intermittent
+2211,oldsmobile,P1237,Injector Circuit Cylinder 6 Intermittent
+2212,oldsmobile,P1240,Injector Circuit Cylinder 7 Intermittent
+2213,oldsmobile,P1243,Injector Circuit Cylinder 8 Intermittent
+2214,oldsmobile,P1245,Intake Plenum Switchover Valve
+2215,oldsmobile,P1250,Early Fuel Evaporation Heater Circuit
+2216,oldsmobile,P1257,Supercharger System Overboost
+2217,oldsmobile,P1258,Engine Coolant Overtemperature - Protection Mode Active
+2218,oldsmobile,P1260,Last Test Failed Failed SCC ENTER:More Info.
+2219,oldsmobile,P1270,Accelerator Pedal Position Sensor A/D Converter Error
+2220,oldsmobile,P1271,Accelerator Pedal Position (APP) Sensor 1-2 Correlation
+2221,oldsmobile,P1272,Accelerator Pedal Position Sensor 2
+2222,oldsmobile,P1273,Accelerator Pedal Position Sensor 1
+2223,oldsmobile,P1274,Injectors Wired Incorrectly
+2224,oldsmobile,P1275,Accelerator Pedal Position (APP) Sensor 1 Circuit
+2225,oldsmobile,P1276,Accelerator Pedal Position Sensor 1 Circuit Performance
+2226,oldsmobile,P1277,Accelerator Pedal Position Sensor 1 Circuit Low Voltage
+2227,oldsmobile,P1278,Accelerator Pedal Position Sensor 1 Circuit High Voltage
+2228,oldsmobile,P1280,Accelerator Pedal Position (APP) Sensor 2 Circuit
+2229,oldsmobile,P1281,Accelerator Pedal Position Sensor 2 Circuit Performance
+2230,oldsmobile,P1282,Accelerator Pedal Position Sensor 2 Circuit Low Voltage
+2231,oldsmobile,P1283,Accelerator Pedal Position Sensor 2 Circuit High Voltage
+2232,oldsmobile,P1285,Accelerator Pedal Position Sensor 3 Circuit
+2233,oldsmobile,P1286,Accelerator Pedal Position Sensor 3 Circuit Performance
+2234,oldsmobile,P1287,Accelerator Pedal Position Sensor 3 Circuit Low Voltage
+2235,oldsmobile,P1288,Accelerator Pedal Position Sensor 3 Circuit High Voltage
+2236,oldsmobile,P1300,Ignitor Circuit
+2237,oldsmobile,P1305,Ignition Coil 2 Primary Feedback Circuit
+2238,oldsmobile,P1310,Ignition Coil 3 Primary Feedback Circuit
+2239,oldsmobile,P1315,Ignition Coil 4 Primary Feedback Circuit
+2240,oldsmobile,P1320,IC 4X Reference Circuit Intermittent
+2241,oldsmobile,P1321,Electronic Ignition System Fault Line
+2242,oldsmobile,P1322,EI System or Ignition Control Extra or Missing
+2243,oldsmobile,P1323,IC 24X Reference Circuit Low Frequency
+2244,oldsmobile,P1324,Crank RPM Too Low
+2245,oldsmobile,P1335,CKP Circuit
+2246,oldsmobile,P1336,Crankshaft Position (CKP) System Variation Not Learned
+2247,oldsmobile,P1345,Crankshaft Position (CKP)-Camshaft Position (CMP) Correlation
+2248,oldsmobile,P1346,Intake Camshaft Position [CMP] Sensor System Performance
+2249,oldsmobile,P1350,Ignition Control System
+2250,oldsmobile,P1351,Ignition Coil Control Circuit High Voltage
+2251,oldsmobile,P1352,IC Output High/Pulse Detected when GND_Cyl. 2
+2252,oldsmobile,P1353,IC Output High/Pulse Detected when GND_Cyl. 3
+2253,oldsmobile,P1354,IC Output High/Pulse Detected when GND_Cyl. 4
+2254,oldsmobile,P1355,IC Output High/Pulse Detected when GND_Cyl. 5
+2255,oldsmobile,P1356,IC Output High/Pulse Detected when GND_Cyl. 6
+2256,oldsmobile,P1357,IC Output High/Pulse Detected when GND_Cyl. 7
+2257,oldsmobile,P1358,IC Output High/Pulse Detected when GND_Cyl. 8
+2258,oldsmobile,P1359,Ignition Coil Group 1 Control Circuit
+2259,oldsmobile,P1360,Ignition Coil Group 2 Control Circuit
+2260,oldsmobile,P1361,Ignition Coil Control Circuit Low Voltage
+2261,oldsmobile,P1362,IC Cylinder 2 Not Toggling After Enable
+2262,oldsmobile,P1363,IC Cylinder 3 Not Toggling After Enable
+2263,oldsmobile,P1364,IC Cylinder 4 Not Toggling After Enable
+2264,oldsmobile,P1365,IC Cylinder 5 Not Toggling After Enable
+2265,oldsmobile,P1366,IC Cylinder 6 Not Toggling After Enable
+2266,oldsmobile,P1367,IC Cylinder 7 Not Toggling After Enable
+2267,oldsmobile,P1368,IC Cylinder 8 Not Toggling After Enable
+2268,oldsmobile,P1370,IC 4X Reference Circuit Too Many Pulses
+2269,oldsmobile,P1371,IC 4X Reference Circuit Too Few Pulses
+2270,oldsmobile,P1372,Crankshaft Position (CKP) Sensor A-B Correlation
+2271,oldsmobile,P1374,3X Reference Circuit
+2272,oldsmobile,P1375,IC 24X Reference Circuit High Voltage
+2273,oldsmobile,P1376,Ignition Ground Circuit
+2274,oldsmobile,P1377,IC Cam Pulse To 4X Reference Pulse
+2275,oldsmobile,P1380,Misfire Detected - Rough Road Data Not Available
+2276,oldsmobile,P1381,Misfire Detected - No Communication with Brake ControlModule
+2277,oldsmobile,P1390,Wheel Speed Sensor 1 - G - Sensor Circuit
+2278,oldsmobile,P1391,Wheel Speed Sensor 1 - G - Sensor Circuit Performance
+2279,oldsmobile,P1392,Wheel Speed Sensor 1 - G - Sensor Circuit Low Voltage
+2280,oldsmobile,P1393,Wheel Speed Sensor 1 - G - Sensor Circuit High Voltage
+2281,oldsmobile,P1394,Wheel Speed Sensor 1 - G - Sensor Circuit Intermittent
+2282,oldsmobile,P1395,Wheel Speed Sensor 2 - G - Sensor Circuit
+2283,oldsmobile,P1396,Wheel Speed Sensor 2 - G - Sensor Circuit Performance
+2284,oldsmobile,P1397,Wheel Speed Sensor 2 - G - Sensor Circuit Low Voltage
+2285,oldsmobile,P1398,Wheel Speed Sensor 2 - G - Sensor Circuit High Voltage
+2286,oldsmobile,P1399,Wheel Speed Sensor 2 - G - Sensor Circuit Intermittent
+2287,oldsmobile,P1403,Exhaust Gas Recirculation System Valve 1
+2288,oldsmobile,P1404,Exhaust Gas Recirculation (EGR) Closed PositionPerformance
+2289,oldsmobile,P1405,Exhaust Gas Recirculation System Valve 3
+2290,oldsmobile,P1406,EGR Valve Pintle Position Circuit
+2291,oldsmobile,P1407,EGR Air Intrusion in Exhaust Supply to EGR Valve
+2292,oldsmobile,P1408,Intake Manifold Pressure Sensor Circuit
+2293,oldsmobile,P1409,EGR Vacuum System Leak
+2294,oldsmobile,P1410,Fuel Tank Pressure System
+2295,oldsmobile,P1415,Secondary Air Injection (AIR) System Bank 1
+2296,oldsmobile,P1416,Secondary Air Injection (AIR) System Bank 2
+2297,oldsmobile,P1418,Secondary Air Injection System Relay A Control CircuitHigh
+2298,oldsmobile,P1420,Intake Air Low Pressure Switch Circuit Low Voltage
+2299,oldsmobile,P1421,Intake Air Low Pressure Switch Circuit High Voltage
+2300,oldsmobile,P1423,Intake Air High Pressure Switch Circuit High Voltage
+2301,oldsmobile,P1431,Fuel Level Sensor 2 Circuit Performance
+2302,oldsmobile,P1432,Fuel Level Sensor 2 Circuit Low Voltage
+2303,oldsmobile,P1433,Fuel Level Sensor 2 Circuit High Voltage
+2304,oldsmobile,P1441,Evaporative Emission (EVAP) System Flow During Non-Purge
+2305,oldsmobile,P1442,EVAP Vacuum Sw. High Voltage During Ign. On
+2306,oldsmobile,P1450,Barometric Pressure Sensor Circuit
+2307,oldsmobile,P1451,Barometric Press. Sensor Performance
+2308,oldsmobile,P1480,Cooling Fan 1 Control Circuit High
+2309,oldsmobile,P1483,Engine Cooling System Performance
+2310,oldsmobile,P1500,Starter Signal Circuit
+2311,oldsmobile,P1502,Theft Deterrent Fuel Enable Signal Not Received
+2312,oldsmobile,P1503,Theft Deterrent Fuel Enable Signal Not Correct
+2313,oldsmobile,P1504,Vehicle Speed Output Circuit
+2314,oldsmobile,P1508,Idle Speed Low - Idle Air Control (IAC) System NotResponding
+2315,oldsmobile,P1509,Idle Speed High - Idle Air Control (IAC) System NotResponding
+2316,oldsmobile,P1510,Throttle Control System Performance - Throttle LimitationActive
+2317,oldsmobile,P1511,Throttle Control System - Backup System Performance
+2318,oldsmobile,P1514,Airflow to TP Sensor Correlation High
+2319,oldsmobile,P1515,Electronic Throttle System Throttle Position
+2320,oldsmobile,P1516,Throttle Actuator Control (TAC) Module Throttle ActuatorPosition Performance
+2321,oldsmobile,P1517,Electronic Throttle Module
+2322,oldsmobile,P1518,Electronic Throttle Module to PCM Communication
+2323,oldsmobile,P1519,Throttle Actuator Control (TAC) Module Internal Circuit
+2324,oldsmobile,P1520,Transmission Range Switch Circuit
+2325,oldsmobile,P1521,Transmission Engaged at High Throttle Angle
+2326,oldsmobile,P1522,Park/Neutral to Drive/Reverse at High RPM
+2327,oldsmobile,P1523,Throttle Closed Position Performance
+2328,oldsmobile,P1524,Throttle Closed Position Performance
+2329,oldsmobile,P1525,Throttle Body ServiceRequired
+2330,oldsmobile,P1526,Minimum Throttle Position Not Learned
+2331,oldsmobile,P1527,Transmission Range to Pressure Switch Correlation
+2332,oldsmobile,P1528,Governor
+2333,oldsmobile,P1529,Heated Windshield Request Problem
+2334,oldsmobile,P1530,Throttle Actuator Control (TAC) Module Internal Circuit
+2335,oldsmobile,P1531,A/C Low Side Temperature Sensor Fault
+2336,oldsmobile,P1532,A/C Evaporator Temp. Sens. Ckt. Low Voltage
+2337,oldsmobile,P1533,A/C Evaporator Temp. Sens. Ckt. High Voltage
+2338,oldsmobile,P1534,A/C High Side Temp. Sensor Low Voltage
+2339,oldsmobile,P1535,A/C High Side Temperature Sensor Circuit
+2340,oldsmobile,P1536,Engine Coolant Overtemperature - Air Conditioning (A/C)Disabled
+2341,oldsmobile,P1537,A/C Request Circuit Low Voltage
+2342,oldsmobile,P1538,A/C Request Circuit High Voltage
+2343,oldsmobile,P1539,A/C Clutch Status Circuit High Voltage
+2344,oldsmobile,P1540,Air Conditioning (A/C) Refrigerant Overpressure - AirConditioning (A/C) Disabled
+2345,oldsmobile,P1541,A/C High Side Over Temperature
+2346,oldsmobile,P1542,A/C System High Pressure High Temperature
+2347,oldsmobile,P1543,A/C System Performance
+2348,oldsmobile,P1544,A/C Refrigerant Condition Very Low
+2349,oldsmobile,P1545,Air Conditioning (A/C) Clutch Relay Control Circuit
+2350,oldsmobile,P1546,A/C Clutch Status Circuit Low Voltage
+2351,oldsmobile,P1547,A/C System Performance Degraded
+2352,oldsmobile,P1548,A/C Recirculation Circuit
+2353,oldsmobile,P1554,Cruise Control Feedback Circuit
+2354,oldsmobile,P1555,Electronic Variable Orifice Output
+2355,oldsmobile,P1558,Cruise Control Servo Indicates Low
+2356,oldsmobile,P1559,Cruise Control Power Management Mode
+2357,oldsmobile,P1560,Transaxle Not in Drive - Cruise Control Disabled
+2358,oldsmobile,P1561,Cruise Vent Solenoid
+2359,oldsmobile,P1562,Cruise Vacuum Solenoid
+2360,oldsmobile,P1563,Cruise Vehicle Speed/Set Speed Difference Too High
+2361,oldsmobile,P1564,Vehicle Acceleration Too High - Cruise Control Disabled
+2362,oldsmobile,P1565,Cruise Servo Position Sensor
+2363,oldsmobile,P1566,Engine RPM Too High - Cruise Control Disabled
+2364,oldsmobile,P1567,Active Banking Control Active - Cruise Control Disabled
+2365,oldsmobile,P1568,Cruise Servo Stroke Greater than Commanded in Cruise
+2366,oldsmobile,P1569,Cruise Servo Stroke High While not in Cruise
+2367,oldsmobile,P1570,Traction Control Active - Cruise Control Disabled
+2368,oldsmobile,P1571,Traction Control Torque Request Circuit
+2369,oldsmobile,P1572,ASR Active Circuit Low Too Long
+2370,oldsmobile,P1573,PCM/EBTCM Serial Data Circuit
+2371,oldsmobile,P1574,Stoplamp Switch Circuit
+2372,oldsmobile,P1575,Extended Travel Brake Switch Circuit
+2373,oldsmobile,P1576,BBV Sensor Ckt. High Voltage
+2374,oldsmobile,P1577,BBV Sensor Ckt. Low Voltage
+2375,oldsmobile,P1578,BBV Sensor Ckt. Low Vacuum
+2376,oldsmobile,P1579,P/N to D/R at High Throttle Angle - Power Reduction ModeActive
+2377,oldsmobile,P1580,Cruise Move Circuit Low Voltage
+2378,oldsmobile,P1581,Cruise Move Circuit High Voltage
+2379,oldsmobile,P1582,Cruise Direction Circuit Low Voltage
+2380,oldsmobile,P1583,Cruise Direction CircuitHigh Voltage
+2381,oldsmobile,P1584,Cruise Control Disabled
+2382,oldsmobile,P1585,Cruise Control Inhibit Output Circuit
+2383,oldsmobile,P1586,Cruise Control Brake Switch 2 Circuit
+2384,oldsmobile,P1587,Cruise Control Clutch Control Circuit Low
+2385,oldsmobile,P1588,Cruise Control Clutch Control Circuit High
+2386,oldsmobile,P1599,Engine Stall or Near Stall Detected
+2387,oldsmobile,P1600,TCM Internal Watchdog Operation
+2388,oldsmobile,P1601,Serial Comm. Problem With Device 1
+2389,oldsmobile,P1602,Knock Sensor (KS) Module Performance
+2390,oldsmobile,P1603,Loss of SDM Serial Data
+2391,oldsmobile,P1604,Loss of IPC Serial Data
+2392,oldsmobile,P1605,Loss of HVAC Serial Data
+2393,oldsmobile,P1606,Serial Communication Problem With Device 6
+2394,oldsmobile,P1607,Serial Communication Problem With Device 7
+2395,oldsmobile,P1608,Serial Communication Problem With Device 8
+2396,oldsmobile,P1609,Loss Of TCS Serial Data
+2397,oldsmobile,P1610,Loss of PZM Serial Data
+2398,oldsmobile,P1611,Loss of CVRTD Serial Data
+2399,oldsmobile,P1612,Loss of IPM Serial Data
+2400,oldsmobile,P1613,Loss of DIM Serial Data
+2401,oldsmobile,P1614,Loss of RIM Serial Data
+2402,oldsmobile,P1615,Loss of VTD Serial Data
+2403,oldsmobile,P1617,Engine Oil Level Switch Circuit
+2404,oldsmobile,P1619,Engine Oil Life Monitor Reset Circuit
+2405,oldsmobile,P1620,Low Coolant Circuit
+2406,oldsmobile,P1621,Control Module Long Term Memory Performance
+2407,oldsmobile,P1622,Cylinder Select
+2408,oldsmobile,P1623,Transmission Temp Pull-Up Resistor
+2409,oldsmobile,P1624,Customer Snapshot Requested - Data Available
+2410,oldsmobile,P1625,TCM System Reset
+2411,oldsmobile,P1626,Theft Deterrent Fuel Enable Signal Not Received
+2412,oldsmobile,P1627,A/D Performance
+2413,oldsmobile,P1628,ECT Pull-Up Resistor
+2414,oldsmobile,P1629,Theft Deterrent System - Cranking Signal
+2415,oldsmobile,P1630,Theft Deterrent Learn Mode Active
+2416,oldsmobile,P1631,Theft Deterrent Start Enable Signal Not Correct
+2417,oldsmobile,P1632,Theft Deterrent Fuel Disable Signal Received
+2418,oldsmobile,P1633,Ignition 0 Switch Circuit
+2419,oldsmobile,P1634,Ignition 1 Switch Circuit
+2420,oldsmobile,P1635,5 Volt Reference Circuit
+2421,oldsmobile,P1636,PCM Stack Overrun
+2422,oldsmobile,P1637,Generator L-Terminal Circuit
+2423,oldsmobile,P1638,Generator F-Terminal Circuit
+2424,oldsmobile,P1639,5 Volt Reference 2 Circuit
+2425,oldsmobile,P1640,Driver-1-Input High Voltage
+2426,oldsmobile,P1641,Malfunction Indicator Lamp (MIL) Control Circuit
+2427,oldsmobile,P1642,Vehicle Speed Output Circuit
+2428,oldsmobile,P1643,Engine Speed Output Circuit
+2429,oldsmobile,P1644,Traction Control Delivered Torque Output Circuit
+2430,oldsmobile,P1645,Evaporative Emission (EVAP) Vent Solenoid Contorl Circuit
+2431,oldsmobile,P1646,Evaporative Emission (EVAP) Vent Solenoid Control Circuit
+2432,oldsmobile,P1647,Driver 1 Line 7
+2433,oldsmobile,P1650,Control Module Output B Circuit
+2434,oldsmobile,P1651,Fan 1 Relay Control Circuit
+2435,oldsmobile,P1652,Powertrain Induced Chassis Pitch Output Circuit
+2436,oldsmobile,P1653,Oil Level Lamp Control Circuit
+2437,oldsmobile,P1654,Cruise Control Inhibit Output Circuit
+2438,oldsmobile,P1655,EVAP Purge Solenoid Control Circuit
+2439,oldsmobile,P1656,Driver 2 Line 6
+2440,oldsmobile,P1657,1-4 Upshift Solenoid Control Circuit
+2441,oldsmobile,P1658,Starter Enable Relay Control Circuit
+2442,oldsmobile,P1660,Cooling Fan Control Circuits
+2443,oldsmobile,P1661,MIL Control Circuit
+2444,oldsmobile,P1662,Cruise Lamp Control Circuit
+2445,oldsmobile,P1663,Oil Life Lamp Control Circuit
+2446,oldsmobile,P1664,1-4 Upshift Lamp Control Circuit
+2447,oldsmobile,P1665,Driver 3 Line 5
+2448,oldsmobile,P1666,Driver 3 Line 6
+2449,oldsmobile,P1667,Reverse Inhibit Solenoid Control Circuit
+2450,oldsmobile,P1669,ABS Unit Expected
+2451,oldsmobile,P1670,Driver 4
+2452,oldsmobile,P1671,Driver 4 Line 1
+2453,oldsmobile,P1672,Low Engine Oil Level Lamp Control Circuit
+2454,oldsmobile,P1673,Engine Hot Lamp Control Circuit
+2455,oldsmobile,P1674,Tachometer Control Circuit
+2456,oldsmobile,P1675,EVAP Vent Solenoid Control Circuit
+2457,oldsmobile,P1676,Driver 4 Line 6
+2458,oldsmobile,P1677,Driver 4 Line 7
+2459,oldsmobile,P1680,Driver 5
+2460,oldsmobile,P1681,Driver 5 Line 1
+2461,oldsmobile,P1682,Driver 5 Line 2
+2462,oldsmobile,P1683,Driver 5 Line 3
+2463,oldsmobile,P1684,Driver 5 Line 4
+2464,oldsmobile,P1685,Driver 5 Line 5
+2465,oldsmobile,P1686,Driver 5 Line 6
+2466,oldsmobile,P1687,Driver 5 Line 7
+2467,oldsmobile,P1689,Delivered Torque Circuit Fault
+2468,oldsmobile,P1690,ECM Loop Overrun
+2469,oldsmobile,P1691,Coolant Gage Circuit Low Voltage
+2470,oldsmobile,P1692,Coolant Gage Circuit High Voltage
+2471,oldsmobile,P1693,Tachometer Circuit Low Voltage
+2472,oldsmobile,P1694,Tachometer Circuit High Voltage
+2473,oldsmobile,P1695,Remote Keyless Entry Circuit Low
+2474,oldsmobile,P1696,Remote Keyless Entry Voltage High
+2475,oldsmobile,P1700,Transmission Control Module (TCM) Requested MILIllumination
+2476,oldsmobile,P1701,Trans. MIL Request Circuit
+2477,oldsmobile,P1705,P/N Signal Output Circuit
+2478,oldsmobile,P1740,Torque Reduction Signal Circuit
+2479,oldsmobile,P1743,TP Signal from ECM
+2480,oldsmobile,P1760,TCM Supply Voltage Interrupted
+2481,oldsmobile,P1779,Engine Torque Delivered to TCM Signal
+2482,oldsmobile,P1780,Park/Neutral Position [PNP] Switch Circuit
+2483,oldsmobile,P1781,Engine Torque Signal Circuit
+2484,oldsmobile,P1790,Transmission Control Module Checksum
+2485,oldsmobile,P1791,Transmission Control Module Loop
+2486,oldsmobile,P1793,Transmission Control Module Stack Overrun
+2487,oldsmobile,P1795,CAN Bus - Throttle Body Position
+2488,oldsmobile,P1800,TCM Power Relay Control Circuit
+2489,oldsmobile,P1801,Performance Selector Switch Failure
+2490,oldsmobile,P1804,Ground Control Relay
+2491,oldsmobile,P1810,TFP Valve Position Switch Circuit
+2492,oldsmobile,P1811,Maximum Adapt and Long Shift
+2493,oldsmobile,P1812,Transmission Over Temperature Condition
+2494,oldsmobile,P1813,Torque Control
+2495,oldsmobile,P1814,Torque Converter Overstressed
+2496,oldsmobile,P1815,Transmission Range Switch - Start In Wrong Range
+2497,oldsmobile,P1816,TFP Valve Position Sw. - Park/Neu. With Drive Ratio
+2498,oldsmobile,P1817,TFP Valve Position Sw. - Reverse With Drive Ratio
+2499,oldsmobile,P1818,TFP Valve Position Sw. - Drive Without Drive Ratio
+2500,oldsmobile,P1819,Internal Mode Switch - No Start/Wrong Range
+2501,oldsmobile,P1820,Internal Mode Switch Circuit A Low
+2502,oldsmobile,P1822,Internal Mode Switch Circuit B High
+2503,oldsmobile,P1823,Internal Mode Switch Circuit P Low
+2504,oldsmobile,P1825,Internal Mode Switch - Invalid Range
+2505,oldsmobile,P1826,Internal Mode Switch Circuit C - High
+2506,oldsmobile,P1831,PC Solenoid Power Circuit - Low Voltage
+2507,oldsmobile,P1833,A/T Solenoids Power Circuit - Low Voltage
+2508,oldsmobile,P1835,Kick-Down Switch Circuit
+2509,oldsmobile,P1836,Kick-Down Switch Failed Open
+2510,oldsmobile,P1837,Kick-Down Switch Failed Short
+2511,oldsmobile,P1842,1-2 Shift Solenoid Circuit Low Voltage
+2512,oldsmobile,P1843,1-2 Shift Solenoid Circuit High Voltage
+2513,oldsmobile,P1844,Torque Reduction Signal Circuit Desired By TCM
+2514,oldsmobile,P1845,2-3 Shift Solenoid Circuit Low Voltage
+2515,oldsmobile,P1847,2-3 Shift Solenoid Circuit High Voltage
+2516,oldsmobile,P1850,Brake Band Apply Solenoid Circuit
+2517,oldsmobile,P1851,Brake Band Apply Solenoid Performance
+2518,oldsmobile,P1852,Brake Band Apply SolenoidLow Voltage
+2519,oldsmobile,P1853,Brake Band Apply Solenoid High Voltage
+2520,oldsmobile,P1860,TCC PWM Solenoid Circuit Electrical
+2521,oldsmobile,P1864,Torque Converter Clutch Circuit
+2522,oldsmobile,P1868,Transmission Fluid Life
+2523,oldsmobile,P1870,Transmission Component Slipping
+2524,oldsmobile,P1871,Undefined Gear Ratio
+2525,oldsmobile,P1873,TCC Stator Temp. Switch Circuit Low
+2526,oldsmobile,P1874,TCC Stator Temp. Switch Circuit High
+2527,oldsmobile,P1875,4WD Low Switch Circuit Electrical
+2528,oldsmobile,P1884,TCC Enable/Shift Light Circuit
+2529,oldsmobile,P1886,Shift Timing Solenoid
+2530,oldsmobile,P1887,TCC Release Switch Circuit
+2531,oldsmobile,P1891,Throttle Position Sensor PWM Signal Low
+2532,oldsmobile,P1892,Throttle Position Sensor PWM Signal High
+2533,oldsmobile,P1893,Engine Torque Signal Low Voltage
+2534,oldsmobile,P1894,Engine Torque Signal High Voltage
+2535,oldsmobile,P1895,TCM to ECM Torque Reduction Circuit
+2536,pontiac,P1031,HO2S Heater Current Monitor Control Circuit Banks 1 and 2 Sensor 1
+2537,pontiac,P1032,HO2S Heater Warm Up Control Circuit Banks 1 and 2 Sensor 1
+2538,pontiac,P1105,Secondary Vacuum Sensor Circuit
+2539,pontiac,P1106,Manifold Absolute Pressure (MAP) Sensor Circuit Intermittent High Voltage
+2540,pontiac,P1107,Manifold Absolute Pressure (MAP) Sensor Circuit Intermittent Low Voltage
+2541,pontiac,P1108,BARO to MAP Sensor Comparison Too High
+2542,pontiac,P1109,Secondary Port Throttle System
+2543,pontiac,P1111,Intake Air Temperature (IAT) Sensor Circuit Intermittent High Voltage
+2544,pontiac,P1112,Intake Air Temperature (IAT) Sensor Circuit IntermittentLow Voltage
+2545,pontiac,P1113,Intake Resonance Switchover Solenoid Control Circuit
+2546,pontiac,P1114,Engine Coolant Temperature (ECT) Sensor CircuitIntermittent Low Voltage
+2547,pontiac,P1115,Engine Coolant Temperature (ECT) Sensor CircuitIntermittent High Voltage
+2548,pontiac,P1116,ECT Signal Unstable or Intermittent
+2549,pontiac,P1117,Engine Coolant Temp. Signal Out-Of-Range Low
+2550,pontiac,P1118,Engine Coolant Temp. Signal Out-Of-Range High
+2551,pontiac,P1119,ECT Signal Out-Of-Range With TFT Sensor
+2552,pontiac,P1120,Throttle Position (TP) Sensor 1 Circuit
+2553,pontiac,P1121,Throttle Position (TP) Sensor Circuit Intermittent HighVoltage
+2554,pontiac,P1122,Throttle Position (TP) Sensor Circuit Intermittent LowVoltage
+2555,pontiac,P1125,APP System
+2556,pontiac,P1130,HO2S Circuit Low Variance Bank 1 Sensor 1
+2557,pontiac,P1131,HO2S Circuit Low Variance Bank 1 Sensor 2
+2558,pontiac,P1132,HO2S Circuit Low Variance Bank 2 Sensor 1
+2559,pontiac,P1133,HO2S Insufficient Switching Bank 1 Sensor 1
+2560,pontiac,P1134,HO2S Transition Time Ratio Bank 1 Sensor 1
+2561,pontiac,P1135,HO2S Lean Mean Bank 1 Sensor 1
+2562,pontiac,P1136,HO2S Rich Mean Bank 1 Sensor 1
+2563,pontiac,P1137,HO2S Bank 1 Sensor 2 Lean System or Low Voltage
+2564,pontiac,P1138,HO2S Bank 1 Sensor 2 Rich or High Voltage
+2565,pontiac,P1139,HO2S Insuff. Switching Bank 1 Sensor 2
+2566,pontiac,P1140,HO2S Transition Time Ratio Bank 1 Sensor 2
+2567,pontiac,P1141,HO2S Heater Control Circuit Bank 1 Sensor 2
+2568,pontiac,P1143,HO2S Bank 1 Sensor 3 Lean System or Low Voltage
+2569,pontiac,P1144,HO2S Bank 1 Sensor 3 Rich or High Voltage
+2570,pontiac,P1145,HO2S Cross Counts Bank 1 Sensor 3
+2571,pontiac,P1153,HO2S Insufficient Switching Bank 2 Sensor 1
+2572,pontiac,P1154,HO2S Transition Time Ratio Bank 2 Sensor 1
+2573,pontiac,P1155,HO2S Lean Mean Bank 2 Sensor 1
+2574,pontiac,P1156,HO2S Rich Mean Bank 2 Sensor 1
+2575,pontiac,P1157,HO2S Bank 2 Sensor 2 Lean System or Low Voltage
+2576,pontiac,P1158,HO2S Bank 2 Sensor 2 Rich or High Voltage
+2577,pontiac,P1159,HO2S Cross Counts Bank 2 Sensor 2
+2578,pontiac,P1161,HO2S Heater Control Circuit Bank 2 Sensor 2
+2579,pontiac,P1163,HO2S Bank 2 Sensor 3 Lean System or Low Voltage
+2580,pontiac,P1164,HO2S Bank 2 Sensor 3 Rich or High Voltage
+2581,pontiac,P1165,HO2S Cross Counts Bank 2 Sensor 3
+2582,pontiac,P1170,Bank to Bank Fuel TrimOffset
+2583,pontiac,P1171,Fuel System Lean During Acceleration
+2584,pontiac,P1185,Engine Oil Temperature Circuit
+2585,pontiac,P1186,EOT Circuit Performance
+2586,pontiac,P1187,EOT Sensor Ckt. Low Voltage
+2587,pontiac,P1188,EOT Sensor Ckt. High Voltage
+2588,pontiac,P1189,Engine Oil Pressure (EOP) Switch Circuit
+2589,pontiac,P1190,Engine Vacuum Leak
+2590,pontiac,P1191,Intake Air Duct Air Leak
+2591,pontiac,P1200,Injector Control Circuit
+2592,pontiac,P1201,(Alt. Fuel) Gas Mass Sensor Circuit Range/Performance
+2593,pontiac,P1202,(Alt. Fuel) Gas Mass Sensor Circuit Low Frequency
+2594,pontiac,P1203,(Alt. Fuel) Gas Mass Sensor Circuit High Frequency
+2595,pontiac,P1211,Mass Air Flow Circuit Intermittent High
+2596,pontiac,P1212,Mass Air Flow Circuit Intermittent Low
+2597,pontiac,P1214,Injection Pump Timing Offset
+2598,pontiac,P1215,Ground Fault Detection Indicated
+2599,pontiac,P1216,Fuel Solenoid Response Time Too Short
+2600,pontiac,P1217,Fuel Solenoid Response Time Too Long
+2601,pontiac,P1218,Injection Pump Calibration Circuit
+2602,pontiac,P1219,Throttle Position Sensor Reference Voltage
+2603,pontiac,P1220,Throttle Position (TP) Sensor 2 Circuit
+2604,pontiac,P1221,Fuel Pump Secondary Circuit Low
+2605,pontiac,P1222,Injector Control Circuit Intermittent
+2606,pontiac,P1225,Injector Circuit Cylinder 2 Intermittent
+2607,pontiac,P1228,Injector Circuit Cylinder 3 Intermittent
+2608,pontiac,P1231,Injector Circuit Cylinder 4 Intermittent
+2609,pontiac,P1234,Injector Circuit Cylinder 5 Intermittent
+2610,pontiac,P1237,Injector Circuit Cylinder 6 Intermittent
+2611,pontiac,P1240,Injector Circuit Cylinder 7 Intermittent
+2612,pontiac,P1243,Injector Circuit Cylinder 8 Intermittent
+2613,pontiac,P1245,Intake Plenum Switchover Valve
+2614,pontiac,P1250,Early Fuel Evaporation Heater Circuit
+2615,pontiac,P1257,Supercharger System Overboost
+2616,pontiac,P1258,Engine Coolant Overtemperature - Protection Mode Active
+2617,pontiac,P1260,Last Test Failed Failed SCC ENTER:More Info.
+2618,pontiac,P1270,Accelerator Pedal Position Sensor A/D Converter Error
+2619,pontiac,P1271,Accelerator Pedal Position (APP) Sensor 1-2 Correlation
+2620,pontiac,P1272,Accelerator Pedal Position Sensor 2
+2621,pontiac,P1273,Accelerator Pedal Position Sensor 1
+2622,pontiac,P1274,Injectors Wired Incorrectly
+2623,pontiac,P1275,Accelerator Pedal Position (APP) Sensor 1 Circuit
+2624,pontiac,P1276,Accelerator Pedal Position Sensor 1 Circuit Performance
+2625,pontiac,P1277,Accelerator Pedal Position Sensor 1 Circuit Low Voltage
+2626,pontiac,P1278,Accelerator Pedal Position Sensor 1 Circuit High Voltage
+2627,pontiac,P1280,Accelerator Pedal Position (APP) Sensor 2 Circuit
+2628,pontiac,P1281,Accelerator Pedal Position Sensor 2 Circuit Performance
+2629,pontiac,P1282,Accelerator Pedal Position Sensor 2 Circuit Low Voltage
+2630,pontiac,P1283,Accelerator Pedal Position Sensor 2 Circuit High Voltage
+2631,pontiac,P1285,Accelerator Pedal Position Sensor 3 Circuit
+2632,pontiac,P1286,Accelerator Pedal Position Sensor 3 Circuit Performance
+2633,pontiac,P1287,Accelerator Pedal Position Sensor 3 Circuit Low Voltage
+2634,pontiac,P1288,Accelerator Pedal Position Sensor 3 Circuit High Voltage
+2635,pontiac,P1300,Ignitor Circuit
+2636,pontiac,P1305,Ignition Coil 2 Primary Feedback Circuit
+2637,pontiac,P1310,Ignition Coil 3 Primary Feedback Circuit
+2638,pontiac,P1315,Ignition Coil 4 Primary Feedback Circuit
+2639,pontiac,P1320,IC 4X Reference Circuit Intermittent
+2640,pontiac,P1321,Electronic Ignition System Fault Line
+2641,pontiac,P1322,EI System or Ignition Control Extra or Missing
+2642,pontiac,P1323,IC 24X Reference Circuit Low Frequency
+2643,pontiac,P1324,Crank RPM Too Low
+2644,pontiac,P1335,CKP Circuit
+2645,pontiac,P1336,Crankshaft Position (CKP) System Variation Not Learned
+2646,pontiac,P1345,Crankshaft Position (CKP)-Camshaft Position (CMP) Correlation
+2647,pontiac,P1346,Intake Camshaft Position [CMP] Sensor System Performance
+2648,pontiac,P1350,Ignition Control System
+2649,pontiac,P1351,Ignition Coil Control Circuit High Voltage
+2650,pontiac,P1352,IC Output High/Pulse Detected when GND_Cyl. 2
+2651,pontiac,P1353,IC Output High/Pulse Detected when GND_Cyl. 3
+2652,pontiac,P1354,IC Output High/Pulse Detected when GND_Cyl. 4
+2653,pontiac,P1355,IC Output High/Pulse Detected when GND_Cyl. 5
+2654,pontiac,P1356,IC Output High/Pulse Detected when GND_Cyl. 6
+2655,pontiac,P1357,IC Output High/Pulse Detected when GND_Cyl. 7
+2656,pontiac,P1358,IC Output High/Pulse Detected when GND_Cyl. 8
+2657,pontiac,P1359,Ignition Coil Group 1 Control Circuit
+2658,pontiac,P1360,Ignition Coil Group 2 Control Circuit
+2659,pontiac,P1361,Ignition Coil Control Circuit Low Voltage
+2660,pontiac,P1362,IC Cylinder 2 Not Toggling After Enable
+2661,pontiac,P1363,IC Cylinder 3 Not Toggling After Enable
+2662,pontiac,P1364,IC Cylinder 4 Not Toggling After Enable
+2663,pontiac,P1365,IC Cylinder 5 Not Toggling After Enable
+2664,pontiac,P1366,IC Cylinder 6 Not Toggling After Enable
+2665,pontiac,P1367,IC Cylinder 7 Not Toggling After Enable
+2666,pontiac,P1368,IC Cylinder 8 Not Toggling After Enable
+2667,pontiac,P1370,IC 4X Reference Circuit Too Many Pulses
+2668,pontiac,P1371,IC 4X Reference Circuit Too Few Pulses
+2669,pontiac,P1372,Crankshaft Position (CKP) Sensor A-B Correlation
+2670,pontiac,P1374,3X Reference Circuit
+2671,pontiac,P1375,IC 24X Reference Circuit High Voltage
+2672,pontiac,P1376,Ignition Ground Circuit
+2673,pontiac,P1377,IC Cam Pulse To 4X Reference Pulse
+2674,pontiac,P1380,Misfire Detected - Rough Road Data Not Available
+2675,pontiac,P1381,Misfire Detected - No Communication with Brake ControlModule
+2676,pontiac,P1390,Wheel Speed Sensor 1 - G - Sensor Circuit
+2677,pontiac,P1391,Wheel Speed Sensor 1 - G - Sensor Circuit Performance
+2678,pontiac,P1392,Wheel Speed Sensor 1 - G - Sensor Circuit Low Voltage
+2679,pontiac,P1393,Wheel Speed Sensor 1 - G - Sensor Circuit High Voltage
+2680,pontiac,P1394,Wheel Speed Sensor 1 - G - Sensor Circuit Intermittent
+2681,pontiac,P1395,Wheel Speed Sensor 2 - G - Sensor Circuit
+2682,pontiac,P1396,Wheel Speed Sensor 2 - G - Sensor Circuit Performance
+2683,pontiac,P1397,Wheel Speed Sensor 2 - G - Sensor Circuit Low Voltage
+2684,pontiac,P1398,Wheel Speed Sensor 2 - G - Sensor Circuit High Voltage
+2685,pontiac,P1399,Wheel Speed Sensor 2 - G - Sensor Circuit Intermittent
+2686,pontiac,P1403,Exhaust Gas Recirculation System Valve 1
+2687,pontiac,P1404,Exhaust Gas Recirculation (EGR) Closed PositionPerformance
+2688,pontiac,P1405,Exhaust Gas Recirculation System Valve 3
+2689,pontiac,P1406,EGR Valve Pintle Position Circuit
+2690,pontiac,P1407,EGR Air Intrusion in Exhaust Supply to EGR Valve
+2691,pontiac,P1408,Intake Manifold Pressure Sensor Circuit
+2692,pontiac,P1409,EGR Vacuum System Leak
+2693,pontiac,P1410,Fuel Tank Pressure System
+2694,pontiac,P1415,Secondary Air Injection (AIR) System Bank 1
+2695,pontiac,P1416,Secondary Air Injection (AIR) System Bank 2
+2696,pontiac,P1418,Secondary Air Injection System Relay A Control CircuitHigh
+2697,pontiac,P1420,Intake Air Low Pressure Switch Circuit Low Voltage
+2698,pontiac,P1421,Intake Air Low Pressure Switch Circuit High Voltage
+2699,pontiac,P1423,Intake Air High Pressure Switch Circuit High Voltage
+2700,pontiac,P1431,Fuel Level Sensor 2 Circuit Performance
+2701,pontiac,P1432,Fuel Level Sensor 2 Circuit Low Voltage
+2702,pontiac,P1433,Fuel Level Sensor 2 Circuit High Voltage
+2703,pontiac,P1441,Evaporative Emission (EVAP) System Flow During Non-Purge
+2704,pontiac,P1442,EVAP Vacuum Sw. High Voltage During Ign. On
+2705,pontiac,P1450,Barometric Pressure Sensor Circuit
+2706,pontiac,P1451,Barometric Press. Sensor Performance
+2707,pontiac,P1480,Cooling Fan 1 Control Circuit High
+2708,pontiac,P1483,Engine Cooling System Performance
+2709,pontiac,P1500,Starter Signal Circuit
+2710,pontiac,P1502,Theft Deterrent Fuel Enable Signal Not Received
+2711,pontiac,P1503,Theft Deterrent Fuel Enable Signal Not Correct
+2712,pontiac,P1504,Vehicle Speed Output Circuit
+2713,pontiac,P1508,Idle Speed Low - Idle Air Control (IAC) System NotResponding
+2714,pontiac,P1509,Idle Speed High - Idle Air Control (IAC) System NotResponding
+2715,pontiac,P1510,Throttle Control System Performance - Throttle LimitationActive
+2716,pontiac,P1511,Throttle Control System - Backup System Performance
+2717,pontiac,P1514,Airflow to TP Sensor Correlation High
+2718,pontiac,P1515,Electronic Throttle System Throttle Position
+2719,pontiac,P1516,Throttle Actuator Control (TAC) Module Throttle ActuatorPosition Performance
+2720,pontiac,P1517,Electronic Throttle Module
+2721,pontiac,P1518,Electronic Throttle Module to PCM Communication
+2722,pontiac,P1519,Throttle Actuator Control (TAC) Module Internal Circuit
+2723,pontiac,P1520,Transmission Range Switch Circuit
+2724,pontiac,P1521,Transmission Engaged at High Throttle Angle
+2725,pontiac,P1522,Park/Neutral to Drive/Reverse at High RPM
+2726,pontiac,P1523,Throttle Closed Position Performance
+2727,pontiac,P1524,Throttle Closed Position Performance
+2728,pontiac,P1525,Throttle Body ServiceRequired
+2729,pontiac,P1526,Minimum Throttle Position Not Learned
+2730,pontiac,P1527,Transmission Range to Pressure Switch Correlation
+2731,pontiac,P1528,Governor
+2732,pontiac,P1529,Heated Windshield Request Problem
+2733,pontiac,P1530,Throttle Actuator Control (TAC) Module Internal Circuit
+2734,pontiac,P1531,A/C Low Side Temperature Sensor Fault
+2735,pontiac,P1532,A/C Evaporator Temp. Sens. Ckt. Low Voltage
+2736,pontiac,P1533,A/C Evaporator Temp. Sens. Ckt. High Voltage
+2737,pontiac,P1534,A/C High Side Temp. Sensor Low Voltage
+2738,pontiac,P1535,A/C High Side Temperature Sensor Circuit
+2739,pontiac,P1536,Engine Coolant Overtemperature - Air Conditioning (A/C)Disabled
+2740,pontiac,P1537,A/C Request Circuit Low Voltage
+2741,pontiac,P1538,A/C Request Circuit High Voltage
+2742,pontiac,P1539,A/C Clutch Status Circuit High Voltage
+2743,pontiac,P1540,Air Conditioning (A/C) Refrigerant Overpressure - AirConditioning (A/C) Disabled
+2744,pontiac,P1541,A/C High Side Over Temperature
+2745,pontiac,P1542,A/C System High Pressure High Temperature
+2746,pontiac,P1543,A/C System Performance
+2747,pontiac,P1544,A/C Refrigerant Condition Very Low
+2748,pontiac,P1545,Air Conditioning (A/C) Clutch Relay Control Circuit
+2749,pontiac,P1546,A/C Clutch Status Circuit Low Voltage
+2750,pontiac,P1547,A/C System Performance Degraded
+2751,pontiac,P1548,A/C Recirculation Circuit
+2752,pontiac,P1554,Cruise Control Feedback Circuit
+2753,pontiac,P1555,Electronic Variable Orifice Output
+2754,pontiac,P1558,Cruise Control Servo Indicates Low
+2755,pontiac,P1559,Cruise Control Power Management Mode
+2756,pontiac,P1560,Transaxle Not in Drive - Cruise Control Disabled
+2757,pontiac,P1561,Cruise Vent Solenoid
+2758,pontiac,P1562,Cruise Vacuum Solenoid
+2759,pontiac,P1563,Cruise Vehicle Speed/Set Speed Difference Too High
+2760,pontiac,P1564,Vehicle Acceleration Too High - Cruise Control Disabled
+2761,pontiac,P1565,Cruise Servo Position Sensor
+2762,pontiac,P1566,Engine RPM Too High - Cruise Control Disabled
+2763,pontiac,P1567,Active Banking Control Active - Cruise Control Disabled
+2764,pontiac,P1568,Cruise Servo Stroke Greater than Commanded in Cruise
+2765,pontiac,P1569,Cruise Servo Stroke High While not in Cruise
+2766,pontiac,P1570,Traction Control Active - Cruise Control Disabled
+2767,pontiac,P1571,Traction Control Torque Request Circuit
+2768,pontiac,P1572,ASR Active Circuit Low Too Long
+2769,pontiac,P1573,PCM/EBTCM Serial Data Circuit
+2770,pontiac,P1574,Stoplamp Switch Circuit
+2771,pontiac,P1575,Extended Travel Brake Switch Circuit
+2772,pontiac,P1576,BBV Sensor Ckt. High Voltage
+2773,pontiac,P1577,BBV Sensor Ckt. Low Voltage
+2774,pontiac,P1578,BBV Sensor Ckt. Low Vacuum
+2775,pontiac,P1579,P/N to D/R at High Throttle Angle - Power Reduction ModeActive
+2776,pontiac,P1580,Cruise Move Circuit Low Voltage
+2777,pontiac,P1581,Cruise Move Circuit High Voltage
+2778,pontiac,P1582,Cruise Direction Circuit Low Voltage
+2779,pontiac,P1583,Cruise Direction CircuitHigh Voltage
+2780,pontiac,P1584,Cruise Control Disabled
+2781,pontiac,P1585,Cruise Control Inhibit Output Circuit
+2782,pontiac,P1586,Cruise Control Brake Switch 2 Circuit
+2783,pontiac,P1587,Cruise Control Clutch Control Circuit Low
+2784,pontiac,P1588,Cruise Control Clutch Control Circuit High
+2785,pontiac,P1599,Engine Stall or Near Stall Detected
+2786,pontiac,P1600,TCM Internal Watchdog Operation
+2787,pontiac,P1601,Serial Comm. Problem With Device 1
+2788,pontiac,P1602,Knock Sensor (KS) Module Performance
+2789,pontiac,P1603,Loss of SDM Serial Data
+2790,pontiac,P1604,Loss of IPC Serial Data
+2791,pontiac,P1605,Loss of HVAC Serial Data
+2792,pontiac,P1606,Serial Communication Problem With Device 6
+2793,pontiac,P1607,Serial Communication Problem With Device 7
+2794,pontiac,P1608,Serial Communication Problem With Device 8
+2795,pontiac,P1609,Loss Of TCS Serial Data
+2796,pontiac,P1610,Loss of PZM Serial Data
+2797,pontiac,P1611,Loss of CVRTD Serial Data
+2798,pontiac,P1612,Loss of IPM Serial Data
+2799,pontiac,P1613,Loss of DIM Serial Data
+2800,pontiac,P1614,Loss of RIM Serial Data
+2801,pontiac,P1615,Loss of VTD Serial Data
+2802,pontiac,P1617,Engine Oil Level Switch Circuit
+2803,pontiac,P1619,Engine Oil Life Monitor Reset Circuit
+2804,pontiac,P1620,Low Coolant Circuit
+2805,pontiac,P1621,Control Module Long Term Memory Performance
+2806,pontiac,P1622,Cylinder Select
+2807,pontiac,P1623,Transmission Temp Pull-Up Resistor
+2808,pontiac,P1624,Customer Snapshot Requested - Data Available
+2809,pontiac,P1625,TCM System Reset
+2810,pontiac,P1626,Theft Deterrent Fuel Enable Signal Not Received
+2811,pontiac,P1627,A/D Performance
+2812,pontiac,P1628,ECT Pull-Up Resistor
+2813,pontiac,P1629,Theft Deterrent System - Cranking Signal
+2814,pontiac,P1630,Theft Deterrent Learn Mode Active
+2815,pontiac,P1631,Theft Deterrent Start Enable Signal Not Correct
+2816,pontiac,P1632,Theft Deterrent Fuel Disable Signal Received
+2817,pontiac,P1633,Ignition 0 Switch Circuit
+2818,pontiac,P1634,Ignition 1 Switch Circuit
+2819,pontiac,P1635,5 Volt Reference Circuit
+2820,pontiac,P1636,PCM Stack Overrun
+2821,pontiac,P1637,Generator L-Terminal Circuit
+2822,pontiac,P1638,Generator F-Terminal Circuit
+2823,pontiac,P1639,5 Volt Reference 2 Circuit
+2824,pontiac,P1640,Driver-1-Input High Voltage
+2825,pontiac,P1641,Malfunction Indicator Lamp (MIL) Control Circuit
+2826,pontiac,P1642,Vehicle Speed Output Circuit
+2827,pontiac,P1643,Engine Speed Output Circuit
+2828,pontiac,P1644,Traction Control Delivered Torque Output Circuit
+2829,pontiac,P1645,Evaporative Emission (EVAP) Vent Solenoid Contorl Circuit
+2830,pontiac,P1646,Evaporative Emission (EVAP) Vent Solenoid Control Circuit
+2831,pontiac,P1647,Driver 1 Line 7
+2832,pontiac,P1650,Control Module Output B Circuit
+2833,pontiac,P1651,Fan 1 Relay Control Circuit
+2834,pontiac,P1652,Powertrain Induced Chassis Pitch Output Circuit
+2835,pontiac,P1653,Oil Level Lamp Control Circuit
+2836,pontiac,P1654,Cruise Control Inhibit Output Circuit
+2837,pontiac,P1655,EVAP Purge Solenoid Control Circuit
+2838,pontiac,P1656,Driver 2 Line 6
+2839,pontiac,P1657,1-4 Upshift Solenoid Control Circuit
+2840,pontiac,P1658,Starter Enable Relay Control Circuit
+2841,pontiac,P1660,Cooling Fan Control Circuits
+2842,pontiac,P1661,MIL Control Circuit
+2843,pontiac,P1662,Cruise Lamp Control Circuit
+2844,pontiac,P1663,Oil Life Lamp Control Circuit
+2845,pontiac,P1664,1-4 Upshift Lamp Control Circuit
+2846,pontiac,P1665,Driver 3 Line 5
+2847,pontiac,P1666,Driver 3 Line 6
+2848,pontiac,P1667,Reverse Inhibit Solenoid Control Circuit
+2849,pontiac,P1669,ABS Unit Expected
+2850,pontiac,P1670,Driver 4
+2851,pontiac,P1671,Driver 4 Line 1
+2852,pontiac,P1672,Low Engine Oil Level Lamp Control Circuit
+2853,pontiac,P1673,Engine Hot Lamp Control Circuit
+2854,pontiac,P1674,Tachometer Control Circuit
+2855,pontiac,P1675,EVAP Vent Solenoid Control Circuit
+2856,pontiac,P1676,Driver 4 Line 6
+2857,pontiac,P1677,Driver 4 Line 7
+2858,pontiac,P1680,Driver 5
+2859,pontiac,P1681,Driver 5 Line 1
+2860,pontiac,P1682,Driver 5 Line 2
+2861,pontiac,P1683,Driver 5 Line 3
+2862,pontiac,P1684,Driver 5 Line 4
+2863,pontiac,P1685,Driver 5 Line 5
+2864,pontiac,P1686,Driver 5 Line 6
+2865,pontiac,P1687,Driver 5 Line 7
+2866,pontiac,P1689,Delivered Torque Circuit Fault
+2867,pontiac,P1690,ECM Loop Overrun
+2868,pontiac,P1691,Coolant Gage Circuit Low Voltage
+2869,pontiac,P1692,Coolant Gage Circuit High Voltage
+2870,pontiac,P1693,Tachometer Circuit Low Voltage
+2871,pontiac,P1694,Tachometer Circuit High Voltage
+2872,pontiac,P1695,Remote Keyless Entry Circuit Low
+2873,pontiac,P1696,Remote Keyless Entry Voltage High
+2874,pontiac,P1700,Transmission Control Module (TCM) Requested MILIllumination
+2875,pontiac,P1701,Trans. MIL Request Circuit
+2876,pontiac,P1705,P/N Signal Output Circuit
+2877,pontiac,P1740,Torque Reduction Signal Circuit
+2878,pontiac,P1743,TP Signal from ECM
+2879,pontiac,P1760,TCM Supply Voltage Interrupted
+2880,pontiac,P1779,Engine Torque Delivered to TCM Signal
+2881,pontiac,P1780,Park/Neutral Position [PNP] Switch Circuit
+2882,pontiac,P1781,Engine Torque Signal Circuit
+2883,pontiac,P1790,Transmission Control Module Checksum
+2884,pontiac,P1791,Transmission Control Module Loop
+2885,pontiac,P1793,Transmission Control Module Stack Overrun
+2886,pontiac,P1795,CAN Bus - Throttle Body Position
+2887,pontiac,P1800,TCM Power Relay Control Circuit
+2888,pontiac,P1801,Performance Selector Switch Failure
+2889,pontiac,P1804,Ground Control Relay
+2890,pontiac,P1810,TFP Valve Position Switch Circuit
+2891,pontiac,P1811,Maximum Adapt and Long Shift
+2892,pontiac,P1812,Transmission Over Temperature Condition
+2893,pontiac,P1813,Torque Control
+2894,pontiac,P1814,Torque Converter Overstressed
+2895,pontiac,P1815,Transmission Range Switch - Start In Wrong Range
+2896,pontiac,P1816,TFP Valve Position Sw. - Park/Neu. With Drive Ratio
+2897,pontiac,P1817,TFP Valve Position Sw. - Reverse With Drive Ratio
+2898,pontiac,P1818,TFP Valve Position Sw. - Drive Without Drive Ratio
+2899,pontiac,P1819,Internal Mode Switch - No Start/Wrong Range
+2900,pontiac,P1820,Internal Mode Switch Circuit A Low
+2901,pontiac,P1822,Internal Mode Switch Circuit B High
+2902,pontiac,P1823,Internal Mode Switch Circuit P Low
+2903,pontiac,P1825,Internal Mode Switch - Invalid Range
+2904,pontiac,P1826,Internal Mode Switch Circuit C - High
+2905,pontiac,P1831,PC Solenoid Power Circuit - Low Voltage
+2906,pontiac,P1833,A/T Solenoids Power Circuit - Low Voltage
+2907,pontiac,P1835,Kick-Down Switch Circuit
+2908,pontiac,P1836,Kick-Down Switch Failed Open
+2909,pontiac,P1837,Kick-Down Switch Failed Short
+2910,pontiac,P1842,1-2 Shift Solenoid Circuit Low Voltage
+2911,pontiac,P1843,1-2 Shift Solenoid Circuit High Voltage
+2912,pontiac,P1844,Torque Reduction Signal Circuit Desired By TCM
+2913,pontiac,P1845,2-3 Shift Solenoid Circuit Low Voltage
+2914,pontiac,P1847,2-3 Shift Solenoid Circuit High Voltage
+2915,pontiac,P1850,Brake Band Apply Solenoid Circuit
+2916,pontiac,P1851,Brake Band Apply Solenoid Performance
+2917,pontiac,P1852,Brake Band Apply SolenoidLow Voltage
+2918,pontiac,P1853,Brake Band Apply Solenoid High Voltage
+2919,pontiac,P1860,TCC PWM Solenoid Circuit Electrical
+2920,pontiac,P1864,Torque Converter Clutch Circuit
+2921,pontiac,P1868,Transmission Fluid Life
+2922,pontiac,P1870,Transmission Component Slipping
+2923,pontiac,P1871,Undefined Gear Ratio
+2924,pontiac,P1873,TCC Stator Temp. Switch Circuit Low
+2925,pontiac,P1874,TCC Stator Temp. Switch Circuit High
+2926,pontiac,P1875,4WD Low Switch Circuit Electrical
+2927,pontiac,P1884,TCC Enable/Shift Light Circuit
+2928,pontiac,P1886,Shift Timing Solenoid
+2929,pontiac,P1887,TCC Release Switch Circuit
+2930,pontiac,P1891,Throttle Position Sensor PWM Signal Low
+2931,pontiac,P1892,Throttle Position Sensor PWM Signal High
+2932,pontiac,P1893,Engine Torque Signal Low Voltage
+2933,pontiac,P1894,Engine Torque Signal High Voltage
+2934,pontiac,P1895,TCM to ECM Torque Reduction Circuit
+2935,saturn,P1031,HO2S Heater Current Monitor Control Circuit Banks 1 and 2 Sensor 1
+2936,saturn,P1032,HO2S Heater Warm Up Control Circuit Banks 1 and 2 Sensor 1
+2937,saturn,P1105,Secondary Vacuum Sensor Circuit
+2938,saturn,P1106,Manifold Absolute Pressure (MAP) Sensor Circuit Intermittent High Voltage
+2939,saturn,P1107,Manifold Absolute Pressure (MAP) Sensor Circuit Intermittent Low Voltage
+2940,saturn,P1108,BARO to MAP Sensor Comparison Too High
+2941,saturn,P1109,Secondary Port Throttle System
+2942,saturn,P1111,Intake Air Temperature (IAT) Sensor Circuit Intermittent High Voltage
+2943,saturn,P1112,Intake Air Temperature (IAT) Sensor Circuit IntermittentLow Voltage
+2944,saturn,P1113,Intake Resonance Switchover Solenoid Control Circuit
+2945,saturn,P1114,Engine Coolant Temperature (ECT) Sensor CircuitIntermittent Low Voltage
+2946,saturn,P1115,Engine Coolant Temperature (ECT) Sensor CircuitIntermittent High Voltage
+2947,saturn,P1116,ECT Signal Unstable or Intermittent
+2948,saturn,P1117,Engine Coolant Temp. Signal Out-Of-Range Low
+2949,saturn,P1118,Engine Coolant Temp. Signal Out-Of-Range High
+2950,saturn,P1119,ECT Signal Out-Of-Range With TFT Sensor
+2951,saturn,P1120,Throttle Position (TP) Sensor 1 Circuit
+2952,saturn,P1121,Throttle Position (TP) Sensor Circuit Intermittent HighVoltage
+2953,saturn,P1122,Throttle Position (TP) Sensor Circuit Intermittent LowVoltage
+2954,saturn,P1125,APP System
+2955,saturn,P1130,HO2S Circuit Low Variance Bank 1 Sensor 1
+2956,saturn,P1131,HO2S Circuit Low Variance Bank 1 Sensor 2
+2957,saturn,P1132,HO2S Circuit Low Variance Bank 2 Sensor 1
+2958,saturn,P1133,HO2S Insufficient Switching Bank 1 Sensor 1
+2959,saturn,P1134,HO2S Transition Time Ratio Bank 1 Sensor 1
+2960,saturn,P1135,HO2S Lean Mean Bank 1 Sensor 1
+2961,saturn,P1136,HO2S Rich Mean Bank 1 Sensor 1
+2962,saturn,P1137,HO2S Bank 1 Sensor 2 Lean System or Low Voltage
+2963,saturn,P1138,HO2S Bank 1 Sensor 2 Rich or High Voltage
+2964,saturn,P1139,HO2S Insuff. Switching Bank 1 Sensor 2
+2965,saturn,P1140,HO2S Transition Time Ratio Bank 1 Sensor 2
+2966,saturn,P1141,HO2S Heater Control Circuit Bank 1 Sensor 2
+2967,saturn,P1143,HO2S Bank 1 Sensor 3 Lean System or Low Voltage
+2968,saturn,P1144,HO2S Bank 1 Sensor 3 Rich or High Voltage
+2969,saturn,P1145,HO2S Cross Counts Bank 1 Sensor 3
+2970,saturn,P1153,HO2S Insufficient Switching Bank 2 Sensor 1
+2971,saturn,P1154,HO2S Transition Time Ratio Bank 2 Sensor 1
+2972,saturn,P1155,HO2S Lean Mean Bank 2 Sensor 1
+2973,saturn,P1156,HO2S Rich Mean Bank 2 Sensor 1
+2974,saturn,P1157,HO2S Bank 2 Sensor 2 Lean System or Low Voltage
+2975,saturn,P1158,HO2S Bank 2 Sensor 2 Rich or High Voltage
+2976,saturn,P1159,HO2S Cross Counts Bank 2 Sensor 2
+2977,saturn,P1161,HO2S Heater Control Circuit Bank 2 Sensor 2
+2978,saturn,P1163,HO2S Bank 2 Sensor 3 Lean System or Low Voltage
+2979,saturn,P1164,HO2S Bank 2 Sensor 3 Rich or High Voltage
+2980,saturn,P1165,HO2S Cross Counts Bank 2 Sensor 3
+2981,saturn,P1170,Bank to Bank Fuel TrimOffset
+2982,saturn,P1171,Fuel System Lean During Acceleration
+2983,saturn,P1185,Engine Oil Temperature Circuit
+2984,saturn,P1186,EOT Circuit Performance
+2985,saturn,P1187,EOT Sensor Ckt. Low Voltage
+2986,saturn,P1188,EOT Sensor Ckt. High Voltage
+2987,saturn,P1189,Engine Oil Pressure (EOP) Switch Circuit
+2988,saturn,P1190,Engine Vacuum Leak
+2989,saturn,P1191,Intake Air Duct Air Leak
+2990,saturn,P1200,Injector Control Circuit
+2991,saturn,P1201,(Alt. Fuel) Gas Mass Sensor Circuit Range/Performance
+2992,saturn,P1202,(Alt. Fuel) Gas Mass Sensor Circuit Low Frequency
+2993,saturn,P1203,(Alt. Fuel) Gas Mass Sensor Circuit High Frequency
+2994,saturn,P1211,Mass Air Flow Circuit Intermittent High
+2995,saturn,P1212,Mass Air Flow Circuit Intermittent Low
+2996,saturn,P1214,Injection Pump Timing Offset
+2997,saturn,P1215,Ground Fault Detection Indicated
+2998,saturn,P1216,Fuel Solenoid Response Time Too Short
+2999,saturn,P1217,Fuel Solenoid Response Time Too Long
+3000,saturn,P1218,Injection Pump Calibration Circuit
+3001,saturn,P1219,Throttle Position Sensor Reference Voltage
+3002,saturn,P1220,Throttle Position (TP) Sensor 2 Circuit
+3003,saturn,P1221,Fuel Pump Secondary Circuit Low
+3004,saturn,P1222,Injector Control Circuit Intermittent
+3005,saturn,P1225,Injector Circuit Cylinder 2 Intermittent
+3006,saturn,P1228,Injector Circuit Cylinder 3 Intermittent
+3007,saturn,P1231,Injector Circuit Cylinder 4 Intermittent
+3008,saturn,P1234,Injector Circuit Cylinder 5 Intermittent
+3009,saturn,P1237,Injector Circuit Cylinder 6 Intermittent
+3010,saturn,P1240,Injector Circuit Cylinder 7 Intermittent
+3011,saturn,P1243,Injector Circuit Cylinder 8 Intermittent
+3012,saturn,P1245,Intake Plenum Switchover Valve
+3013,saturn,P1250,Early Fuel Evaporation Heater Circuit
+3014,saturn,P1257,Supercharger System Overboost
+3015,saturn,P1258,Engine Coolant Overtemperature - Protection Mode Active
+3016,saturn,P1260,Last Test Failed Failed SCC ENTER:More Info.
+3017,saturn,P1270,Accelerator Pedal Position Sensor A/D Converter Error
+3018,saturn,P1271,Accelerator Pedal Position (APP) Sensor 1-2 Correlation
+3019,saturn,P1272,Accelerator Pedal Position Sensor 2
+3020,saturn,P1273,Accelerator Pedal Position Sensor 1
+3021,saturn,P1274,Injectors Wired Incorrectly
+3022,saturn,P1275,Accelerator Pedal Position (APP) Sensor 1 Circuit
+3023,saturn,P1276,Accelerator Pedal Position Sensor 1 Circuit Performance
+3024,saturn,P1277,Accelerator Pedal Position Sensor 1 Circuit Low Voltage
+3025,saturn,P1278,Accelerator Pedal Position Sensor 1 Circuit High Voltage
+3026,saturn,P1280,Accelerator Pedal Position (APP) Sensor 2 Circuit
+3027,saturn,P1281,Accelerator Pedal Position Sensor 2 Circuit Performance
+3028,saturn,P1282,Accelerator Pedal Position Sensor 2 Circuit Low Voltage
+3029,saturn,P1283,Accelerator Pedal Position Sensor 2 Circuit High Voltage
+3030,saturn,P1285,Accelerator Pedal Position Sensor 3 Circuit
+3031,saturn,P1286,Accelerator Pedal Position Sensor 3 Circuit Performance
+3032,saturn,P1287,Accelerator Pedal Position Sensor 3 Circuit Low Voltage
+3033,saturn,P1288,Accelerator Pedal Position Sensor 3 Circuit High Voltage
+3034,saturn,P1300,Ignitor Circuit
+3035,saturn,P1305,Ignition Coil 2 Primary Feedback Circuit
+3036,saturn,P1310,Ignition Coil 3 Primary Feedback Circuit
+3037,saturn,P1315,Ignition Coil 4 Primary Feedback Circuit
+3038,saturn,P1320,IC 4X Reference Circuit Intermittent
+3039,saturn,P1321,Electronic Ignition System Fault Line
+3040,saturn,P1322,EI System or Ignition Control Extra or Missing
+3041,saturn,P1323,IC 24X Reference Circuit Low Frequency
+3042,saturn,P1324,Crank RPM Too Low
+3043,saturn,P1335,CKP Circuit
+3044,saturn,P1336,Crankshaft Position (CKP) System Variation Not Learned
+3045,saturn,P1345,Crankshaft Position (CKP)-Camshaft Position (CMP) Correlation
+3046,saturn,P1346,Intake Camshaft Position [CMP] Sensor System Performance
+3047,saturn,P1350,Ignition Control System
+3048,saturn,P1351,Ignition Coil Control Circuit High Voltage
+3049,saturn,P1352,IC Output High/Pulse Detected when GND_Cyl. 2
+3050,saturn,P1353,IC Output High/Pulse Detected when GND_Cyl. 3
+3051,saturn,P1354,IC Output High/Pulse Detected when GND_Cyl. 4
+3052,saturn,P1355,IC Output High/Pulse Detected when GND_Cyl. 5
+3053,saturn,P1356,IC Output High/Pulse Detected when GND_Cyl. 6
+3054,saturn,P1357,IC Output High/Pulse Detected when GND_Cyl. 7
+3055,saturn,P1358,IC Output High/Pulse Detected when GND_Cyl. 8
+3056,saturn,P1359,Ignition Coil Group 1 Control Circuit
+3057,saturn,P1360,Ignition Coil Group 2 Control Circuit
+3058,saturn,P1361,Ignition Coil Control Circuit Low Voltage
+3059,saturn,P1362,IC Cylinder 2 Not Toggling After Enable
+3060,saturn,P1363,IC Cylinder 3 Not Toggling After Enable
+3061,saturn,P1364,IC Cylinder 4 Not Toggling After Enable
+3062,saturn,P1365,IC Cylinder 5 Not Toggling After Enable
+3063,saturn,P1366,IC Cylinder 6 Not Toggling After Enable
+3064,saturn,P1367,IC Cylinder 7 Not Toggling After Enable
+3065,saturn,P1368,IC Cylinder 8 Not Toggling After Enable
+3066,saturn,P1370,IC 4X Reference Circuit Too Many Pulses
+3067,saturn,P1371,IC 4X Reference Circuit Too Few Pulses
+3068,saturn,P1372,Crankshaft Position (CKP) Sensor A-B Correlation
+3069,saturn,P1374,3X Reference Circuit
+3070,saturn,P1375,IC 24X Reference Circuit High Voltage
+3071,saturn,P1376,Ignition Ground Circuit
+3072,saturn,P1377,IC Cam Pulse To 4X Reference Pulse
+3073,saturn,P1380,Misfire Detected - Rough Road Data Not Available
+3074,saturn,P1381,Misfire Detected - No Communication with Brake ControlModule
+3075,saturn,P1390,Wheel Speed Sensor 1 - G - Sensor Circuit
+3076,saturn,P1391,Wheel Speed Sensor 1 - G - Sensor Circuit Performance
+3077,saturn,P1392,Wheel Speed Sensor 1 - G - Sensor Circuit Low Voltage
+3078,saturn,P1393,Wheel Speed Sensor 1 - G - Sensor Circuit High Voltage
+3079,saturn,P1394,Wheel Speed Sensor 1 - G - Sensor Circuit Intermittent
+3080,saturn,P1395,Wheel Speed Sensor 2 - G - Sensor Circuit
+3081,saturn,P1396,Wheel Speed Sensor 2 - G - Sensor Circuit Performance
+3082,saturn,P1397,Wheel Speed Sensor 2 - G - Sensor Circuit Low Voltage
+3083,saturn,P1398,Wheel Speed Sensor 2 - G - Sensor Circuit High Voltage
+3084,saturn,P1399,Wheel Speed Sensor 2 - G - Sensor Circuit Intermittent
+3085,saturn,P1403,Exhaust Gas Recirculation System Valve 1
+3086,saturn,P1404,Exhaust Gas Recirculation (EGR) Closed PositionPerformance
+3087,saturn,P1405,Exhaust Gas Recirculation System Valve 3
+3088,saturn,P1406,EGR Valve Pintle Position Circuit
+3089,saturn,P1407,EGR Air Intrusion in Exhaust Supply to EGR Valve
+3090,saturn,P1408,Intake Manifold Pressure Sensor Circuit
+3091,saturn,P1409,EGR Vacuum System Leak
+3092,saturn,P1410,Fuel Tank Pressure System
+3093,saturn,P1415,Secondary Air Injection (AIR) System Bank 1
+3094,saturn,P1416,Secondary Air Injection (AIR) System Bank 2
+3095,saturn,P1418,Secondary Air Injection System Relay A Control CircuitHigh
+3096,saturn,P1420,Intake Air Low Pressure Switch Circuit Low Voltage
+3097,saturn,P1421,Intake Air Low Pressure Switch Circuit High Voltage
+3098,saturn,P1423,Intake Air High Pressure Switch Circuit High Voltage
+3099,saturn,P1431,Fuel Level Sensor 2 Circuit Performance
+3100,saturn,P1432,Fuel Level Sensor 2 Circuit Low Voltage
+3101,saturn,P1433,Fuel Level Sensor 2 Circuit High Voltage
+3102,saturn,P1441,Evaporative Emission (EVAP) System Flow During Non-Purge
+3103,saturn,P1442,EVAP Vacuum Sw. High Voltage During Ign. On
+3104,saturn,P1450,Barometric Pressure Sensor Circuit
+3105,saturn,P1451,Barometric Press. Sensor Performance
+3106,saturn,P1480,Cooling Fan 1 Control Circuit High
+3107,saturn,P1483,Engine Cooling System Performance
+3108,saturn,P1500,Starter Signal Circuit
+3109,saturn,P1502,Theft Deterrent Fuel Enable Signal Not Received
+3110,saturn,P1503,Theft Deterrent Fuel Enable Signal Not Correct
+3111,saturn,P1504,Vehicle Speed Output Circuit
+3112,saturn,P1508,Idle Speed Low - Idle Air Control (IAC) System NotResponding
+3113,saturn,P1509,Idle Speed High - Idle Air Control (IAC) System NotResponding
+3114,saturn,P1510,Throttle Control System Performance - Throttle LimitationActive
+3115,saturn,P1511,Throttle Control System - Backup System Performance
+3116,saturn,P1514,Airflow to TP Sensor Correlation High
+3117,saturn,P1515,Electronic Throttle System Throttle Position
+3118,saturn,P1516,Throttle Actuator Control (TAC) Module Throttle ActuatorPosition Performance
+3119,saturn,P1517,Electronic Throttle Module
+3120,saturn,P1518,Electronic Throttle Module to PCM Communication
+3121,saturn,P1519,Throttle Actuator Control (TAC) Module Internal Circuit
+3122,saturn,P1520,Transmission Range Switch Circuit
+3123,saturn,P1521,Transmission Engaged at High Throttle Angle
+3124,saturn,P1522,Park/Neutral to Drive/Reverse at High RPM
+3125,saturn,P1523,Throttle Closed Position Performance
+3126,saturn,P1524,Throttle Closed Position Performance
+3127,saturn,P1525,Throttle Body ServiceRequired
+3128,saturn,P1526,Minimum Throttle Position Not Learned
+3129,saturn,P1527,Transmission Range to Pressure Switch Correlation
+3130,saturn,P1528,Governor
+3131,saturn,P1529,Heated Windshield Request Problem
+3132,saturn,P1530,Throttle Actuator Control (TAC) Module Internal Circuit
+3133,saturn,P1531,A/C Low Side Temperature Sensor Fault
+3134,saturn,P1532,A/C Evaporator Temp. Sens. Ckt. Low Voltage
+3135,saturn,P1533,A/C Evaporator Temp. Sens. Ckt. High Voltage
+3136,saturn,P1534,A/C High Side Temp. Sensor Low Voltage
+3137,saturn,P1535,A/C High Side Temperature Sensor Circuit
+3138,saturn,P1536,Engine Coolant Overtemperature - Air Conditioning (A/C)Disabled
+3139,saturn,P1537,A/C Request Circuit Low Voltage
+3140,saturn,P1538,A/C Request Circuit High Voltage
+3141,saturn,P1539,A/C Clutch Status Circuit High Voltage
+3142,saturn,P1540,Air Conditioning (A/C) Refrigerant Overpressure - AirConditioning (A/C) Disabled
+3143,saturn,P1541,A/C High Side Over Temperature
+3144,saturn,P1542,A/C System High Pressure High Temperature
+3145,saturn,P1543,A/C System Performance
+3146,saturn,P1544,A/C Refrigerant Condition Very Low
+3147,saturn,P1545,Air Conditioning (A/C) Clutch Relay Control Circuit
+3148,saturn,P1546,A/C Clutch Status Circuit Low Voltage
+3149,saturn,P1547,A/C System Performance Degraded
+3150,saturn,P1548,A/C Recirculation Circuit
+3151,saturn,P1554,Cruise Control Feedback Circuit
+3152,saturn,P1555,Electronic Variable Orifice Output
+3153,saturn,P1558,Cruise Control Servo Indicates Low
+3154,saturn,P1559,Cruise Control Power Management Mode
+3155,saturn,P1560,Transaxle Not in Drive - Cruise Control Disabled
+3156,saturn,P1561,Cruise Vent Solenoid
+3157,saturn,P1562,Cruise Vacuum Solenoid
+3158,saturn,P1563,Cruise Vehicle Speed/Set Speed Difference Too High
+3159,saturn,P1564,Vehicle Acceleration Too High - Cruise Control Disabled
+3160,saturn,P1565,Cruise Servo Position Sensor
+3161,saturn,P1566,Engine RPM Too High - Cruise Control Disabled
+3162,saturn,P1567,Active Banking Control Active - Cruise Control Disabled
+3163,saturn,P1568,Cruise Servo Stroke Greater than Commanded in Cruise
+3164,saturn,P1569,Cruise Servo Stroke High While not in Cruise
+3165,saturn,P1570,Traction Control Active - Cruise Control Disabled
+3166,saturn,P1571,Traction Control Torque Request Circuit
+3167,saturn,P1572,ASR Active Circuit Low Too Long
+3168,saturn,P1573,PCM/EBTCM Serial Data Circuit
+3169,saturn,P1574,Stoplamp Switch Circuit
+3170,saturn,P1575,Extended Travel Brake Switch Circuit
+3171,saturn,P1576,BBV Sensor Ckt. High Voltage
+3172,saturn,P1577,BBV Sensor Ckt. Low Voltage
+3173,saturn,P1578,BBV Sensor Ckt. Low Vacuum
+3174,saturn,P1579,P/N to D/R at High Throttle Angle - Power Reduction ModeActive
+3175,saturn,P1580,Cruise Move Circuit Low Voltage
+3176,saturn,P1581,Cruise Move Circuit High Voltage
+3177,saturn,P1582,Cruise Direction Circuit Low Voltage
+3178,saturn,P1583,Cruise Direction CircuitHigh Voltage
+3179,saturn,P1584,Cruise Control Disabled
+3180,saturn,P1585,Cruise Control Inhibit Output Circuit
+3181,saturn,P1586,Cruise Control Brake Switch 2 Circuit
+3182,saturn,P1587,Cruise Control Clutch Control Circuit Low
+3183,saturn,P1588,Cruise Control Clutch Control Circuit High
+3184,saturn,P1599,Engine Stall or Near Stall Detected
+3185,saturn,P1600,TCM Internal Watchdog Operation
+3186,saturn,P1601,Serial Comm. Problem With Device 1
+3187,saturn,P1602,Knock Sensor (KS) Module Performance
+3188,saturn,P1603,Loss of SDM Serial Data
+3189,saturn,P1604,Loss of IPC Serial Data
+3190,saturn,P1605,Loss of HVAC Serial Data
+3191,saturn,P1606,Serial Communication Problem With Device 6
+3192,saturn,P1607,Serial Communication Problem With Device 7
+3193,saturn,P1608,Serial Communication Problem With Device 8
+3194,saturn,P1609,Loss Of TCS Serial Data
+3195,saturn,P1610,Loss of PZM Serial Data
+3196,saturn,P1611,Loss of CVRTD Serial Data
+3197,saturn,P1612,Loss of IPM Serial Data
+3198,saturn,P1613,Loss of DIM Serial Data
+3199,saturn,P1614,Loss of RIM Serial Data
+3200,saturn,P1615,Loss of VTD Serial Data
+3201,saturn,P1617,Engine Oil Level Switch Circuit
+3202,saturn,P1619,Engine Oil Life Monitor Reset Circuit
+3203,saturn,P1620,Low Coolant Circuit
+3204,saturn,P1621,Control Module Long Term Memory Performance
+3205,saturn,P1622,Cylinder Select
+3206,saturn,P1623,Transmission Temp Pull-Up Resistor
+3207,saturn,P1624,Customer Snapshot Requested - Data Available
+3208,saturn,P1625,TCM System Reset
+3209,saturn,P1626,Theft Deterrent Fuel Enable Signal Not Received
+3210,saturn,P1627,A/D Performance
+3211,saturn,P1628,ECT Pull-Up Resistor
+3212,saturn,P1629,Theft Deterrent System - Cranking Signal
+3213,saturn,P1630,Theft Deterrent Learn Mode Active
+3214,saturn,P1631,Theft Deterrent Start Enable Signal Not Correct
+3215,saturn,P1632,Theft Deterrent Fuel Disable Signal Received
+3216,saturn,P1633,Ignition 0 Switch Circuit
+3217,saturn,P1634,Ignition 1 Switch Circuit
+3218,saturn,P1635,5 Volt Reference Circuit
+3219,saturn,P1636,PCM Stack Overrun
+3220,saturn,P1637,Generator L-Terminal Circuit
+3221,saturn,P1638,Generator F-Terminal Circuit
+3222,saturn,P1639,5 Volt Reference 2 Circuit
+3223,saturn,P1640,Driver-1-Input High Voltage
+3224,saturn,P1641,Malfunction Indicator Lamp (MIL) Control Circuit
+3225,saturn,P1642,Vehicle Speed Output Circuit
+3226,saturn,P1643,Engine Speed Output Circuit
+3227,saturn,P1644,Traction Control Delivered Torque Output Circuit
+3228,saturn,P1645,Evaporative Emission (EVAP) Vent Solenoid Contorl Circuit
+3229,saturn,P1646,Evaporative Emission (EVAP) Vent Solenoid Control Circuit
+3230,saturn,P1647,Driver 1 Line 7
+3231,saturn,P1650,Control Module Output B Circuit
+3232,saturn,P1651,Fan 1 Relay Control Circuit
+3233,saturn,P1652,Powertrain Induced Chassis Pitch Output Circuit
+3234,saturn,P1653,Oil Level Lamp Control Circuit
+3235,saturn,P1654,Cruise Control Inhibit Output Circuit
+3236,saturn,P1655,EVAP Purge Solenoid Control Circuit
+3237,saturn,P1656,Driver 2 Line 6
+3238,saturn,P1657,1-4 Upshift Solenoid Control Circuit
+3239,saturn,P1658,Starter Enable Relay Control Circuit
+3240,saturn,P1660,Cooling Fan Control Circuits
+3241,saturn,P1661,MIL Control Circuit
+3242,saturn,P1662,Cruise Lamp Control Circuit
+3243,saturn,P1663,Oil Life Lamp Control Circuit
+3244,saturn,P1664,1-4 Upshift Lamp Control Circuit
+3245,saturn,P1665,Driver 3 Line 5
+3246,saturn,P1666,Driver 3 Line 6
+3247,saturn,P1667,Reverse Inhibit Solenoid Control Circuit
+3248,saturn,P1669,ABS Unit Expected
+3249,saturn,P1670,Driver 4
+3250,saturn,P1671,Driver 4 Line 1
+3251,saturn,P1672,Low Engine Oil Level Lamp Control Circuit
+3252,saturn,P1673,Engine Hot Lamp Control Circuit
+3253,saturn,P1674,Tachometer Control Circuit
+3254,saturn,P1675,EVAP Vent Solenoid Control Circuit
+3255,saturn,P1676,Driver 4 Line 6
+3256,saturn,P1677,Driver 4 Line 7
+3257,saturn,P1680,Driver 5
+3258,saturn,P1681,Driver 5 Line 1
+3259,saturn,P1682,Driver 5 Line 2
+3260,saturn,P1683,Driver 5 Line 3
+3261,saturn,P1684,Driver 5 Line 4
+3262,saturn,P1685,Driver 5 Line 5
+3263,saturn,P1686,Driver 5 Line 6
+3264,saturn,P1687,Driver 5 Line 7
+3265,saturn,P1689,Delivered Torque Circuit Fault
+3266,saturn,P1690,ECM Loop Overrun
+3267,saturn,P1691,Coolant Gage Circuit Low Voltage
+3268,saturn,P1692,Coolant Gage Circuit High Voltage
+3269,saturn,P1693,Tachometer Circuit Low Voltage
+3270,saturn,P1694,Tachometer Circuit High Voltage
+3271,saturn,P1695,Remote Keyless Entry Circuit Low
+3272,saturn,P1696,Remote Keyless Entry Voltage High
+3273,saturn,P1700,Transmission Control Module (TCM) Requested MILIllumination
+3274,saturn,P1701,Trans. MIL Request Circuit
+3275,saturn,P1705,P/N Signal Output Circuit
+3276,saturn,P1740,Torque Reduction Signal Circuit
+3277,saturn,P1743,TP Signal from ECM
+3278,saturn,P1760,TCM Supply Voltage Interrupted
+3279,saturn,P1779,Engine Torque Delivered to TCM Signal
+3280,saturn,P1780,Park/Neutral Position [PNP] Switch Circuit
+3281,saturn,P1781,Engine Torque Signal Circuit
+3282,saturn,P1790,Transmission Control Module Checksum
+3283,saturn,P1791,Transmission Control Module Loop
+3284,saturn,P1793,Transmission Control Module Stack Overrun
+3285,saturn,P1795,CAN Bus - Throttle Body Position
+3286,saturn,P1800,TCM Power Relay Control Circuit
+3287,saturn,P1801,Performance Selector Switch Failure
+3288,saturn,P1804,Ground Control Relay
+3289,saturn,P1810,TFP Valve Position Switch Circuit
+3290,saturn,P1811,Maximum Adapt and Long Shift
+3291,saturn,P1812,Transmission Over Temperature Condition
+3292,saturn,P1813,Torque Control
+3293,saturn,P1814,Torque Converter Overstressed
+3294,saturn,P1815,Transmission Range Switch - Start In Wrong Range
+3295,saturn,P1816,TFP Valve Position Sw. - Park/Neu. With Drive Ratio
+3296,saturn,P1817,TFP Valve Position Sw. - Reverse With Drive Ratio
+3297,saturn,P1818,TFP Valve Position Sw. - Drive Without Drive Ratio
+3298,saturn,P1819,Internal Mode Switch - No Start/Wrong Range
+3299,saturn,P1820,Internal Mode Switch Circuit A Low
+3300,saturn,P1822,Internal Mode Switch Circuit B High
+3301,saturn,P1823,Internal Mode Switch Circuit P Low
+3302,saturn,P1825,Internal Mode Switch - Invalid Range
+3303,saturn,P1826,Internal Mode Switch Circuit C - High
+3304,saturn,P1831,PC Solenoid Power Circuit - Low Voltage
+3305,saturn,P1833,A/T Solenoids Power Circuit - Low Voltage
+3306,saturn,P1835,Kick-Down Switch Circuit
+3307,saturn,P1836,Kick-Down Switch Failed Open
+3308,saturn,P1837,Kick-Down Switch Failed Short
+3309,saturn,P1842,1-2 Shift Solenoid Circuit Low Voltage
+3310,saturn,P1843,1-2 Shift Solenoid Circuit High Voltage
+3311,saturn,P1844,Torque Reduction Signal Circuit Desired By TCM
+3312,saturn,P1845,2-3 Shift Solenoid Circuit Low Voltage
+3313,saturn,P1847,2-3 Shift Solenoid Circuit High Voltage
+3314,saturn,P1850,Brake Band Apply Solenoid Circuit
+3315,saturn,P1851,Brake Band Apply Solenoid Performance
+3316,saturn,P1852,Brake Band Apply SolenoidLow Voltage
+3317,saturn,P1853,Brake Band Apply Solenoid High Voltage
+3318,saturn,P1860,TCC PWM Solenoid Circuit Electrical
+3319,saturn,P1864,Torque Converter Clutch Circuit
+3320,saturn,P1868,Transmission Fluid Life
+3321,saturn,P1870,Transmission Component Slipping
+3322,saturn,P1871,Undefined Gear Ratio
+3323,saturn,P1873,TCC Stator Temp. Switch Circuit Low
+3324,saturn,P1874,TCC Stator Temp. Switch Circuit High
+3325,saturn,P1875,4WD Low Switch Circuit Electrical
+3326,saturn,P1884,TCC Enable/Shift Light Circuit
+3327,saturn,P1886,Shift Timing Solenoid
+3328,saturn,P1887,TCC Release Switch Circuit
+3329,saturn,P1891,Throttle Position Sensor PWM Signal Low
+3330,saturn,P1892,Throttle Position Sensor PWM Signal High
+3331,saturn,P1893,Engine Torque Signal Low Voltage
+3332,saturn,P1894,Engine Torque Signal High Voltage
+3333,saturn,P1895,TCM to ECM Torque Reduction Circuit
+3334,toyota,P1100,BARO Sensor Circuit.
+3335,toyota,P1120,Accelerator Pedal Position Sensor Circuit.
+3336,toyota,P1121,Accelerator Pedal Position Sensor Range/Performance Problem.
+3337,toyota,P1125,Throttle Control Motor Circuit.
+3338,toyota,P1126,Magnetic Clutch Circuit.
+3339,toyota,P1127,ETCS Actuator Power Source Circuit.
+3340,toyota,P1128,Throttle Control Motor Lock.
+3341,toyota,P1129,Electric Throttle Control System.
+3342,toyota,P1130,Air/Fuel Sensor Circuit Range/Performance. (Bank 1 Sensor 1)
+3343,toyota,P1133,Air/Fuel Sensor Circuit Response. (Bank 1 Sensor 1)
+3344,toyota,P1135,Air/Fuel Sensor Heater Circuit Response. (Bank 1 Sensor 1)
+3345,toyota,P1150,Air/Fuel Sensor Circuit Range/Performance. (Bank 1 Sensor 2)
+3346,toyota,P1153,Air/Fuel Sensor Circuit Response. (Bank 1 Sensor 2)
+3347,toyota,P1155,Air/Fuel Sensor Heater Circuit. (Bank 1 Sensor 2)
+3348,toyota,P1200,Fuel Pump Relay Circuit.
+3349,toyota,P1300,Igniter Circuit Malfunction - No. 1.
+3350,toyota,P1310,Igniter Circuit Malfunction - No. 2.
+3351,toyota,P1335,No Crankshaft Position Sensor Signal - Engine Running.
+3352,toyota,P1349,VVT System.
+3353,toyota,P1400,Sub-Throttle Position Sensor.
+3354,toyota,P1401,Sub-Throttle Position Sensor Range/Performance Problem.
+3355,toyota,P1405,Turbo Pressure Sensor Circuit.
+3356,toyota,P1406,Turbo Pressure Sensor Range/Performance Problem.
+3357,toyota,P1410,EGR Valve Position Sensor Circuit Malfunction.
+3358,toyota,P1411,EGR Valve Position Sensor Circuit Range/Performance.
+3359,toyota,P1500,Starter Signal Circuit.
+3360,toyota,P1510,Boost Pressure Control Circuit.
+3361,toyota,P1511,Boost Pressure Low.
+3362,toyota,P1512,Boost Pressure High.
+3363,toyota,P1520,Stop Lamp Switch Signal Malfunction.
+3364,toyota,P1565,Cruise Control Main Switch Circuit.
+3365,toyota,P1600,ECM BATT Malfunction
+3366,toyota,P1605,Knock Control CPU.
+3367,toyota,P1630,Traction Control System.
+3368,toyota,P1633,ECM.
+3369,toyota,P1652,Idle Air Control Valve Control Circuit.
+3370,toyota,P1656,OCV Circuit.
+3371,toyota,P1658,Wastegate Valve Control Circuit.
+3372,toyota,P1661,EGR Circuit.
+3373,toyota,P1662,EGR by-pass Valve Control Circuit.
+3374,toyota,P1780,Park/Neutral Position Switch Malfunction (Only For A/T)

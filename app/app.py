@@ -26,6 +26,16 @@ class Users(db.Model):
     def convert_lower(self, key, value):
         return value.lower()
 
+class Dtc(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    manufacturer = db.Column(db.Unicode, nullable=False)
+    dtc = db.Column(db.Unicode, nullable=False)
+    description = db.Column(db.Unicode, nullable=False)
+
+    @validates('manufacturer', 'dtc')
+    def convert_lower(self, key, value):
+        return value.lower()
+
 # Routes
 @app.route('/', methods=['GET'])
 def home():
