@@ -23,7 +23,7 @@ class Users(db.Model):
     email = db.Column(db.Unicode, unique=True, nullable=False)
 
     @validates('username', 'email')
-    def convert_upper(self, key, value):
+    def convert_lower(self, key, value):
         return value.lower()
 
 # Routes
