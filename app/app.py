@@ -4,10 +4,14 @@ import flask_sqlalchemy
 import flask_restless
 from flask_migrate import Migrate
 from sqlalchemy.orm import validates
+import graphene
+from graphene_sqlalchemy import SQLAlchemyObjectType, SQLAlchemyConnectionField
+from flask_graphql import GraphQLView
 
 # App
 app = flask.Flask(__name__)
 app.config['DEBUG'] = True
+# app.config['SQLALCHEMY_COMMIT_ON_TEARDOWN'] = True
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('SQLALCHEMY_DATABASE_URI')
 
@@ -35,6 +39,30 @@ class Dtc(db.Model):
     @validates('manufacturer', 'dtc')
     def convert_lower(self, key, value):
         return value.lower()
+
+# GraphQL Fields
+class DtcField(SQLAlchemyObjectType):
+   class Meta:
+       model = Dtc
+       interfaces = (graphene.relay.Node, )
+
+# GraphQL Query
+class Query(graphene.ObjectType):
+    node = graphene.relay.Node.Field()
+    all_dtc = SQLAlchemyConnectionField(DtcField)
+
+# GraphQL Schema
+schema = graphene.Schema(query=Query)
+
+# GraphQL Route
+app.add_url_rule(
+    '/graphql',
+    view_func=GraphQLView.as_view(
+        'graphql',
+        schema=schema,
+        graphiql=True # for having the GraphiQL interface
+    )
+)
 
 # Routes
 @app.route('/', methods=['GET'])
