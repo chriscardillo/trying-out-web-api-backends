@@ -1,0 +1,97 @@
+---
+title: "restless CRUD"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+```{r}
+library(httr)
+library(jsonlite)
+library(dplyr)
+```
+
+## Description
+
+This is a short showing of querying a flask-restless API on your local machine.
+
+## CRUD
+
+#### Create
+
+We can make two users in the users table. Username and email fields are set to lowercase by SQLAlchemy.
+
+```{r}
+POST("http://localhost:5000/api/users",
+     httr::content_type_json(),
+     body = toJSON(list(username="Peter",
+                        email="fake_email@aol.com"), auto_unbox = T))
+
+POST("http://localhost:5000/api/users",
+     httr::content_type_json(),
+     body = toJSON(list(username="Chris",
+                        email="another_email@gmail.com"), auto_unbox = T))
+```
+
+#### Read (Easy)
+
+All users can be accessed behind the users endpoint.
+
+```{r}
+GET("http://localhost:5000/api/users") %>%
+  content(as="text") %>%
+  fromJSON()
+```
+
+We can fetch single users by ID/primary key.
+
+```{r}
+GET("http://localhost:5000/api/users/2") %>%
+  content(as="text") %>%
+  fromJSON()
+```
+
+#### Update
+
+We can update the fields on a single user.
+
+```{r}
+PUT("http://localhost:5000/api/users/2",
+    httr::content_type_json(),
+    body = toJSON(list(username="Bob"), auto_unbox = T))
+```
+
+#### Delete
+
+Users can be deleted.
+
+```{r}
+#DELETE("http://localhost:5000/api/users/2")
+```
+
+#### Bonus: Filtering Reads
+
+We can also filter using restless' name-val-op dicts. So if you wanted to filter for user whose email was equal to some email address the format would be email-emailaddresshere-eq. Some R functions below do this.
+
+This is not the most efficient way to query a database via an API, which is why we'll also explore GraphQL.
+
+```{r}
+rl_filter <- function(name, val, op="eq"){
+  list(name=name, val=val, op=op)
+}
+
+rl_filters <- function(...){
+  paste0('q=', toJSON(list(filters=list(...)), auto_unbox = T))
+}
+```
+
+
+```{r}
+modify_url("http://localhost:5000/api/users",
+           query = rl_filters(rl_filter("username", c("peter", "chris"), "in"))) %>%
+  URLdecode() %>%
+  GET(httr::content_type_json())
+```
+
