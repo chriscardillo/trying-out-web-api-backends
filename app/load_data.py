@@ -14,4 +14,4 @@ def load_data(csv_path, table_name):
                 index=False)
 
 load_data("data/manufacturers.csv", 'manufacturers')
-load_data("data/manufacturer_dtcs.csv", 'manufacturer_dtcs')
+#load_data("data/manufacturer_dtcs.csv", 'manufacturer_dtcs')

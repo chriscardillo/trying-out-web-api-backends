@@ -1,5 +1,5 @@
 from app import app, db
-from .models import User
+from .models import *
 from .schema import schema
 from flask_graphql import GraphQLView
 import flask_restless
@@ -20,4 +20,7 @@ app.add_url_rule('/api/graphql',
 manager = flask_restless.APIManager(app, flask_sqlalchemy_db=db)
 manager.create_api(User,
                    methods=['POST', 'GET', 'PUT', 'DELETE'],
+                   url_prefix='/api/restless')
+manager.create_api(Manufacturer,
+                   methods=['GET'],
                    url_prefix='/api/restless')

@@ -12,4 +12,13 @@ class Query(graphene.ObjectType):
         query = query.filter_by(**kwargs)
         return query.first()
 
+    manufacturer = graphene.Field(ManufacturerObject,
+                                  id=graphene.Int(),
+                                  manufacturer=graphene.String())
+
+    def resolve_manufacturer(self, info, **kwargs):
+        query = ManufacturerObject.get_query(info)
+        query = query.filter_by(**kwargs)
+        return query.first()
+
 schema = graphene.Schema(query=Query)

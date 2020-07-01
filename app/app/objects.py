@@ -8,3 +8,10 @@ class UserObject(SQLAlchemyObjectType):
 
     class Meta:
         model = User
+
+class ManufacturerObject(SQLAlchemyObjectType):
+
+    id = graphene.Int()
+
+    class Meta:
+        model = Manufacturer

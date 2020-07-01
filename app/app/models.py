@@ -32,3 +32,11 @@ class TodoItem(db.Model, PrimaryKeyIdMixin):
     is_done = db.Column(db.Boolean)
     todo_id = db.Column(db.Integer, db.ForeignKey('todos.id'), nullable=False)
     todo = db.relationship('Todo', back_populates='todo_items', lazy="subquery")
+
+class Manufacturer(db.Model, PrimaryKeyIdMixin):
+    __tablename__ = 'manufacturers'
+    manufacturer = db.Column(db.String, index=True, nullable=False)
+
+    @validates('manufacturer')
+    def convert_lower(self, key, value):
+        return value.lower()
