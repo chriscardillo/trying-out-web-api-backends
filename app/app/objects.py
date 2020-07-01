@@ -11,7 +11,6 @@ class UserObject(SQLAlchemyObjectType):
 
 class ManufacturerObject(SQLAlchemyObjectType):
 
-    id = graphene.Int()
-
     class Meta:
         model = Manufacturer
+        interfaces = (graphene.relay.Node,)

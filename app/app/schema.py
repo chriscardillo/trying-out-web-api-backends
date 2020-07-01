@@ -13,7 +13,6 @@ class Query(graphene.ObjectType):
         return query.first()
 
     manufacturer = graphene.Field(ManufacturerObject,
-                                  id=graphene.Int(),
                                   manufacturer=graphene.String())
 
     def resolve_manufacturer(self, info, **kwargs):
