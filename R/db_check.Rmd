@@ -34,7 +34,6 @@ dbc_init(con, "app")
 
 ```{r}
 app_users() %>% 
-  select(id, username) %>%
   filter(username %LIKE% '%e%')
 ```
 
