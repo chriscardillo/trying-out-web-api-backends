@@ -13,4 +13,5 @@ def load_data(csv_path, table_name):
                 if_exists="replace",
                 index=False)
 
-load_data("data/dtc_p.csv", 'dtc')
+load_data("data/manufacturers.csv", 'manufacturers')
+load_data("data/manufacturer_dtcs.csv", 'manufacturer_dtcs')

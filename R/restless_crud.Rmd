@@ -24,15 +24,13 @@ This is a short showing of querying a flask-restless API on your local machine.
 We can make two users in the users table. Username and email fields are set to lowercase by SQLAlchemy.
 
 ```{r}
-POST("http://localhost:5000/api/users",
+POST("http://localhost:5000/api/restless/users",
      httr::content_type_json(),
-     body = toJSON(list(username="Peter",
-                        email="fake_email@aol.com"), auto_unbox = T))
+     body = toJSON(list(username="Peter"), auto_unbox = T))
 
-POST("http://localhost:5000/api/users",
+POST("http://localhost:5000/api/restless/users",
      httr::content_type_json(),
-     body = toJSON(list(username="Chris",
-                        email="another_email@gmail.com"), auto_unbox = T))
+     body = toJSON(list(username="Chris"), auto_unbox = T))
 ```
 
 #### Read (Easy)
@@ -40,7 +38,7 @@ POST("http://localhost:5000/api/users",
 All users can be accessed behind the users endpoint.
 
 ```{r}
-GET("http://localhost:5000/api/users") %>%
+GET("http://localhost:5000/api/restless/users") %>%
   content(as="text") %>%
   fromJSON()
 ```
@@ -48,7 +46,7 @@ GET("http://localhost:5000/api/users") %>%
 We can fetch single users by ID/primary key.
 
 ```{r}
-GET("http://localhost:5000/api/users/2") %>%
+GET("http://localhost:5000/api/restless/users/2") %>%
   content(as="text") %>%
   fromJSON()
 ```
@@ -58,7 +56,7 @@ GET("http://localhost:5000/api/users/2") %>%
 We can update the fields on a single user.
 
 ```{r}
-PUT("http://localhost:5000/api/users/2",
+PUT("http://localhost:5000/api/restless/users/2",
     httr::content_type_json(),
     body = toJSON(list(username="Bob"), auto_unbox = T))
 ```
@@ -68,7 +66,7 @@ PUT("http://localhost:5000/api/users/2",
 Users can be deleted.
 
 ```{r}
-#DELETE("http://localhost:5000/api/users/2")
+#DELETE("http://localhost:5000/api/restless/users/2")
 ```
 
 #### Bonus: Filtering Reads
@@ -89,7 +87,7 @@ rl_filters <- function(...){
 
 
 ```{r}
-modify_url("http://localhost:5000/api/users",
+modify_url("http://localhost:5000/api/restless/users",
            query = rl_filters(rl_filter("username", c("peter", "chris"), "in"))) %>%
   URLdecode() %>%
   GET(httr::content_type_json())

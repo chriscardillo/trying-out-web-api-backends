@@ -30,16 +30,18 @@ dtc_raw <- tibble(file = available) %>%
   select(-tmp_id) %>%
   filter(description != "escription")
 
-# dtc_raw %>%
-#   filter(nb_man_dtc > 1) %>%
-#   arrange(manufacturer, dtc, description) %>%
-#   select(-nb_man_dtc) %>%
-#   readr::write_csv("~/Desktop/duplicate_dtc.csv")
+manufacturers <- dtc_raw %>%
+  distinct(manufacturer) %>%
+  transmute(id = row_number(),
+            manufacturer)
+
+write_csv(manufacturers, "../app/data/manufacturers.csv")
 
 dtc_raw %>%
   filter(nb_man_dtc == 1) %>%
-  select(-nb_man_dtc) %>%
-  arrange(manufacturer, dtc) %>%
-  mutate(id = row_number()) %>%
-  select(id, everything()) %>%
-  write_csv("../app/data/dtc_p.csv")
+  inner_join(manufacturers %>% rename(manufacturer_id=id), by = "manufacturer") %>%
+  transmute(id = row_number(),
+            manufacturer_id,
+            dtc,
+            description) %>%
+  write_csv("../app/data/manufacturer_dtcs.csv")
