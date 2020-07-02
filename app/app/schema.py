@@ -20,4 +20,12 @@ class Query(graphene.ObjectType):
             max = last
         return todo_query.order_by(Todo.last_updated_at.desc()).limit(max).all()
 
+    user = graphene.Field(UserObject, username=graphene.String())
+
+    @staticmethod
+    def resolve_user(self, info, **args):
+        query = UserObject.get_query(info)
+        query = query.filter_by(**args)
+        return query.first()
+
 schema = graphene.Schema(query=Query)
