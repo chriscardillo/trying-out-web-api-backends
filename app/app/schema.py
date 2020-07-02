@@ -7,7 +7,7 @@ class Query(graphene.ObjectType):
 
     user_todos = graphene.List(TodoObject, username=graphene.String(), last=graphene.Int())
 
-    # Pagination would be good
+    # Pagination would be good, maybe an arg for offset
     # As would some sort of search on the title level?
     @staticmethod
     def resolve_user_todos(self, info, **args):
