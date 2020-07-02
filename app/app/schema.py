@@ -15,7 +15,7 @@ class Query(graphene.ObjectType):
         last = args.get('last')
         max = 10
         todo_query = TodoObject.get_query(info)
-        todo_query = todo_query.join(User).filter(User.username == username)
+        todo_query = todo_query.join(User).filter(User.username == username.lower())
         if last and last < max:
             max = last
         return todo_query.order_by(Todo.last_updated_at.desc()).limit(max).all()
