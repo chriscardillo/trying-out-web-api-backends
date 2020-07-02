@@ -1,23 +1,16 @@
 import graphene
+from graphene_sqlalchemy import SQLAlchemyConnectionField
 from .objects import *
+from .models import *
 
 class Query(graphene.ObjectType):
 
-    user = graphene.Field(UserObject,
-                          id=graphene.Int(),
-                          username=graphene.String())
+    user_todos = graphene.List(TodoObject, username=graphene.String())
 
-    def resolve_user(self, info, **kwargs):
-        query = UserObject.get_query(info)
-        query = query.filter_by(**kwargs)
-        return query.first()
-
-    manufacturer = graphene.Field(ManufacturerObject,
-                                  manufacturer=graphene.String())
-
-    def resolve_manufacturer(self, info, **kwargs):
-        query = ManufacturerObject.get_query(info)
-        query = query.filter_by(**kwargs)
-        return query.first()
+    @staticmethod
+    def resolve_user_todos(self, info, **args):
+        username = args.get('username')
+        todo_query = TodoObject.get_query(info)
+        return todo_query.join(User).filter(User.username == username).all()
 
 schema = graphene.Schema(query=Query)

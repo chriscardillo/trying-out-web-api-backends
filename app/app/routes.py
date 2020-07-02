@@ -21,6 +21,9 @@ manager = flask_restless.APIManager(app, flask_sqlalchemy_db=db)
 manager.create_api(User,
                    methods=['POST', 'GET', 'PUT', 'DELETE'],
                    url_prefix='/api/restless')
+manager.create_api(Todo,
+                   methods=['POST', 'GET', 'PUT', 'DELETE'],
+                   url_prefix='/api/restless')
 manager.create_api(Manufacturer,
                    methods=['GET'],
                    url_prefix='/api/restless')
