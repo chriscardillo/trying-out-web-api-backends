@@ -74,6 +74,14 @@ GET("http://localhost:5000/api/restless/users/2") %>%
 
 We can update the fields on a single user.
 
+
+```{r}
+PUT("http://localhost:5000/api/restless/todos/2",
+     httr::content_type_json(),
+     body = toJSON(list(title="update my todos"), auto_unbox = T))
+```
+
+
 ```{r}
 PUT("http://localhost:5000/api/restless/users/2",
     httr::content_type_json(),

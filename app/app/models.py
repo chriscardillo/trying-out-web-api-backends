@@ -21,6 +21,7 @@ class User(db.Model, PrimaryKeyIdMixin):
 
 class Todo(db.Model, PrimaryKeyIdMixin):
     __tablename__ = 'todos'
+    last_updated_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow, nullable=False)
     title = db.Column(db.String(255), nullable=False)
     user_id=db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
     user=db.relationship('User', back_populates='todos', lazy='subquery')
