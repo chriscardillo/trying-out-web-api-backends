@@ -8,7 +8,11 @@ class UserObject(SQLAlchemyObjectType):
 
     class Meta:
         model = User
+        only_fields=('todos')
+        #interfaces
 
+    # Pagination would be good, maybe an arg for offset
+    # As would some sort of search on the title level?
     todos = graphene.List(lambda: TodoObject, last=graphene.Int())
     def resolve_todos(self, info, last=None):
         max=10
@@ -28,6 +32,7 @@ class TodoObject(SQLAlchemyObjectType):
 
     class Meta:
         model = Todo
+        exclude_fields=('user', 'user_id')
 
 class ManufacturerObject(SQLAlchemyObjectType):
 
