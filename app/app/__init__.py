@@ -11,9 +11,9 @@ db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 api_manager = APIManager(app, flask_sqlalchemy_db=db)
 
+from app.site import bp as site_bp
 from app.graphql import bp as graphql_bp
 from app.restless import bp as restless_bp
-from app.site import bp as site_bp
 
 app.register_blueprint(site_bp, url_prefix='/site')
 app.register_blueprint(graphql_bp, url_prefix='/api/graphql')
