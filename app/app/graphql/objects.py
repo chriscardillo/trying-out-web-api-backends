@@ -1,6 +1,6 @@
 import graphene
 from graphene_sqlalchemy import SQLAlchemyObjectType
-from .models import *
+from app.models import *
 
 class UserObject(SQLAlchemyObjectType):
 

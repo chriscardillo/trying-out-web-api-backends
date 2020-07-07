@@ -1,7 +1,7 @@
 import graphene
 from graphene_sqlalchemy import SQLAlchemyConnectionField
 from .objects import *
-from .models import *
+from app.models import *
 
 class Query(graphene.ObjectType):
 
