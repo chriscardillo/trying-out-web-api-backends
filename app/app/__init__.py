@@ -3,6 +3,7 @@ from flask import Flask
 from flask_restless import APIManager
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
+from flask_httpauth import HTTPBasicAuth
 from config import Config
 
 app = Flask(__name__)
@@ -10,6 +11,7 @@ app.config.from_object(Config)
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 api_manager = APIManager(app, flask_sqlalchemy_db=db)
+auth_manager = HTTPBasicAuth()
 
 from app.site import bp as site_bp
 from app.graphql import bp as graphql_bp
