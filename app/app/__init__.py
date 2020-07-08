@@ -14,16 +14,16 @@ migrate = Migrate(app, db)
 api_manager = APIManager(app, flask_sqlalchemy_db=db)
 auth_manager = HTTPBasicAuth()
 
+from app.auth import bp as auth_bp
 from app.site import bp as site_bp
 from app.graphql import bp as graphql_bp
 from app.restless import bp as restless_bp
-from app.auth import bp as auth_bp
 
-app.register_blueprint(site_bp, url_prefix='/site')
 app.register_blueprint(auth_bp, url_prefix='/auth')
+app.register_blueprint(site_bp, url_prefix='/site')
 app.register_blueprint(graphql_bp, url_prefix='/api/graphql')
 app.register_blueprint(restless_bp, url_prefix='/api/restless')
 
 @app.route('/')
 def index():
-    return "Auth: a work in progress"
+    return "Auth: a checkpoint"
