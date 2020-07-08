@@ -32,7 +32,7 @@ class User(db.Model, PrimaryKeyIdMixin):
 
     @validates('password')
     def hash_password(self, key, value):
-        return generate_password_hash(value, method='pbkdf2:sha512')
+        return generate_password_hash(value, method='pbkdf2:sha512', salt_length=128)
 
     def check_password(self, password):
         return check_password_hash(self.password, password)
