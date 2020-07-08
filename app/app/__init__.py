@@ -25,4 +25,4 @@ app.register_blueprint(restless_bp, url_prefix='/api/restless')
 
 @app.route('/')
 def index():
-    return "Blueprints: a checkpoint"
+    return "Auth: a work in progress"
