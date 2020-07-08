@@ -3,6 +3,7 @@ from app import api_manager
 
 api_manager.create_api(User,
                        methods=['POST', 'GET', 'PUT', 'DELETE'],
+                       exclude_columns=['password'],
                        url_prefix='/api/restless')
 api_manager.create_api(Todo,
                        methods=['POST', 'GET', 'PUT', 'DELETE'],

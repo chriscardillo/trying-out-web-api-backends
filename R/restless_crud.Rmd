@@ -26,11 +26,15 @@ We can make two users in the users table. Username and email fields are set to l
 ```{r}
 POST("http://localhost:5000/api/restless/users",
      httr::content_type_json(),
-     body = toJSON(list(username="Peter"), auto_unbox = T))
+     body = toJSON(list(username="Peter",
+                        email="PETER@app.com   ", # spaces on purpose
+                        password="Yoo"), auto_unbox = T))
 
 POST("http://localhost:5000/api/restless/users",
      httr::content_type_json(),
-     body = toJSON(list(username="Chris"), auto_unbox = T))
+     body = toJSON(list(username="chr  is  ", # spaces on purpose
+                        email="CHRIS@app.com",
+                        password="Car"), auto_unbox = T))
 ```
 
 Some todos ...

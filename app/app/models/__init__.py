@@ -1,6 +1,7 @@
 from app import db
 from datetime import datetime
-from sqlalchemy.orm import validates
+from sqlalchemy.orm import validates, column_property
+from werkzeug.security import generate_password_hash, check_password_hash
 
 # ===== Mixins ===== #
 
@@ -12,12 +13,27 @@ class PrimaryKeyIdMixin:
 
 class User(db.Model, PrimaryKeyIdMixin):
     __tablename__ = 'users'
-    username = db.Column(db.String(255), index=True, unique=True, nullable=False)
+    username = db.Column(db.String(32), index=True, unique=True, nullable=False)
+    email=db.Column(db.String(50), index=True, unique=True, nullable=False)
+    password=db.Column(db.String, nullable=False)
     todos = db.relationship('Todo', back_populates='user', lazy='subquery')
 
-    @validates('username', 'email')
-    def convert_lower(self, key, value):
-        return value.lower()
+    @validates('email')
+    def convert_email(self, key, value):
+        return value.lower().replace(" ", "")
+
+    # Users shoudl be able to have a username that is case-insensitive!
+    # Figure out how to validate username properly
+    @validates('username')
+    def convert_username(self, key, value):
+        return value.lower().replace(" ", "")
+
+    @validates('password')
+    def hash_password(self, key, value):
+        return generate_password_hash(value)
+
+    def check_password(self, password):
+        return check_password_hash(self.password, password)
 
 class Todo(db.Model, PrimaryKeyIdMixin):
     __tablename__ = 'todos'
