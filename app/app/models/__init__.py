@@ -38,8 +38,8 @@ class User(db.Model, PrimaryKeyIdMixin):
         return check_password_hash(self.password, password)
 
     #expiration should be configurable
-    def generate_auth_token(self, expiration = 12000):
-        s = Serializer(app.config['SECRET_KEY'], expires_in = expiration)
+    def generate_auth_token(self):
+        s = Serializer(app.config['SECRET_KEY'], expires_in = app.config['TOKEN_EXPIRY'])
         return s.dumps({ 'id': self.id, 'hash': self.password }) # is it okay to put a hashed password in the token?
 
     @staticmethod
