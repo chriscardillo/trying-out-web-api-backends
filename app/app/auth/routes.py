@@ -14,22 +14,7 @@ def verify_password(username, password):
         #g.user = user
     return verified
 
-@bp.route('/test', methods = ['GET'])
+@bp.route('/token', methods = ['GET'])
 @auth_manager.login_required
-def test():
-    return jsonify({"you": "did it"})
-
-# This is janky
-@bp.route('/login', methods = ['POST'])
-def login():
-    username = request.json.get('username')
-    password = request.json.get('password')
-    results = {"token": None, "message": "Please provide correct username and password"}
-    if username is not None and password is not None:
-        user = User.query.filter_by(username = username.lower().replace(" ", "")).first()
-    else:
-        user=None
-    if user is not None and user.check_password(password):
-        results['token'] = "this_is_a_token"
-        results['message'] = None
-    return jsonify(results)
+def return_token():
+    return jsonify({"token": "your_special_token"})
