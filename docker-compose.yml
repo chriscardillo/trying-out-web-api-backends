@@ -21,7 +21,8 @@ services:
                 sleep 5
                 python flask_migrations.py
                 python load_data.py
-                python wsgi.py
+                #python wsgi.py
+                uwsgi --socket 0.0.0.0:5000 --protocol=http -w wsgi:app
                 sleep infinity
             "
         environment:
