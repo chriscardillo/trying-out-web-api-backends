@@ -1,4 +1,4 @@
-from flask import Blueprint, g
+from flask import Blueprint, g, session
 from app.models import User
 from app import auth_manager
 
@@ -10,6 +10,9 @@ def verify_password(username_or_token, password):
     if user:
         verified = True
         g.user = user
+        session['test'] = 'carrots'
+        # is it okay to put the auth token in the session object?
+        # then check the session for the token before we check what the user sent?
     else:
         user = User.query.filter_by(username = username_or_token.lower().replace(" ", "")).first()
         if user and user.check_password(password):
