@@ -26,7 +26,7 @@ class Query(graphene.ObjectType):
     #@auth_manager.login_required
     def resolve_user(self, info, username):
         query = UserObject.get_query(info)
-        query = query.filter(User.username == username.lower())
+        query = query.filter(User.username == username.lower().replace(" ", ""))
         return query.first()
 
 schema = graphene.Schema(query=Query)
