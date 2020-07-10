@@ -7,9 +7,6 @@ from graphql import GraphQLError
 from sqlalchemy.exc import IntegrityError
 
 class CreateUser(graphene.Mutation):
-    username = graphene.String()
-    email = graphene.String()
-    password = graphene.String()
     token = graphene.String()
 
     class Arguments:
