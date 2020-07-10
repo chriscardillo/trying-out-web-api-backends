@@ -1,6 +1,7 @@
 import graphene
 from graphene_sqlalchemy import SQLAlchemyConnectionField
 from .objects import *
+from .mutations import *
 from app.models import *
 from app import auth_manager
 
@@ -29,4 +30,7 @@ class Query(graphene.ObjectType):
         query = query.filter(User.username == username.lower().replace(" ", ""))
         return query.first()
 
-schema = graphene.Schema(query=Query)
+class Mutation(graphene.ObjectType):
+    create_user=CreateUser.Field()
+
+schema = graphene.Schema(query=Query, mutation=Mutation)
