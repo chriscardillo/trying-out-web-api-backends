@@ -18,5 +18,6 @@ class Query(graphene.ObjectType):
 class Mutation(graphene.ObjectType):
     create_user=CreateUser.Field()
     update_user=UpdateUser.Field()
+    delete_user=DeleteUser.Field()
 
 schema = graphene.Schema(query=Query, mutation=Mutation)

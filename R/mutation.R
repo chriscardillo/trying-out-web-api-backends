@@ -16,8 +16,6 @@ check <- POST(endpoint, body = list(query=create_user("mary", "mary@app.com", "p
   content(as = "text") %>% 
   fromJSON()
 
-token <- check$data$createUser$token
-
 GET("http://localhost:5000/auth/secure",
     authenticate(check$data$createUser$token, 'NoPwNeeded'))
 
@@ -27,4 +25,12 @@ POST(endpoint, body = list(query='mutation{updateUser(username: "jim"){token}}')
   content(as = "text") %>% 
   fromJSON()
 
+# app_users()
 
+# Deleting the user
+POST(endpoint, body = list(query='mutation{deleteUser{ok}}'),
+     authenticate(check$data$createUser$token, 'NoPwNeeded')) %>%
+  content(as = "text") %>% 
+  fromJSON()
+
+# app_users()

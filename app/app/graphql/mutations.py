@@ -50,3 +50,16 @@ class UpdateUser(graphene.Mutation):
             raise GraphQLError("Username or email already exists.")
         except:
             raise GraphQLError("Please check your request and try again.")
+
+class DeleteUser(graphene.Mutation):
+    ok = graphene.Boolean()
+
+    class Arguments:
+        ok = graphene.Boolean()
+
+    @auth_manager.login_required
+    def mutate(self, info):
+        user = auth_manager.current_user()
+        db.session.delete(user)
+        db.session.commit()
+        return DeleteUser(ok = True)
