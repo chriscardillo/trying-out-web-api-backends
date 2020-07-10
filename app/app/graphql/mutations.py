@@ -41,8 +41,7 @@ class UpdateUser(graphene.Mutation):
         # should this be a decorator?
         try:
             user = auth_manager.current_user()
-            for k, v in kwargs.items():
-                setattr(user, k, v)
+            user.update(kwargs)
             db.session.commit()
             return UpdateUser(
                 token=user.generate_auth_token().decode('ascii')

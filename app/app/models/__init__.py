@@ -11,9 +11,14 @@ class PrimaryKeyIdMixin:
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
 
+class UpdateMixin:
+    def update(self, values):
+        for k, v in values.items():
+            setattr(self, k, v)
+
 # ===== Models ===== #
 
-class User(db.Model, PrimaryKeyIdMixin):
+class User(db.Model, PrimaryKeyIdMixin, UpdateMixin):
     __tablename__ = 'users'
     username = db.Column(db.String(32), index=True, unique=True, nullable=False)
     email=db.Column(db.String(50), index=True, unique=True, nullable=False)
@@ -37,7 +42,6 @@ class User(db.Model, PrimaryKeyIdMixin):
     def check_password(self, password):
         return check_password_hash(self.password, password)
 
-    #expiration should be configurable
     def generate_auth_token(self):
         s = Serializer(app.config['SECRET_KEY'], expires_in = app.config['TOKEN_EXPIRY'])
         return s.dumps({ 'id': self.id, 'hash': self.password }) # is it okay to put a hashed password in the token?
