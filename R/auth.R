@@ -8,10 +8,11 @@ my_token <- GET("http://localhost:5000/auth/token",
   content(as = "text") %>%
   fromJSON()
 
-GET("http://localhost:5000/auth/secure",
+GET("http://localhost:5000/site/secure",
     authenticate(my_token$token, 'NoPwNeeded'))
 
 # If you change your password, the token won't work anymore :)
+# You should use the graphql endpoint for this now
 # PUT("http://localhost:5000/api/restless/users/2",
 #     httr::content_type_json(),
 #     body = toJSON(list(password="PWChanged"), auto_unbox = T))

@@ -10,7 +10,6 @@ def graphql_view():
         schema=schema,
         graphiql=True
     )
-    #return auth_manager.login_required(view)
     return view
 
 bp.add_url_rule('/',
