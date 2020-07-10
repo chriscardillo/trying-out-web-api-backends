@@ -2,7 +2,7 @@ version: '3'
 services:
     # Postgres
     postgres:
-        image: postgres:9.6
+        image: postgres:12.3
         environment:
             - POSTGRES_USER=tryit
             - POSTGRES_PASSWORD=out
