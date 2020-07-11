@@ -65,3 +65,8 @@ class UpdatePassword(graphene.Mutation):
         return UpdatePassword(
             token=token
         )
+
+class AuthMutations:
+    register=Register.Field()
+    login=Login.Field()
+    update_password=UpdatePassword.Field()

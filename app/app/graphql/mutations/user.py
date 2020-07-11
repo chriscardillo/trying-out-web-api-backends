@@ -43,3 +43,7 @@ class DeleteUser(graphene.Mutation):
         return DeleteUser(
             ok=True
         )
+
+class UserMutations:
+    update_user=UpdateUser.Field()
+    delete_user=DeleteUser.Field()
