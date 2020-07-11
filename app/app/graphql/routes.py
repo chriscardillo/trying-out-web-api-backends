@@ -1,8 +1,6 @@
+from . import bp
 from .schema import schema
 from flask_graphql import GraphQLView
-from app import auth_manager
-
-from . import bp
 
 def graphql_view():
     view = GraphQLView.as_view(
