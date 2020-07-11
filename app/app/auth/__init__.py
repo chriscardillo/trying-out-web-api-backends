@@ -1,8 +1,6 @@
-from flask import Blueprint, session
+from flask import session
 from app.models import User
 from flask_httpauth import HTTPBasicAuth
-
-bp = Blueprint('auth', __name__)
 
 auth_manager = HTTPBasicAuth()
 
