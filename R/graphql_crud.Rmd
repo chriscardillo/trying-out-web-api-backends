@@ -1,0 +1,194 @@
+---
+title: "GraphQL CRUD"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+```{r}
+library(httr)
+library(jsonlite)
+library(dplyr)
+```
+
+
+```{r}
+endpoint <- "http://localhost:5000/api/graphql"
+secure_site <- "http://localhost:5000/site/secure"
+```
+
+## Users
+
+#### Registration
+
+```{r}
+
+register_format <- function(username, email, password){
+  sprintf('mutation {
+  register(username: "%s", email: "%s", password: "%s"){
+          token
+    }
+  }', username, email, password)
+}
+
+register <- function(...){
+  POST(endpoint, body = list(query=register_format(...))) %>%
+  content(as = "text") %>% 
+  fromJSON()
+}
+
+```
+
+Creating the user gives us a token, which we can test against the secure site endpoint.
+
+```{r}
+
+# Create user
+a_user <- register("peter", "peter@gmail.com", "yoon")
+
+# Get token
+a_user_token <- a_user$data$register$token
+
+GET(secure_site,
+    authenticate(a_user_token, "NoPasswordNeeded"))
+
+```
+
+#### Login
+
+```{r}
+
+login_format <- function(username, password){
+  sprintf('mutation {
+  login(username: "%s", password: "%s"){
+          token
+    }
+  }', username, password)
+}
+
+login <- function(...){
+  POST(endpoint, body = list(query=login_format(...))) %>%
+  content(as = "text") %>% 
+  fromJSON()
+}
+
+
+```
+
+With our username and password, we can test the secure endpoint again
+
+```{r}
+
+login_response <- login("peter", "yoon")
+
+a_user_token <- login_response$data$login$token
+
+GET(secure_site,
+    authenticate(a_user_token, "NoPasswordNeeded"))
+
+```
+
+#### Update
+
+Here we will update our username and then our password. The latter will change our token automatically.
+
+```{r}
+
+update_username_format <- function(username){
+  sprintf('mutation {
+  updateUser(username: "%s"){
+          token
+    }
+  }', username)
+}
+
+update_username <- function(token, ...){
+  POST(endpoint, body = list(query=update_username_format(...)),
+       authenticate(token, "whatever")) %>%
+  content(as = "text") %>% 
+  fromJSON()
+}
+
+
+```
+
+Here is our updated username - with confirmation!
+
+```{r}
+
+update_username(a_user_token, "yeter")
+
+GET(secure_site,
+    authenticate(a_user_token, "NoPasswordNeeded"))
+
+```
+
+I am starting to see a pattern here...
+
+```{r}
+
+update_password_format <- function(password){
+  sprintf('mutation {
+  updateUser(password: "%s"){
+          token
+    }
+  }', password)
+}
+
+update_password <- function(token, ...){
+  POST(endpoint, body = list(query=update_password_format(...)),
+       authenticate(token, "whatever")) %>%
+  content(as = "text") %>% 
+  fromJSON()
+}
+
+
+```
+
+Now when we update our password, the token changes.
+
+```{r}
+
+update_password_response <- update_password(a_user_token, "newpassword")
+
+new_token <- update_password_response$data$updateUser$token
+
+new_token != a_user_token
+
+GET(secure_site,
+    authenticate(new_token, "NoPasswordNeeded"))
+
+```
+
+
+#### Delete User
+
+```{r}
+
+delete_user_format <- function(){
+  sprintf('mutation {
+  deleteUser{
+          ok
+    }
+  }')
+}
+
+delete_user <- function(token, ...){
+  POST(endpoint, body = list(query=delete_user_format(...)),
+       authenticate(token, "whatever")) %>%
+  content(as = "text") %>% 
+  fromJSON()
+}
+
+```
+
+Finally, we can delete our user
+
+```{r}
+
+delete_user(new_token)
+
+```
+

@@ -6,13 +6,30 @@ from app.auth import auth_manager
 from graphql import GraphQLError
 from sqlalchemy.exc import IntegrityError
 
-class CreateUser(graphene.Mutation):
+class Login(graphene.Mutation):
     token = graphene.String()
 
     class Arguments:
-        username = graphene.String()
-        email = graphene.String()
-        password = graphene.String()
+        username = graphene.String(required=True)
+        password = graphene.String(required=True)
+
+    def mutate(self, info, username, password):
+        user = User.query.filter_by(username = username.lower().replace(" ", "")).first()
+        if user and user.check_password(password):
+            token = user.generate_auth_token().decode('ascii')
+        else:
+            raise GraphQLError("Incorrect username or password.")
+        return Login(
+            token=token
+        )
+
+class Register(graphene.Mutation):
+    token = graphene.String()
+
+    class Arguments:
+        username = graphene.String(required=True)
+        email = graphene.String(required=True)
+        password = graphene.String(required=True)
 
     def mutate(self, info, **kwargs):
         # should this be a decorator?
@@ -20,7 +37,7 @@ class CreateUser(graphene.Mutation):
             user=User(**kwargs)
             db.session.add(user)
             db.session.commit()
-            return CreateUser(
+            return Register(
                 token=user.generate_auth_token().decode('ascii')
             )
         except IntegrityError:

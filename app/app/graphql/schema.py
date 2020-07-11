@@ -7,7 +7,7 @@ from app import auth_manager
 
 class Query(graphene.ObjectType):
 
-    user = graphene.Field(UserObject, username=graphene.String())
+    user = graphene.Field(UserObject, username=graphene.String(required=True))
 
     #@auth_manager.login_required
     def resolve_user(self, info, username):
@@ -16,7 +16,8 @@ class Query(graphene.ObjectType):
         return query.first()
 
 class Mutation(graphene.ObjectType):
-    create_user=CreateUser.Field()
+    register=Register.Field()
+    login=Login.Field()
     update_user=UpdateUser.Field()
     delete_user=DeleteUser.Field()
 

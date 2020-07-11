@@ -24,5 +24,3 @@ def verify_password(username_or_token, password):
 def auth_error(status):
     return "Please pass a valid username:password or a valid token:anytext using basic access authentication", status
     # if you can think of more error messages, you can pass them in via g, e.g. g.auth_manager_error_message
-
-from app.auth import routes
