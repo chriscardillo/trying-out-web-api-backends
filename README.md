@@ -4,7 +4,7 @@ Getting a better understanding of some web API backends.
 Exploring:
 
 - Flask
-    - Restless
+    - ~~Restless~~
     - GraphQL
 
 ## How to use
