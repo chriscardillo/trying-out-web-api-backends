@@ -1,5 +1,5 @@
 from . import bp
-from app import auth_manager
+from app.auth import auth_manager
 from flask import jsonify, session
 
 @bp.route('/')

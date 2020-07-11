@@ -1,4 +1,5 @@
-from app import app, db
+from app import db
+from flask import current_app
 from datetime import datetime
 from sqlalchemy.orm import validates, column_property
 from werkzeug.security import generate_password_hash, check_password_hash
@@ -43,12 +44,12 @@ class User(db.Model, PrimaryKeyIdMixin, UpdateMixin):
         return check_password_hash(self.password, password)
 
     def generate_auth_token(self):
-        s = Serializer(app.config['SECRET_KEY'], expires_in = app.config['TOKEN_EXPIRY'])
+        s = Serializer(current_app.config['SECRET_KEY'], expires_in = current_app.config['TOKEN_EXPIRY'])
         return s.dumps({ 'id': self.id, 'hash': self.password }) # is it okay to put a hashed password in the token?
 
     @staticmethod
     def verify_auth_token(token):
-        s = Serializer(app.config['SECRET_KEY'])
+        s = Serializer(current_app.config['SECRET_KEY'])
         try:
             data = s.loads(token)
         except SignatureExpired:

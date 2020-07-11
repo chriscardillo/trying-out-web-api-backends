@@ -1,8 +1,10 @@
 from flask import Blueprint, session
 from app.models import User
-from app import auth_manager
+from flask_httpauth import HTTPBasicAuth
 
 bp = Blueprint('auth', __name__)
+
+auth_manager = HTTPBasicAuth()
 
 @auth_manager.verify_password
 def verify_password(username_or_token, password):

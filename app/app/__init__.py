@@ -1,27 +1,32 @@
 import os
 from flask import Flask
-from flask_restless import APIManager
-from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
-from flask_httpauth import HTTPBasicAuth
-from config import Config
+from flask_sqlalchemy import SQLAlchemy
+from config import configs
 
-app = Flask(__name__)
-app.config.from_object(Config)
+db = SQLAlchemy()
+migrate = Migrate()
 
-db = SQLAlchemy(app)
-migrate = Migrate(app, db)
-api_manager = APIManager(app, flask_sqlalchemy_db=db)
-auth_manager = HTTPBasicAuth()
+def create_app(config=None):
+    app = Flask(__name__)
+    if config is None:
+        config = os.environ.get('CONFIG') or 'development'
+    assert config in configs.keys(), "Please pick a valid config from: {}".format(", ".join(list(configs.keys())))
+    app.config.from_object(configs[config])
 
-from app.auth import bp as auth_bp
-from app.site import bp as site_bp
-from app.graphql import bp as graphql_bp
+    db.init_app(app)
+    migrate.init_app(app, db)
 
-app.register_blueprint(auth_bp, url_prefix='/auth')
-app.register_blueprint(site_bp, url_prefix='/site')
-app.register_blueprint(graphql_bp, url_prefix='/api/graphql')
+    from app.auth import bp as auth_bp
+    from app.site import bp as site_bp
+    from app.graphql import bp as graphql_bp
 
-@app.route('/')
-def index():
-    return "Auth: a checkpoint"
+    app.register_blueprint(auth_bp, url_prefix='/auth')
+    app.register_blueprint(site_bp, url_prefix='/site')
+    app.register_blueprint(graphql_bp, url_prefix='/api/graphql')
+
+    @app.route('/')
+    def index():
+        return "App factory: a checkpoint"
+
+    return app
