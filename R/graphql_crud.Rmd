@@ -99,7 +99,7 @@ Here we will update our username and then our password. The latter will change o
 update_username_format <- function(username){
   sprintf('mutation {
   updateUser(username: "%s"){
-          token
+          ok
     }
   }', username)
 }
@@ -131,7 +131,7 @@ I am starting to see a pattern here...
 
 update_password_format <- function(password){
   sprintf('mutation {
-  updateUser(password: "%s"){
+  updatePassword(password: "%s"){
           token
     }
   }', password)
@@ -153,7 +153,7 @@ Now when we update our password, the token changes.
 
 update_password_response <- update_password(a_user_token, "newpassword")
 
-new_token <- update_password_response$data$updateUser$token
+new_token <- update_password_response$data$updatePassword$token
 
 new_token != a_user_token
 
