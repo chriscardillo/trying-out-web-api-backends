@@ -18,7 +18,7 @@ class UserObject(SQLAlchemyObjectType):
         if last and last < max:
             max = last
         todo_query = TodoObject.get_query(info).filter(Todo.user_id == self.id)
-        return todo_query.order_by(Todo.last_updated_at.desc()).limit(max).all()
+        return todo_query.order_by(Todo.updated_at.desc()).limit(max).all()
 
 class UserQuery:
     user = graphene.Field(UserObject, username=graphene.String(required=True))

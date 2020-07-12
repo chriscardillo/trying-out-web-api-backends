@@ -10,16 +10,24 @@ from itsdangerous import (TimedJSONWebSignatureSerializer
 
 class PrimaryKeyIdMixin:
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
-    created_at = db.Column(db.DateTime, default=datetime.utcnow)
+
+class TimestampMixin:
+    created_at = db.Column(db.DateTime, default=datetime.utcnow, nullable=False)
+    updated_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow, nullable=False)
 
 class UpdateMixin:
     def update(self, values):
         for k, v in values.items():
             setattr(self, k, v)
 
+class StandardMixins(PrimaryKeyIdMixin,
+                     TimestampMixin,
+                     UpdateMixin):
+    pass
+
 # ===== Models ===== #
 
-class User(db.Model, PrimaryKeyIdMixin, UpdateMixin):
+class User(db.Model, StandardMixins):
     __tablename__ = 'users'
     username = db.Column(db.String(32), index=True, unique=True, nullable=False)
     email=db.Column(db.String(50), index=True, unique=True, nullable=False)
@@ -30,7 +38,7 @@ class User(db.Model, PrimaryKeyIdMixin, UpdateMixin):
     def convert_email(self, key, value):
         return value.lower().replace(" ", "")
 
-    # Users shoudl be able to have a username that is case-insensitive!
+    # Users should be able to have a username that is case-insensitive!
     # Figure out how to validate username properly
     @validates('username')
     def convert_username(self, key, value):
@@ -62,16 +70,15 @@ class User(db.Model, PrimaryKeyIdMixin, UpdateMixin):
             user = None
         return user
 
-class Todo(db.Model, PrimaryKeyIdMixin):
+class Todo(db.Model, StandardMixins):
     __tablename__ = 'todos'
-    last_updated_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow, nullable=False)
     title = db.Column(db.String(255), nullable=False)
     user_id=db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
     user=db.relationship('User', back_populates='todos', lazy='subquery')
 
 class Manufacturer(db.Model, PrimaryKeyIdMixin):
     __tablename__ = 'manufacturers'
-    manufacturer = db.Column(db.String, index=True, nullable=False)
+    manufacturer = db.Column(db.String, index=True, unique=True, nullable=False)
 
     @validates('manufacturer')
     def convert_lower(self, key, value):
