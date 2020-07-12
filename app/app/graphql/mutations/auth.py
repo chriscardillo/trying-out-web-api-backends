@@ -60,11 +60,11 @@ class UpdatePassword(graphene.Mutation):
             user.update(dict(password=password))
             db.session.commit()
             token = user.generate_auth_token().decode('ascii')
+            return UpdatePassword(
+                token=token
+            )
         except:
             raise GraphQLError("Unknown Error.")
-        return UpdatePassword(
-            token=token
-        )
 
 class AuthMutations:
     register=Register.Field()

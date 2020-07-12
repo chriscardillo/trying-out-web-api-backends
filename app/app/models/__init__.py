@@ -1,4 +1,5 @@
 from app import db
+from uuid import uuid4
 from flask import current_app
 from .mixins import PrimaryKeyIdMixin, StandardMixins
 from sqlalchemy.orm import validates, column_property
@@ -14,6 +15,7 @@ class User(db.Model, StandardMixins):
     username = db.Column(db.String(32), index=True, unique=True, nullable=False)
     email=db.Column(db.String(50), index=True, unique=True, nullable=False)
     password=db.Column(db.String, nullable=False)
+    uuid=db.Column(db.String(36), nullable=False, default=uuid4().hex)
     todos = db.relationship('Todo', back_populates='user', lazy='subquery', cascade="all, delete-orphan")
 
     @validates('email')
@@ -35,7 +37,10 @@ class User(db.Model, StandardMixins):
 
     def generate_auth_token(self):
         s = Serializer(current_app.config['SECRET_KEY'], expires_in = current_app.config['TOKEN_EXPIRY'])
-        return s.dumps({ 'id': self.id, 'hash': self.password }) # is it okay to put a hashed password in the token?
+        new_uuid = uuid4().hex
+        self.uuid = new_uuid
+        db.session.commit()
+        return s.dumps({ 'id': self.id, 'hash': new_uuid })
 
     @staticmethod
     def verify_auth_token(token):
@@ -47,8 +52,7 @@ class User(db.Model, StandardMixins):
         except BadSignature:
             return None
         user = User.query.get(data['id'])
-        # Hash in token must match user password
-        if user.password != data['hash']:
+        if user.uuid != data['hash']:
             user = None
         return user
 
