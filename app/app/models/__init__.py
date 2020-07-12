@@ -1,29 +1,11 @@
 from app import db
 from flask import current_app
-from datetime import datetime
+from .mixins import PrimaryKeyIdMixin, StandardMixins
 from sqlalchemy.orm import validates, column_property
 from werkzeug.security import generate_password_hash, check_password_hash
 from itsdangerous import (TimedJSONWebSignatureSerializer
                           as Serializer, BadSignature, SignatureExpired)
 
-# ===== Mixins ===== #
-
-class PrimaryKeyIdMixin:
-    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
-
-class TimestampMixin:
-    created_at = db.Column(db.DateTime, default=datetime.utcnow, nullable=False)
-    updated_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow, nullable=False)
-
-class UpdateMixin:
-    def update(self, values):
-        for k, v in values.items():
-            setattr(self, k, v)
-
-class StandardMixins(PrimaryKeyIdMixin,
-                     TimestampMixin,
-                     UpdateMixin):
-    pass
 
 # ===== Models ===== #
 
