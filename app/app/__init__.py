@@ -10,7 +10,7 @@ migrate = Migrate()
 def create_app(config=None):
     app = Flask(__name__)
     if config is None:
-        config = os.environ.get('CONFIG') or 'development'
+        config = os.environ.get('APP_CONFIG') or 'development'
     assert config in configs.keys(), "Please pick a valid config from: {}".format(", ".join(list(configs.keys())))
     app.config.from_object(configs[config])
 
