@@ -10,4 +10,8 @@ def site():
 @auth_manager.login_required
 def hello_secure():
     current_user = auth_manager.current_user()
-    return jsonify({'message': 'hello ' + current_user.username + '! The secret message is ' + session['test']})
+    if 'test' in session.keys():
+        secret_message = session['test']
+    else:
+        secret_message = "nothing!"
+    return jsonify({'message': 'hello ' + current_user.username + '! The secret message is ' + secret_message})

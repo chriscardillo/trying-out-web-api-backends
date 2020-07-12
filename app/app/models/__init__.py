@@ -14,7 +14,7 @@ class User(db.Model, StandardMixins):
     username = db.Column(db.String(32), index=True, unique=True, nullable=False)
     email=db.Column(db.String(50), index=True, unique=True, nullable=False)
     password=db.Column(db.String, nullable=False)
-    todos = db.relationship('Todo', back_populates='user', lazy='subquery')
+    todos = db.relationship('Todo', back_populates='user', lazy='subquery', cascade="all, delete-orphan")
 
     @validates('email')
     def convert_email(self, key, value):

@@ -184,6 +184,37 @@ delete_user <- function(token, ...){
 
 ```
 
+
+## Todos
+
+```{r}
+
+create_todo_format <- function(title){
+  sprintf('mutation {
+  createTodo(title: "%s"){
+          id
+          title
+    }
+  }', title)
+}
+
+create_todo <- function(token, title){
+  POST(endpoint, body = list(query=create_todo_format(title)),
+       authenticate(token, "whatever")) %>%
+  content(as = "text") %>% 
+  fromJSON()
+}
+
+```
+
+```{r}
+
+message(create_todo_format("get the paper"))
+create_todo(new_token, "get more paper")
+
+```
+
+
 Finally, we can delete our user
 
 ```{r}
