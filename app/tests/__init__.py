@@ -17,3 +17,11 @@ def client():
 @pytest.fixture(scope='session')
 def graphql_endpoint():
     return '/api/graphql/'
+
+@pytest.fixture(scope='session')
+def site():
+    return '/site/'
+
+@pytest.fixture(scope='session')
+def site_secure():
+    return '/site/secure'

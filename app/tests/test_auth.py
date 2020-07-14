@@ -1,5 +1,5 @@
 import pytest
-from tests import client, graphql_endpoint
+from tests import client, graphql_endpoint, site_secure
 from .help import (basic_auth_header, extract_token,
                   register, login, update_password)
 
@@ -26,9 +26,9 @@ def test_registration_token(registration_token):
     """The registration token must exist"""
     assert registration_token is not None
 
-def test_authorized_registration_token(client, registration_token_header):
+def test_authorized_registration_token(client, site_secure, registration_token_header):
     """The registration token gets us into the secure endpoint"""
-    secure = client.get('/site/secure', headers=registration_token_header)
+    secure = client.get(site_secure, headers=registration_token_header)
     assert secure._status_code == 200
 
 # Test a logged in user against secure endpoint
@@ -51,14 +51,14 @@ def test_login_token(login_token, registration_token):
     assert login_token is not None
     assert login_token != registration_token
 
-def test_authorized_login_token(client, login_token_header):
+def test_authorized_login_token(client, site_secure, login_token_header):
     """The login token gets us into the secure endpoint"""
-    secure = client.get('/site/secure', headers=login_token_header)
+    secure = client.get(site_secure, headers=login_token_header)
     assert secure._status_code == 200
 
-def test_registration_token_401(client, registration_token_header):
+def test_registration_token_401(client, site_secure, registration_token_header):
     """The registration token no longer works"""
-    secure = client.get('/site/secure', headers=registration_token_header)
+    secure = client.get(site_secure, headers=registration_token_header)
     assert secure._status_code == 401
 
 # Test a password change
@@ -84,12 +84,12 @@ def test_password_token(login_token, registration_token, password_token):
     assert password_token != registration_token
     assert password_token != login_token
 
-def test_authorized_password_token(client, password_token_header):
+def test_authorized_password_token(client, site_secure, password_token_header):
     """The login token gets us into the secure endpoint"""
-    secure = client.get('/site/secure', headers=password_token_header)
+    secure = client.get(site_secure, headers=password_token_header)
     assert secure._status_code == 200
 
-def test_login_token_401(client, login_token_header):
+def test_login_token_401(client, site_secure, login_token_header):
     """The registration token no longer works"""
-    secure = client.get('/site/secure', headers=login_token_header)
+    secure = client.get(site_secure, headers=login_token_header)
     assert secure._status_code == 401
