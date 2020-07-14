@@ -10,8 +10,12 @@ def basic_auth_header(token):
     basic_auth_header = {'Authorization': 'Basic ' + byte_token}
     return basic_auth_header
 
+def json_response(response):
+    json_response = json.loads(response.data.decode("UTF-8"))
+    return json_response
+
 def extract_token(response, parent):
-    token = json.loads(response.data.decode("UTF-8"))['data'][parent]['token']
+    token = json_response(response)['data'][parent]['token']
     return token
 
 #####################
@@ -47,3 +51,24 @@ def update_password(password):
   }
     """ % (password)
     return update_password
+
+# Only username for now..
+def update_user(username):
+    update_user = """
+    mutation {
+  updateUser(username: "%s"){
+          ok
+    }
+  }
+    """ % (username)
+    return update_user
+
+def delete_user():
+    delete_user = """
+    mutation {
+  deleteUser{
+          ok
+    }
+  }
+    """
+    return delete_user

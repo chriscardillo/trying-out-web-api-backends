@@ -1,7 +1,7 @@
 import pytest
 from tests import client, graphql_endpoint, site_secure
-from .help import (basic_auth_header, extract_token,
-                  register, login, update_password)
+from tests.help import (basic_auth_header, extract_token,
+                        register, login, update_password)
 
 # The order of these tests is very important
 # Because we change the token with every new login
