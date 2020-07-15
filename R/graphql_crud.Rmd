@@ -81,7 +81,7 @@ With our username and password, we can test the secure endpoint again
 
 ```{r}
 
-login_response <- login("peter", "yoon")
+login_response <- login("PETER", "yoon")
 
 a_user_token <- login_response$data$login$token
 
@@ -118,7 +118,7 @@ Here is our updated username - with confirmation!
 
 ```{r}
 
-update_username(a_user_token, "yeter")
+update_username(a_user_token, "PeTeR")
 
 GET(secure_site,
     authenticate(a_user_token, "NoPasswordNeeded"))

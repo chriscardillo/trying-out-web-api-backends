@@ -39,7 +39,7 @@ class Login(graphene.Mutation):
         password = graphene.String(required=True)
 
     def mutate(self, info, username, password):
-        user = User.query.filter(User._username == username.lower().replace(" ", "")).first()
+        user = User.query.filter(User._username == User.searchable(username)).first()
         if user and user.check_password(password):
             token = user.generate_auth_token().decode('ascii')
         else:

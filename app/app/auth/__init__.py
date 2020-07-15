@@ -9,7 +9,7 @@ def verify_password(username_or_token, password):
     if user:
         verified = user
     else:
-        user = User.query.filter(User._username == username_or_token.lower().replace(" ", "")).first()
+        user = User.query.filter(User._username == User.searchable(username_or_token)).first()
         if user and user.check_password(password):
             verified = user
         else:

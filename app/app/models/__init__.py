@@ -21,6 +21,9 @@ class User(db.Model, StandardMixins):
     uuid=db.Column(db.String(32), nullable=False, default=uuid4().hex)
     todos = db.relationship('Todo', back_populates='user', lazy='subquery', cascade="all, delete-orphan")
 
+    def searchable(value):
+        return value.lower().replace(" ", "")
+
     @hybrid_property
     def _username(self):
         return func.lower(self.username)

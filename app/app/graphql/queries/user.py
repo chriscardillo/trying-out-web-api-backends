@@ -25,5 +25,5 @@ class UserQuery:
 
     def resolve_user(self, info, username):
         query = UserObject.get_query(info)
-        query = query.filter(User._username == username.lower().replace(" ", ""))
+        query = query.filter(User._username == User.searchable(username))
         return query.first()
