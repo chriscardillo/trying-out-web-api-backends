@@ -12,7 +12,7 @@ from tests.help import (basic_auth_header, extract_token,
 @pytest.fixture(scope='module')
 def registration_token(client, graphql_endpoint):
     """Registering a user and getting back our token"""
-    response = client.post(graphql_endpoint, data = dict(query=register("peter", "peter@app.com", "yoon")))
+    response = client.post(graphql_endpoint, data = dict(query=register("PETER", "peter@app.com", "yoon")))
     registration_token = extract_token(response, 'register')
     return registration_token
 
