@@ -1,4 +1,5 @@
 import graphene
+from sqlalchemy import func
 from .todo import TodoObject
 from app.models import User, Todo
 from graphene_sqlalchemy import SQLAlchemyObjectType
@@ -9,7 +10,7 @@ class UserObject(SQLAlchemyObjectType):
 
     class Meta:
         model = User
-        only_fields=('id', 'email', 'todos')
+        only_fields=('id', 'username', 'email', 'todos')
         #interfaces = (graphene.relay.Node,)
 
     todos = graphene.List(lambda: TodoObject, last=graphene.Int())
@@ -25,5 +26,5 @@ class UserQuery:
 
     def resolve_user(self, info, username):
         query = UserObject.get_query(info)
-        query = query.filter(User.username == username.lower().replace(" ", ""))
+        query = query.filter(func.lower(User.username) == username.lower().replace(" ", ""))
         return query.first()
