@@ -25,6 +25,8 @@ class Register(graphene.Mutation):
             )
         except IntegrityError:
             raise GraphQLError("Username or email already exists.")
+        except AssertionError as a:
+            raise GraphQLError(a)
         except:
             raise GraphQLError("Please check your request and try again.")
 

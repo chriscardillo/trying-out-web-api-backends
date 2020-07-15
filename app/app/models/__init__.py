@@ -1,6 +1,8 @@
 from app import db
 from uuid import uuid4
 from flask import current_app
+from sqlalchemy import func
+from string import ascii_letters, digits, whitespace
 from .mixins import PrimaryKeyIdMixin, StandardMixins
 from sqlalchemy.orm import validates, column_property
 from werkzeug.security import generate_password_hash, check_password_hash
@@ -15,18 +17,25 @@ class User(db.Model, StandardMixins):
     username = db.Column(db.String(32), index=True, unique=True, nullable=False)
     email=db.Column(db.String(50), index=True, unique=True, nullable=False)
     password=db.Column(db.String, nullable=False)
-    uuid=db.Column(db.String(36), nullable=False, default=uuid4().hex)
+    uuid=db.Column(db.String(32), nullable=False, default=uuid4().hex)
     todos = db.relationship('Todo', back_populates='user', lazy='subquery', cascade="all, delete-orphan")
 
     @validates('email')
     def convert_email(self, key, value):
         return value.lower().replace(" ", "")
 
-    # Users should be able to have a username that is case-insensitive!
-    # Figure out how to validate username properly
     @validates('username')
     def convert_username(self, key, value):
-        return value.lower().replace(" ", "")
+        username = value.replace(" ", "")
+        username_check = username.lower()
+        user_check = User.query.filter(func.lower(User.username) == username_check).first()
+        if user_check and user_check.id != self.id:
+            raise AssertionError("Username or email already exists.")
+        valid_username = ascii_letters + digits + '_'
+        if set(username).difference(valid_username):
+            raise AssertionError("Please use valid characters for usernames")
+        else:
+            return username
 
     @validates('password')
     def hash_password(self, key, value):
