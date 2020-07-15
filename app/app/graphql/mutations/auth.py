@@ -1,7 +1,6 @@
 import graphene
 from app import db
 from app.models import *
-from sqlalchemy import func
 from graphql import GraphQLError
 from app.auth import auth_manager
 from sqlalchemy.exc import IntegrityError
@@ -40,7 +39,7 @@ class Login(graphene.Mutation):
         password = graphene.String(required=True)
 
     def mutate(self, info, username, password):
-        user = User.query.filter(func.lower(username) == username.lower().replace(" ", "")).first()
+        user = User.query.filter(User._username == username.lower().replace(" ", "")).first()
         if user and user.check_password(password):
             token = user.generate_auth_token().decode('ascii')
         else:

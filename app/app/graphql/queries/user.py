@@ -1,5 +1,4 @@
 import graphene
-from sqlalchemy import func
 from .todo import TodoObject
 from app.models import User, Todo
 from graphene_sqlalchemy import SQLAlchemyObjectType
@@ -26,5 +25,5 @@ class UserQuery:
 
     def resolve_user(self, info, username):
         query = UserObject.get_query(info)
-        query = query.filter(func.lower(User.username) == username.lower().replace(" ", ""))
+        query = query.filter(User._username == username.lower().replace(" ", ""))
         return query.first()

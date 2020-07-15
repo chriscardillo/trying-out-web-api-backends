@@ -1,7 +1,8 @@
 from app import db
 from uuid import uuid4
-from flask import current_app
 from sqlalchemy import func
+from flask import current_app
+from sqlalchemy.ext.hybrid import hybrid_property
 from string import ascii_letters, digits, whitespace
 from .mixins import PrimaryKeyIdMixin, StandardMixins
 from sqlalchemy.orm import validates, column_property
@@ -20,6 +21,10 @@ class User(db.Model, StandardMixins):
     uuid=db.Column(db.String(32), nullable=False, default=uuid4().hex)
     todos = db.relationship('Todo', back_populates='user', lazy='subquery', cascade="all, delete-orphan")
 
+    @hybrid_property
+    def _username(self):
+        return func.lower(self.username)
+
     @validates('email')
     def convert_email(self, key, value):
         return value.lower().replace(" ", "")
@@ -28,7 +33,7 @@ class User(db.Model, StandardMixins):
     def convert_username(self, key, value):
         username = value.replace(" ", "")
         username_check = username.lower()
-        user_check = User.query.filter(func.lower(User.username) == username_check).first()
+        user_check = User.query.filter(User._username == username_check).first()
         if user_check and user_check.id != self.id:
             raise AssertionError("Username or email already exists.")
         valid_username = ascii_letters + digits + '_'

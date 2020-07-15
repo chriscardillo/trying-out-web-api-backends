@@ -1,5 +1,4 @@
 from app.models import User
-from sqlalchemy import func
 from flask_httpauth import HTTPBasicAuth
 
 auth_manager = HTTPBasicAuth()
@@ -10,7 +9,7 @@ def verify_password(username_or_token, password):
     if user:
         verified = user
     else:
-        user = User.query.filter(func.lower(User.username) == username_or_token.lower().replace(" ", "")).first()
+        user = User.query.filter(User._username == username_or_token.lower().replace(" ", "")).first()
         if user and user.check_password(password):
             verified = user
         else:
