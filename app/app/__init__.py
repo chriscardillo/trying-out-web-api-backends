@@ -17,14 +17,15 @@ def create_app(config=None):
     db.init_app(app)
     migrate.init_app(app, db)
 
-    from app.site import bp as site_bp
     from app.graphql import bp as graphql_bp
-
-    app.register_blueprint(site_bp, url_prefix='/site')
     app.register_blueprint(graphql_bp, url_prefix='/api/graphql')
 
     @app.route('/')
     def index():
         return "App factory: a checkpoint"
+
+    if config in ['testing', 'development']:
+        from app.tests_site import bp as testing_site_bp
+        app.register_blueprint(testing_site_bp, url_prefix='/testing')
 
     return app

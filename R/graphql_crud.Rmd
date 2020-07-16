@@ -16,7 +16,7 @@ library(dplyr)
 
 ```{r}
 endpoint <- "http://localhost:5000/api/graphql"
-secure_site <- "http://localhost:5000/site/secure"
+secure_site <- "http://localhost:5000/testing/secure"
 ```
 
 ## Users

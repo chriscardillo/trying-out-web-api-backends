@@ -13,4 +13,4 @@ def client():
 
 # Important endpoints for all testing
 graphql_endpoint = '/api/graphql/'
-site_secure = '/site/secure'
+site_secure = '/testing/secure'
