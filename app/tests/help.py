@@ -5,8 +5,8 @@ import base64
 ## Helper Functions ##
 ######################
 
-def basic_auth_header(token):
-    byte_token = base64.b64encode(bytes(token + ":" + 'anytext', 'ascii')).decode('ascii')
+def basic_auth_header(username_or_token, password):
+    byte_token = base64.b64encode(bytes(username_or_token + ":" + password, 'ascii')).decode('ascii')
     basic_auth_header = {'Authorization': 'Basic ' + byte_token}
     return basic_auth_header
 

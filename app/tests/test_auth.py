@@ -19,7 +19,7 @@ def registration_token(client, graphql_endpoint):
 @pytest.fixture(scope='module')
 def registration_token_header(registration_token):
     """Turning the registration token into a basic http auth header"""
-    registration_token_header = basic_auth_header(registration_token)
+    registration_token_header = basic_auth_header(registration_token, "anytext")
     return registration_token_header
 
 def test_registration_token(registration_token):
@@ -43,7 +43,7 @@ def login_token(client, graphql_endpoint):
 @pytest.fixture(scope='module')
 def login_token_header(login_token):
     """Turning the login token into a basic http auth header"""
-    login_token_header = basic_auth_header(login_token)
+    login_token_header = basic_auth_header(login_token, "anytext")
     return login_token_header
 
 def test_login_token(login_token, registration_token):
@@ -75,7 +75,7 @@ def password_token(client, graphql_endpoint, login_token_header):
 @pytest.fixture(scope='module')
 def password_token_header(password_token):
     """Turning the login token into a basic http auth header"""
-    password_token_header = basic_auth_header(password_token)
+    password_token_header = basic_auth_header(password_token, "anytext")
     return password_token_header
 
 def test_password_token(login_token, registration_token, password_token):

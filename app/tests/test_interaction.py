@@ -8,7 +8,7 @@ def user1_header(client, graphql_endpoint):
     """Registering a user and getting back our token"""
     response = client.post(graphql_endpoint, data = dict(query=register("user1", "user1@app.com", "user")))
     registration_token = extract_token(response, 'register')
-    registration_token_header = basic_auth_header(registration_token)
+    registration_token_header = basic_auth_header(registration_token, "anytext")
     return registration_token_header
 
 @pytest.fixture(scope='module')
@@ -16,7 +16,7 @@ def user2_header(client, graphql_endpoint):
     """Registering a user and getting back our token"""
     response = client.post(graphql_endpoint, data = dict(query=register("user2", "user2@app.com", "user")))
     registration_token = extract_token(response, 'register')
-    registration_token_header = basic_auth_header(registration_token)
+    registration_token_header = basic_auth_header(registration_token, "anytext")
     return registration_token_header
 
 def test_different_headers(user1_header, user2_header):
