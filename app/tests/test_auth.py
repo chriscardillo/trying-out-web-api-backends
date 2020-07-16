@@ -1,6 +1,6 @@
 import pytest
 from tests import client, graphql_endpoint, site_secure
-from tests.help import (basic_auth_header, extract_token,
+from tests.help import (basic_auth_header, extract_token, json_response,
                         register, login, update_password)
 
 # The order of these tests is very important
@@ -30,6 +30,13 @@ def test_authorized_registration_token(client, site_secure, registration_token_h
     """The registration token gets us into the secure endpoint"""
     secure = client.get(site_secure, headers=registration_token_header)
     assert secure._status_code == 200
+
+def test_valid_characters_only(client, graphql_endpoint):
+    response = client.post(graphql_endpoint, data = dict(query=register("BAD!", "bad@app.com", "bad")))
+    response_json = json_response(response)
+    assert response._status_code == 200
+    assert 'errors' in response_json.keys()
+    assert 'valid characters' in response_json['errors'][0]['message']
 
 # Test a logged in user against secure endpoint
 

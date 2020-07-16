@@ -42,7 +42,7 @@ def test_name_exists_error(client, graphql_endpoint, user1_header, user2_header)
 def test_name_character_error(client, graphql_endpoint, user1_header, user2_header):
     response = client.post(graphql_endpoint,
                            data = dict(query=update_user('USER1!')),
-                           headers=user2_header)
+                           headers=user1_header)
     response_json = json_response(response)
     assert response._status_code == 200
     assert 'errors' in response_json.keys()
