@@ -1,23 +1,3 @@
-import json
-import base64
-
-######################
-## Helper Functions ##
-######################
-
-def basic_auth_header(username_or_token, password):
-    byte_token = base64.b64encode(bytes(username_or_token + ":" + password, 'ascii')).decode('ascii')
-    basic_auth_header = {'Authorization': 'Basic ' + byte_token}
-    return basic_auth_header
-
-def json_response(response):
-    json_response = json.loads(response.data.decode("UTF-8"))
-    return json_response
-
-def extract_token(response, parent):
-    token = json_response(response)['data'][parent]['token']
-    return token
-
 #####################
 ## GraphQL Helpers ##
 #####################
@@ -72,3 +52,13 @@ def delete_user():
   }
     """
     return delete_user
+
+def create_todo(title):
+    create_todo = """
+    mutation {
+  createTodo(title: "%s"){
+          title
+    }
+  }
+    """ % (title)
+    return create_todo
