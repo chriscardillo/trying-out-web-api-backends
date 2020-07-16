@@ -22,10 +22,10 @@ def create_app(config=None):
 
     @app.route('/')
     def index():
-        return "App factory: a checkpoint"
+        return "Testing: a (painful) checkpoint"
 
     if config in ['testing', 'development']:
-        from app.tests_site import bp as testing_site_bp
-        app.register_blueprint(testing_site_bp, url_prefix='/testing')
+        from app.tests_site import bp as tests_site_bp
+        app.register_blueprint(tests_site_bp, url_prefix='/testing')
 
     return app
