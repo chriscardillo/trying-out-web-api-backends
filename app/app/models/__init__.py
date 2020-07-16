@@ -57,7 +57,8 @@ class User(db.Model, StandardMixins):
         new_uuid = uuid4().hex
         self.uuid = new_uuid
         db.session.commit()
-        return s.dumps({ 'id': self.id, 'hash': new_uuid })
+        token_encoded = s.dumps({ 'id': self.id, 'hash': new_uuid })
+        return token_encoded.decode('ascii')
 
     @staticmethod
     def verify_auth_token(token):
@@ -78,11 +79,3 @@ class Todo(db.Model, StandardMixins):
     title = db.Column(db.String(255), nullable=False)
     user_id=db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
     user=db.relationship('User', back_populates='todos', lazy='subquery')
-
-class Manufacturer(db.Model, PrimaryKeyIdMixin):
-    __tablename__ = 'manufacturers'
-    manufacturer = db.Column(db.String, index=True, unique=True, nullable=False)
-
-    @validates('manufacturer')
-    def convert_lower(self, key, value):
-        return value.lower()

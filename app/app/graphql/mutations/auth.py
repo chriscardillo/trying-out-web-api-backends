@@ -21,7 +21,7 @@ class Register(graphene.Mutation):
             db.session.add(user)
             db.session.commit()
             return Register(
-                token=user.generate_auth_token().decode('ascii')
+                token=user.generate_auth_token()
             )
         except IntegrityError:
             raise GraphQLError("Username or email already exists.")
@@ -41,7 +41,7 @@ class Login(graphene.Mutation):
     def mutate(self, info, username, password):
         user = User.query.filter(User._username == User.searchable(username)).first()
         if user and user.check_password(password):
-            token = user.generate_auth_token().decode('ascii')
+            token = user.generate_auth_token()
         else:
             raise GraphQLError("Incorrect username or password.")
         return Login(
@@ -61,7 +61,7 @@ class UpdatePassword(graphene.Mutation):
             user = auth_manager.current_user()
             user.update(dict(password=password))
             db.session.commit()
-            token = user.generate_auth_token().decode('ascii')
+            token = user.generate_auth_token()
             return UpdatePassword(
                 token=token
             )
