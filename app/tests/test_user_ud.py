@@ -2,7 +2,7 @@ import pytest
 from tests import client, site_secure
 from tests.utils.requests import gql_post
 from tests.utils.user import generate_user
-from tests.utils.graphql import update_user, delete_user
+from tests.utils.graphql import update_user, delete_user, login
 from tests.utils.response_checks import check_success_message, check_error_message
 
 @pytest.fixture(scope = "module")
@@ -11,7 +11,7 @@ def unchanged_user(client):
 
 @pytest.fixture(scope = "module")
 def updated_user(client):
-    return generate_user(client, "original", "user")
+    return generate_user(client, "needs_updating", "user")
 
 def test_update_user(client, unchanged_user, updated_user):
     # User gets name updated
@@ -42,4 +42,18 @@ def test_update_user(client, unchanged_user, updated_user):
                         username="UNCHANGED")
     check_error_message(response, "Username or email already exists", "The user shouldn't be able to take someone else's name.")
 
-# test deleting a user
+
+def test_delete_user(client, updated_user):
+    # deleting the user works
+    response = gql_post(client,
+                        delete_user,
+                        headers=updated_user['token_header'])
+    check_success_message(response, "True")
+
+    # the user no longer exists
+    response = gql_post(client,
+                        login,
+                        username="Updated",
+                        password="user")
+
+    check_error_message(response, "Incorrect username or password", "The updated user should be deleted by now.")
