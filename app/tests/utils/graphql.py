@@ -57,8 +57,20 @@ def create_todo(title):
     create_todo = """
     mutation {
   createTodo(title: "%s"){
+          id
           title
     }
   }
     """ % (title)
     return create_todo
+
+def update_todo(id, title):
+    update_todo = """
+    mutation {
+  updateTodo(id: %s, title: "%s"){
+          id
+          title
+    }
+  }
+    """ % (id, title)
+    return update_todo

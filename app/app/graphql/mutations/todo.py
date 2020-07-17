@@ -1,5 +1,6 @@
 import graphene
 from app import db
+from sqlalchemy import and_
 from app.models import Todo
 from app.auth import auth_manager
 from graphql import GraphQLError
@@ -28,5 +29,32 @@ class CreateTodo(graphene.Mutation):
         except:
             raise GraphQLError("You are probably not authorized to be here.")
 
+class UpdateTodo(graphene.Mutation):
+    """Create a new Todo"""
+    id = graphene.Int()
+    title = graphene.String()
+
+    class Arguments:
+        id = graphene.Int(required=True)
+        title = graphene.String(required=True)
+
+    @auth_manager.login_required
+    def mutate(self, info, id, **kwargs):
+        user = auth_manager.current_user()
+        todo = Todo.query.filter(and_(Todo.id == id, Todo.user_id == user.id)).first()
+        if todo:
+            try:
+                todo.update(kwargs)
+                db.session.commit()
+                return UpdateTodo(
+                    id=todo.id,
+                    title=todo.title
+                )
+            except:
+                GraphQLError("An unexpected error has occurred.")
+        else:
+            raise GraphQLError("Todo not owned by current user.")
+
 class TodoMutations:
     create_todo=CreateTodo.Field()
+    update_todo=UpdateTodo.Field()
