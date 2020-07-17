@@ -1,10 +1,12 @@
 from app import db
+from .mixins import *
 from uuid import uuid4
 from sqlalchemy import func
+from .associations import *
 from flask import current_app
+from sqlalchemy.orm import column_property
 from sqlalchemy.ext.hybrid import hybrid_property
 from string import ascii_letters, digits, whitespace
-from .mixins import PrimaryKeyIdMixin, StandardMixins
 from sqlalchemy.orm import validates, column_property
 from werkzeug.security import generate_password_hash, check_password_hash
 from itsdangerous import (TimedJSONWebSignatureSerializer
@@ -15,6 +17,7 @@ from itsdangerous import (TimedJSONWebSignatureSerializer
 
 class User(db.Model, StandardMixins):
     __tablename__ = 'users'
+    __table_args__ = {'extend_existing': True}
     username = db.Column(db.String(32), index=True, unique=True, nullable=False)
     email=db.Column(db.String(50), index=True, unique=True, nullable=False)
     password=db.Column(db.String, nullable=False)
@@ -76,6 +79,14 @@ class User(db.Model, StandardMixins):
 
 class Todo(db.Model, StandardMixins):
     __tablename__ = 'todos'
+    __table_args__ = {'extend_existing': True}
     title = db.Column(db.String(255), nullable=False)
     user_id=db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
     user=db.relationship('User', back_populates='todos', lazy='subquery')
+    tags=db.relationship('Tag', secondary=todo_tags, lazy='subquery',
+                         backref='todos')
+
+class Tag(db.Model, PrimaryKeyIdMixin, TimestampMixin):
+    __tablename__ = 'tags'
+    tag = db.Column(db.String(15), nullable=False)
+    tag_standard = column_property(func.trim(func.lower(tag)))
