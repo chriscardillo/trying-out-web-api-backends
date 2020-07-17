@@ -1,6 +1,6 @@
-#####################
-## GraphQL Helpers ##
-#####################
+###################
+## Token Actions ##
+###################
 
 def register(username, email, password):
     register = """
@@ -32,6 +32,10 @@ def update_password(password):
     """ % (password)
     return update_password
 
+##################
+## User Actions ##
+##################
+
 # Only username for now..
 def update_user(username):
     update_user = """
@@ -52,6 +56,10 @@ def delete_user():
   }
     """
     return delete_user
+
+##################
+## Todo Actions ##
+##################
 
 def create_todo(title):
     create_todo = """
@@ -74,3 +82,13 @@ def update_todo(id, title):
   }
     """ % (id, title)
     return update_todo
+
+def delete_todo(id):
+    delete_todo = """
+    mutation {
+  deleteTodo(id: %s){
+          ok
+    }
+  }
+    """ % (id)
+    return delete_todo

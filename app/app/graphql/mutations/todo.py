@@ -55,6 +55,30 @@ class UpdateTodo(graphene.Mutation):
         else:
             raise GraphQLError("Todo not owned by current user.")
 
+class DeleteTodo(graphene.Mutation):
+    """Delete a user from the database."""
+    ok = graphene.Boolean()
+
+    class Arguments:
+        id = graphene.Int(required=True)
+
+    @auth_manager.login_required
+    def mutate(self, info, id):
+        user = auth_manager.current_user()
+        todo = Todo.query.filter(and_(Todo.id == id, Todo.user_id == user.id)).first()
+        if todo:
+            try:
+                db.session.delete(todo)
+                db.session.commit()
+                return DeleteTodo(
+                    ok = True
+                )
+            except:
+                GraphQLError("An unexpected error has occurred.")
+        else:
+            raise GraphQLError("Todo not owned by current user.")
+
 class TodoMutations:
     create_todo=CreateTodo.Field()
     update_todo=UpdateTodo.Field()
+    delete_todo=DeleteTodo.Field()

@@ -1,7 +1,7 @@
 import pytest
 from tests import client
 from tests.utils.user import generate_user
-from tests.utils.graphql import create_todo, update_todo
+from tests.utils.graphql import create_todo, update_todo, delete_todo
 from tests.utils.requests import gql_post, json_response
 from tests.utils.response_checks import check_success_message, check_error_message
 
@@ -43,10 +43,24 @@ def test_update_todo(client, todo_user, updated_todo):
                         title="My new todo title!")
     check_success_message(response, "My new todo title!")
 
-def test_user_specific_todocs(client, not_my_todo_user, updated_todo):
+def test_user_specific_todos(client, not_my_todo_user, updated_todo):
     response = gql_post(client,
                         update_todo,
                         headers=not_my_todo_user['token_header'],
                         id = updated_todo['id'],
                         title="The title shouldn't change!")
     check_error_message(response, "Todo not owned by current user")
+
+def test_user_specific_todo_deletion(client, not_my_todo_user, updated_todo):
+    response = gql_post(client,
+                        delete_todo,
+                        headers=not_my_todo_user['token_header'],
+                        id = updated_todo['id'])
+    check_error_message(response, "Todo not owned by current user")
+
+def test_delete_todo(client, todo_user, updated_todo):
+    response = gql_post(client,
+                        delete_todo,
+                        headers=todo_user['token_header'],
+                        id = updated_todo['id'])
+    check_success_message(response, "True")
