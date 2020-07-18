@@ -89,7 +89,10 @@ class Todo(db.Model, StandardMixins):
 class Tag(db.Model, PrimaryKeyIdMixin, TimestampMixin):
     __tablename__ = 'tags'
     tag = db.Column(db.String(15), nullable=False)
-    todo_id=db.Column(db.Integer, db.ForeignKey('todos.id'), nullable=False)
+
+    @validates('tag')
+    def convert_tag(self, key, value):
+        return value.strip()
 
     @hybrid_property
     def _tag(self):

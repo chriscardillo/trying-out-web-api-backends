@@ -5,6 +5,7 @@ from app.models import Todo, Tag
 from app.auth import auth_manager
 from graphql import GraphQLError
 from sqlalchemy.exc import IntegrityError
+from app.models.associations import todo_tags
 
 class CreateTodo(graphene.Mutation):
     """Create a new Todo"""
@@ -90,12 +91,13 @@ class TagTodo(graphene.Mutation):
     def mutate(self, info, id, tag):
         user = auth_manager.current_user()
         todo = Todo.query.filter(and_(Todo.id == id, Todo.user_id == user.id)).first()
-        existing_tag = Tag.query.filter(and_(Tag.todo_id == todo.id, Tag._tag == Tag.searchable(tag))).first()
+        existing_tag = Tag.query.join(todo_tags).filter(and_(todo_tags.c.todo_id == todo.id), Tag._tag == Tag.searchable(tag)).first()
+        # gracefully handle case changes
         if existing_tag:
             raise GraphQLError("Tag already exists on todo.")
         if todo:
             try:
-                new_tag = Tag(todo_id=todo.id, tag=tag)
+                new_tag = Tag(tag=tag)
                 todo.tags.append(new_tag)
                 db.session.commit()
                 return TagTodo(

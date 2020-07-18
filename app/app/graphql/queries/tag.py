@@ -8,5 +8,4 @@ class TagObject(SQLAlchemyObjectType):
 
     class Meta:
         model = Tag
-        only_fields=('id', 'tag', 'tag_standard',
-                     'created_at', 'updated_at',)
+        only_fields=('id', 'tag')
