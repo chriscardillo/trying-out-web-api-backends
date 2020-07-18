@@ -8,6 +8,7 @@ from sqlalchemy.orm import column_property
 from sqlalchemy.ext.hybrid import hybrid_property
 from string import ascii_letters, digits, whitespace
 from sqlalchemy.orm import validates, column_property
+from email_validator import validate_email, EmailNotValidError
 from werkzeug.security import generate_password_hash, check_password_hash
 from itsdangerous import (TimedJSONWebSignatureSerializer
                           as Serializer, BadSignature, SignatureExpired)
@@ -33,7 +34,12 @@ class User(db.Model, StandardMixins):
 
     @validates('email')
     def convert_email(self, key, value):
-        return value.lower().replace(" ", "")
+        email = value.lower().strip()
+        try:
+            validate_email(email)
+        except EmailNotValidError as e:
+            raise AssertionError(e)
+        return email
 
     @validates('username')
     def convert_username(self, key, value):
