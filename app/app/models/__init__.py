@@ -25,11 +25,11 @@ class User(db.Model, StandardMixins):
     todos = db.relationship('Todo', back_populates='user', lazy='subquery', cascade="all, delete-orphan")
 
     def searchable(value):
-        return value.lower().replace(" ", "")
+        return value.lower().strip()
 
     @hybrid_property
     def _username(self):
-        return func.lower(self.username)
+        return func.trim(func.lower(self.username))
 
     @validates('email')
     def convert_email(self, key, value):
@@ -37,9 +37,8 @@ class User(db.Model, StandardMixins):
 
     @validates('username')
     def convert_username(self, key, value):
-        username = value.replace(" ", "")
-        username_check = username.lower()
-        user_check = User.query.filter(User._username == username_check).first()
+        username = value.strip()
+        user_check = User.query.filter(User._username == User.searchable(username)).first()
         if user_check and user_check.id != self.id:
             raise AssertionError("Username or email already exists.")
         valid_username = ascii_letters + digits + '_'

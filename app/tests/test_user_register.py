@@ -25,6 +25,14 @@ def test_bad_credentials(client):
                         password="bad!")
     check_error_message(response, "valid characters")
 
+def test_bad_credentials_space(client):
+    response = gql_post(client,
+                        register,
+                        username="Bad spaces",
+                        email=("spaces" + "@app.com"),
+                        password="spaces!")
+    check_error_message(response, "valid characters")
+
 def test_user_exists(client):
     response = gql_post(client,
                         register,
