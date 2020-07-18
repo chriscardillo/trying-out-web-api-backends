@@ -90,3 +90,4 @@ class Tag(db.Model, PrimaryKeyIdMixin, TimestampMixin):
     __tablename__ = 'tags'
     tag = db.Column(db.String(15), nullable=False)
     tag_standard = column_property(func.trim(func.lower(tag)))
+    todo_id=db.Column(db.Integer, db.ForeignKey('todos.id'), nullable=False)

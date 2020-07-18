@@ -214,6 +214,31 @@ create_todo(new_token, "get more paper")
 
 ```
 
+## Adding Tags
+
+```{r}
+
+tag_todo_format <- function(id, tag){
+  sprintf('mutation{
+  tagTodo(id: %s, tag: "%s"){
+    ok
+  }
+}', id, tag)
+}
+
+tag_todo <- function(token, id, tag){
+  POST(endpoint, body = list(query=tag_todo_format(id, tag)),
+       authenticate(token, "whatever")) %>%
+  content(as = "text") %>% 
+  fromJSON()
+}
+
+```
+
+```{r}
+tag_todo(new_token, 1, "chasin")
+```
+
 
 Finally, we can delete our user
 
