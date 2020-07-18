@@ -91,22 +91,21 @@ class TagTodo(graphene.Mutation):
     def mutate(self, info, id, tag):
         user = auth_manager.current_user()
         todo = Todo.query.filter(and_(Todo.id == id, Todo.user_id == user.id)).first()
+        if todo is None:
+            raise GraphQLError("Todo not owned by current user.")
         existing_tag = Tag.query.join(todo_tags).filter(and_(todo_tags.c.todo_id == todo.id), Tag._tag == Tag.searchable(tag)).first()
-        # gracefully handle case changes
+        # gracefully handle case changes / edge cases
         if existing_tag:
             raise GraphQLError("Tag already exists on todo.")
-        if todo:
-            try:
-                new_tag = Tag(tag=tag)
-                todo.tags.append(new_tag)
-                db.session.commit()
-                return TagTodo(
-                    ok = True
-                )
-            except:
-                GraphQLError("An unexpected error has occurred.")
-        else:
-            raise GraphQLError("Todo not owned by current user.")
+        try:
+            new_tag = Tag(tag=tag)
+            todo.tags.append(new_tag)
+            db.session.commit()
+            return TagTodo(
+                ok = True
+            )
+        except:
+            GraphQLError("An unexpected error has occurred.")
 
 class TodoMutations:
     create_todo=CreateTodo.Field()

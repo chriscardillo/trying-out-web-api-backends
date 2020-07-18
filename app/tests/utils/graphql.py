@@ -92,3 +92,13 @@ def delete_todo(id):
   }
     """ % (id)
     return delete_todo
+
+def tag_todo(id, tag):
+    tag_todo = """
+    mutation {
+  tagTodo(id: %s, tag: "%s"){
+          ok
+    }
+  }
+    """ % (id, tag)
+    return tag_todo

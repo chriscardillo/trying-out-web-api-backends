@@ -209,8 +209,8 @@ create_todo <- function(token, title){
 
 ```{r}
 
-message(create_todo_format("get the paper"))
-create_todo(new_token, "get more paper")
+my_todo <- create_todo(new_token, "get more paper")
+my_todo_id <- my_todo$data$createTodo$id
 
 ```
 
@@ -236,7 +236,8 @@ tag_todo <- function(token, id, tag){
 ```
 
 ```{r}
-tag_todo(new_token, 1, "chasin")
+tag_todo(new_token, my_todo_id, "chasin")
+tag_todo(new_token, my_todo_id, "paph")
 ```
 
 
