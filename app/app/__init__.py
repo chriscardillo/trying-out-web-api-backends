@@ -22,7 +22,7 @@ def create_app(config=None):
 
     @app.route('/')
     def index():
-        return "Testing: a (painful) checkpoint"
+        return "Tags: a checkpoint"
 
     if config in ['testing', 'development']:
         from app.tests_site import bp as tests_site_bp
