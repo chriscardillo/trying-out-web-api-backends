@@ -90,7 +90,7 @@ class TagTodo(graphene.Mutation):
     def mutate(self, info, id, tag):
         user = auth_manager.current_user()
         todo = Todo.query.filter(and_(Todo.id == id, Todo.user_id == user.id)).first()
-        existing_tag = Tag.query.filter(and_(Tag.todo_id == todo.id, Tag.tag_standard == tag.lower().strip())).first()
+        existing_tag = Tag.query.filter(and_(Tag.todo_id == todo.id, Tag._tag == Tag.searchable(tag))).first()
         if existing_tag:
             raise GraphQLError("Tag already exists on todo.")
         if todo:
