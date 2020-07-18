@@ -20,9 +20,9 @@ services:
             /bin/bash -c "
                 sleep 5
                 python flask_migrations.py
-                #python load_data.py
-                uwsgi --socket 0.0.0.0:5000 --protocol=http -w wsgi:app
+                uwsgi --socket 0.0.0.0:5000 --uid app-server --protocol=http --processes 4 --threads 2 -w wsgi:app
                 sleep infinity
+                # python load_data.py
             "
         environment:
             - SQLALCHEMY_DATABASE_URI=postgresql://tryit:out@postgres:5432/app
